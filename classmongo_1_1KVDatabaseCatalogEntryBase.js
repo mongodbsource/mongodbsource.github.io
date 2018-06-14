@@ -1,0 +1,28 @@
+var classmongo_1_1KVDatabaseCatalogEntryBase =
+[
+    [ "AddCollectionChange", "classmongo_1_1KVDatabaseCatalogEntryBase_1_1AddCollectionChange.html", "classmongo_1_1KVDatabaseCatalogEntryBase_1_1AddCollectionChange" ],
+    [ "RemoveCollectionChange", "classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange.html", "classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange" ],
+    [ "CollectionMap", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a6b511442ba37ef8f309ec06be973d40f", null ],
+    [ "KVDatabaseCatalogEntryBase", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a814f06f57171892acf0e689f7dbbc7ea", null ],
+    [ "~KVDatabaseCatalogEntryBase", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a1c166210e59306ea5836e3ba58b35c8b", null ],
+    [ "appendExtraStats", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a8b42f3a875aaca47a500963ac26e12ed", null ],
+    [ "createCollection", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a4d9d113e480a9880246d1f4bcf7a6224", null ],
+    [ "currentFilesCompatible", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a809f3132ba0e0841b8c5a3ed8b133f4b", null ],
+    [ "dropCollection", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a6ecf0ea97ec3aa2f7a718582aba0a661", null ],
+    [ "exists", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a6be3173362e6ad7c637e5a371e75851e", null ],
+    [ "getCollectionCatalogEntry", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a5f4ba1d2b5beab0493c9a9f7ae289597", null ],
+    [ "getCollectionNamespaces", "classmongo_1_1KVDatabaseCatalogEntryBase.html#ac4a04b21817023dca7bbc74be8710870", null ],
+    [ "getIndex", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a4d063b9e29944c34499a303edb063979", null ],
+    [ "getRecordStore", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a7093600d09f83efc922ef9ef76ad562b", null ],
+    [ "hasUserData", "classmongo_1_1KVDatabaseCatalogEntryBase.html#aa1bb5b7dfdd48bbbee08e5bf9b90590a", null ],
+    [ "initCollection", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a438d25ae7534bf9987f307c57fa7c62e", null ],
+    [ "initCollectionBeforeRepair", "classmongo_1_1KVDatabaseCatalogEntryBase.html#aacbcc681bf02960d79e2556a428c60fc", null ],
+    [ "isEmpty", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a1f5294cf5b646984f70c1b32d262cf48", null ],
+    [ "isOlderThan24", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a9ca32faf999cc24ed15b2aed15a5d462", null ],
+    [ "markIndexSafe24AndUp", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a63b8844a6eae0d6c96a5a8e496c89625", null ],
+    [ "reinitCollectionAfterRepair", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a93bc0db170a46910ffcc6f6d62de570d", null ],
+    [ "renameCollection", "classmongo_1_1KVDatabaseCatalogEntryBase.html#ab93f2ad58aeb3e8bf2278c33669a6449", null ],
+    [ "sizeOnDisk", "classmongo_1_1KVDatabaseCatalogEntryBase.html#aa7347f763a69c8e0a015c065ed739785", null ],
+    [ "_collections", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a4dc658abfa2ef5b750b111ee05a7b153", null ],
+    [ "_engine", "classmongo_1_1KVDatabaseCatalogEntryBase.html#a4cc34144998a4ace8b98c504a56349a1", null ]
+];

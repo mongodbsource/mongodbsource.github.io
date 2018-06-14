@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['magic',['magic',['../structmongo_1_1dur_1_1JHeader.html#a032b51a510ae9bd44b76e7c465298aaf',1,'mongo::dur::JHeader::magic()'],['../structmongo_1_1dur_1_1JSectFooter.html#a744a086f146f0c49a05e7e38d6be1cdb',1,'mongo::dur::JSectFooter::magic()'],['../structmongo_1_1Extent.html#ac102752742cf6d742276f38ac0b00ee6',1,'mongo::Extent::magic()']]],
+  ['maphandle',['maphandle',['../classmongo_1_1MemoryMappedFile.html#aa89f2ad789a7d2d8c2724e70baab8e00',1,'mongo::MemoryMappedFile']]],
+  ['mapviewmutex',['mapViewMutex',['../namespacemongo.html#a449628d9e764bf023b5dd2412cb34ed8',1,'mongo']]],
+  ['maxallowedallocation',['MaxAllowedAllocation',['../classmongo_1_1RecordStoreV1Base.html#ab2f0679ad38794231a5c2c2813905cef',1,'mongo::RecordStoreV1Base']]],
+  ['maxchain',['maxChain',['../classmongo_1_1NamespaceHashTable.html#ad0b111393d641898aeffde2b9a112e2e',1,'mongo::NamespaceHashTable']]],
+  ['maxdocsincapped',['maxDocsInCapped',['../classmongo_1_1NamespaceDetails.html#a2f515afe992f30b575df10dac05b641a',1,'mongo::NamespaceDetails']]],
+  ['maxnumindexesallowed',['maxNumIndexesAllowed',['../namespacemongo.html#a11b4a9f1d3bc645697d13a881d1e1239',1,'mongo']]],
+  ['memjournalserverstatusmetric',['memJournalServerStatusMetric',['../namespacemongo.html#a78bab1e0c19d46a9bcca0db51859c845',1,'mongo']]],
+  ['memorymappedfilelocationfloor',['memoryMappedFileLocationFloor',['../namespacemongo.html#a355e2dcd08eff5c155af5ffc66e97696',1,'mongo']]],
+  ['memorytrackingenabled',['MemoryTrackingEnabled',['../classmongo_1_1MmapV1RecordHeader.html#a1c53825755c979ab4756d68114c5a0a6',1,'mongo::MmapV1RecordHeader']]],
+  ['mindirectiosizebytes',['minDirectIOSizeBytes',['../classmongo_1_1LogFile.html#a381c9ddaaafe30824dd2bfd4a7305a62',1,'mongo::LogFile']]],
+  ['mmapv1globaloptions',['mmapv1GlobalOptions',['../namespacemongo.html#ab446fab670e5a9c3c59b6c82691b5fcb',1,'mongo']]],
+  ['mmf',['mmf',['../classmongo_1_1DataFile.html#aadf7c2b5663c0dd153630cab2285d512',1,'mongo::DataFile::mmf()'],['../classmongo_1_1dur_1_1RecoveryJob_1_1Last.html#ad0de988ab99f873b2b29e704af1c46ce',1,'mongo::dur::RecoveryJob::Last::mmf()']]],
+  ['mmmutex',['mmmutex',['../classmongo_1_1LockMongoFilesShared.html#aa834f2a2874f9f6fd26bffcde204baaf',1,'mongo::LockMongoFilesShared']]],
+  ['mode',['mode',['../structmongo_1_1LockRequest.html#a0e551b2769a13548fd27e26fa70be84a',1,'mongo::LockRequest::mode()'],['../structmongo_1_1Locker_1_1OneLock.html#a472e08d4628f8315dad70387486f0213',1,'mongo::Locker::OneLock::mode()']]],
+  ['modestats',['modeStats',['../structmongo_1_1LockStats_1_1PerModeLockStatCounters.html#a2136079d27b2e536691392c851d2bd96',1,'mongo::LockStats::PerModeLockStatCounters']]],
+  ['movecounter',['moveCounter',['../namespacemongo.html#ac6b0692de7263e9526f2e6258fac3b87',1,'mongo']]],
+  ['multikey',['multikey',['../structmongo_1_1BSONCollectionCatalogEntry_1_1IndexMetaData.html#ae25edd72d9a60f093715cbe4b4bf0ca3',1,'mongo::BSONCollectionCatalogEntry::IndexMetaData']]],
+  ['multikeyindexbits',['multiKeyIndexBits',['../classmongo_1_1NamespaceDetails.html#a5c6be2666a5298cc7af69c008ac0b364',1,'mongo::NamespaceDetails']]],
+  ['multikeypaths',['multikeyPaths',['../structmongo_1_1BSONCollectionCatalogEntry_1_1IndexMetaData.html#a47138bada881201dfd5ab5018ab52e13',1,'mongo::BSONCollectionCatalogEntry::IndexMetaData']]],
+  ['mutex',['mutex',['../structmongo_1_1LockManager_1_1LockBucket.html#ac11f505a400d0dc7d46d6c9fb5ba1575',1,'mongo::LockManager::LockBucket::mutex()'],['../structmongo_1_1LockManager_1_1Partition.html#ad1f996d9ac781b35251d8cd5800d1fca',1,'mongo::LockManager::Partition::mutex()']]],
+  ['myloc',['myLoc',['../structmongo_1_1Extent.html#a6f74b6290aa5fca17315f0186e4ed67d',1,'mongo::Extent']]]
+];

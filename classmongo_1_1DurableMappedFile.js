@@ -1,0 +1,28 @@
+var classmongo_1_1DurableMappedFile =
+[
+    [ "DurableMappedFile", "classmongo_1_1DurableMappedFile.html#a973d383bcf5a568abd977923e1a8cdef", null ],
+    [ "~DurableMappedFile", "classmongo_1_1DurableMappedFile.html#aecb7cc1c7e0457a2d850bf955be9bebc", null ],
+    [ "close", "classmongo_1_1DurableMappedFile.html#a2b0b075f6c046d73b85a7f738d7ac23d", null ],
+    [ "create", "classmongo_1_1DurableMappedFile.html#a8d06d0015db3c876644663a9c73a6e68", null ],
+    [ "filename", "classmongo_1_1DurableMappedFile.html#a1e27ebff41ce7a63f05d521652608bbc", null ],
+    [ "fileSuffixNo", "classmongo_1_1DurableMappedFile.html#a8734d57adea76b3d466a2c7cefbffb5c", null ],
+    [ "finishOpening", "classmongo_1_1DurableMappedFile.html#ac136b884c52fedc48dcd6e00b61967a6", null ],
+    [ "flush", "classmongo_1_1DurableMappedFile.html#ae4a40781f161e22acbbfb61a814d3edd", null ],
+    [ "getFd", "classmongo_1_1DurableMappedFile.html#a16b7984dc28e1350b4f60e5ba22e6579", null ],
+    [ "getView", "classmongo_1_1DurableMappedFile.html#a2be3a33032653629485891f1fb559172", null ],
+    [ "isDurableMappedFile", "classmongo_1_1DurableMappedFile.html#a020e1dc6bbec0ff77ea6294beb5c463e", null ],
+    [ "length", "classmongo_1_1DurableMappedFile.html#ae3f729164506d28c4c44e338368fca3d", null ],
+    [ "open", "classmongo_1_1DurableMappedFile.html#a3812f75ee577edcac62ee7b881289cc6", null ],
+    [ "relativePath", "classmongo_1_1DurableMappedFile.html#a89f9bc4db49a09c9cab69782cc6a0bc3", null ],
+    [ "remapThePrivateView", "classmongo_1_1DurableMappedFile.html#a202c5a4b7930affd896c2ebb805538c2", null ],
+    [ "setPath", "classmongo_1_1DurableMappedFile.html#a1e4b78c167ab2ca8af7192194642a64d", null ],
+    [ "setWillNeedRemap", "classmongo_1_1DurableMappedFile.html#abcd559e3144af49e67931139affca8b3", null ],
+    [ "view_write", "classmongo_1_1DurableMappedFile.html#a0fc2efa19c056580ed4ff4817621126d", null ],
+    [ "viewForFlushing", "classmongo_1_1DurableMappedFile.html#aeff9938423b41bb99704591ececc97d6", null ],
+    [ "willNeedRemap", "classmongo_1_1DurableMappedFile.html#a2b9c0ddcac962f07200fe6723799c0bd", null ],
+    [ "_fileSuffixNo", "classmongo_1_1DurableMappedFile.html#a12716db1946385fda7eff04debc6b040", null ],
+    [ "_p", "classmongo_1_1DurableMappedFile.html#a89e3b77fa3a48440db02945e0a497559", null ],
+    [ "_view_private", "classmongo_1_1DurableMappedFile.html#a3ebb876f2478b1849125d330be5afa0a", null ],
+    [ "_view_write", "classmongo_1_1DurableMappedFile.html#a891c0883efb8f438273b0a06e662be05", null ],
+    [ "_willNeedRemap", "classmongo_1_1DurableMappedFile.html#a17a339cfc9b6654c0088a0a57fe6ba41", null ]
+];

@@ -1,0 +1,28 @@
+var classmongo_1_1KVCollectionCatalogEntry =
+[
+    [ "AddIndexChange", "classmongo_1_1KVCollectionCatalogEntry_1_1AddIndexChange.html", "classmongo_1_1KVCollectionCatalogEntry_1_1AddIndexChange" ],
+    [ "RemoveIndexChange", "classmongo_1_1KVCollectionCatalogEntry_1_1RemoveIndexChange.html", "classmongo_1_1KVCollectionCatalogEntry_1_1RemoveIndexChange" ],
+    [ "KVCollectionCatalogEntry", "classmongo_1_1KVCollectionCatalogEntry.html#ab0c183fcaa8a4d9ad55257cc423e1760", null ],
+    [ "~KVCollectionCatalogEntry", "classmongo_1_1KVCollectionCatalogEntry.html#a94df0c88788d7f0e6fe825054f001a21", null ],
+    [ "_getMetaData", "classmongo_1_1KVCollectionCatalogEntry.html#a0bd03af0fc6bceef5927ccad9b0e0454", null ],
+    [ "addUUID", "classmongo_1_1KVCollectionCatalogEntry.html#a95e2be31b1f5c8b220520aab539e3015", null ],
+    [ "getMaxAllowedIndexes", "classmongo_1_1KVCollectionCatalogEntry.html#a72fbb8a63f87773550c87268f14d4225", null ],
+    [ "getRecordStore", "classmongo_1_1KVCollectionCatalogEntry.html#ad40c1c34b43a22b98d32be4d07956b2d", null ],
+    [ "getRecordStore", "classmongo_1_1KVCollectionCatalogEntry.html#a1c49562ff0513114b11f019b7caaedb8", null ],
+    [ "indexBuildSuccess", "classmongo_1_1KVCollectionCatalogEntry.html#ab3a463a36e5e67137d4ca0072009ebf2", null ],
+    [ "isEqualToMetadataUUID", "classmongo_1_1KVCollectionCatalogEntry.html#a30f6f2ebbf8a40f617c29feefbd0a8f1", null ],
+    [ "prepareForIndexBuild", "classmongo_1_1KVCollectionCatalogEntry.html#aa9c58c1dc8fb4b76715147c2418b0614", null ],
+    [ "removeIndex", "classmongo_1_1KVCollectionCatalogEntry.html#a9a84a7211708e59fe7f98569b23b62a4", null ],
+    [ "setIndexHead", "classmongo_1_1KVCollectionCatalogEntry.html#a2d35877e42b89481a7552c72cef8702c", null ],
+    [ "setIndexIsMultikey", "classmongo_1_1KVCollectionCatalogEntry.html#a8ef78735320c763fafe45699a48dc4c1", null ],
+    [ "setIsTemp", "classmongo_1_1KVCollectionCatalogEntry.html#abd8c976427f75ed087205b8f7647a7dc", null ],
+    [ "updateCappedSize", "classmongo_1_1KVCollectionCatalogEntry.html#a6e90ceaf943f4969e2a00c89112ea46c", null ],
+    [ "updateFlags", "classmongo_1_1KVCollectionCatalogEntry.html#ab0c91a905866ac6ad854be7ea0074c6d", null ],
+    [ "updateIndexMetadata", "classmongo_1_1KVCollectionCatalogEntry.html#ad0a433153e09f6e69e4271d85eec01ca", null ],
+    [ "updateTTLSetting", "classmongo_1_1KVCollectionCatalogEntry.html#a7c0e0c0aca3d2db03228a8ff50686513", null ],
+    [ "updateValidator", "classmongo_1_1KVCollectionCatalogEntry.html#aee5764270869af59d4a906c2727f563b", null ],
+    [ "_catalog", "classmongo_1_1KVCollectionCatalogEntry.html#a7a6792d8581100a6908c2821563d01c8", null ],
+    [ "_engine", "classmongo_1_1KVCollectionCatalogEntry.html#a33dde5169f8c1d18f06e37b1e5061c9c", null ],
+    [ "_ident", "classmongo_1_1KVCollectionCatalogEntry.html#acd110111832ec7966980ad0a3de225b8", null ],
+    [ "_recordStore", "classmongo_1_1KVCollectionCatalogEntry.html#a3697c4e0774aba43af32f051b8ac23e1", null ]
+];

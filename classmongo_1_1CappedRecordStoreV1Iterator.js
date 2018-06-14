@@ -1,0 +1,26 @@
+var classmongo_1_1CappedRecordStoreV1Iterator =
+[
+    [ "CappedRecordStoreV1Iterator", "classmongo_1_1CappedRecordStoreV1Iterator.html#a22ca5fc64c90dd09f38f67fd9b1e0413", null ],
+    [ "_getExtent", "classmongo_1_1CappedRecordStoreV1Iterator.html#a2486f13be9bc18d8ef3b2beb3b8125e8", null ],
+    [ "_getNextRecord", "classmongo_1_1CappedRecordStoreV1Iterator.html#aaa365c864a82b0b2448cdf6d9c63f765", null ],
+    [ "_getPrevRecord", "classmongo_1_1CappedRecordStoreV1Iterator.html#a7f70d9957dac7e24b7f1a6a484d3a974", null ],
+    [ "advance", "classmongo_1_1CappedRecordStoreV1Iterator.html#aa257840f8ee0f475a5608f7a936abed2", null ],
+    [ "detachFromOperationContext", "classmongo_1_1CappedRecordStoreV1Iterator.html#a6d804872ec690411fac4a0967ac05582", null ],
+    [ "fetcherForId", "classmongo_1_1CappedRecordStoreV1Iterator.html#a35013dc85cd7961d70aede4620e921cc", null ],
+    [ "fetcherForNext", "classmongo_1_1CappedRecordStoreV1Iterator.html#adaf0fee74d3c6f9dd98d1206bfdf9cb5", null ],
+    [ "getNextCapped", "classmongo_1_1CappedRecordStoreV1Iterator.html#af4f199de0c75ea8f51bb64c191e56aec", null ],
+    [ "invalidate", "classmongo_1_1CappedRecordStoreV1Iterator.html#a3a8c7ae10c14fba5d241b5580931131c", null ],
+    [ "isEOF", "classmongo_1_1CappedRecordStoreV1Iterator.html#a7d6057d705a9f28a1937710a300a63ac", null ],
+    [ "next", "classmongo_1_1CappedRecordStoreV1Iterator.html#abbec27fafa7bfa168827e13630e09673", null ],
+    [ "nextLoop", "classmongo_1_1CappedRecordStoreV1Iterator.html#aae16f500d2737896bad7dae02ff60181", null ],
+    [ "prevLoop", "classmongo_1_1CappedRecordStoreV1Iterator.html#a5b5d1de3b9fb787b430ff80fef120ad6", null ],
+    [ "reattachToOperationContext", "classmongo_1_1CappedRecordStoreV1Iterator.html#a8364cfde6fbd478b418fba7edbcbb2d9", null ],
+    [ "restore", "classmongo_1_1CappedRecordStoreV1Iterator.html#ac08ab7a66f92e7b2d0da9f4c8474823e", null ],
+    [ "save", "classmongo_1_1CappedRecordStoreV1Iterator.html#ad1c777d9ec5757a7c1be5c69c28f75c1", null ],
+    [ "seekExact", "classmongo_1_1CappedRecordStoreV1Iterator.html#a8c748f1619807373fbb0b62cb94f27fd", null ],
+    [ "_curr", "classmongo_1_1CappedRecordStoreV1Iterator.html#ab57a3cba5f7f0e085b6a14ecaf27f208", null ],
+    [ "_forward", "classmongo_1_1CappedRecordStoreV1Iterator.html#ab5756172a5133069c3a970e6a839b670", null ],
+    [ "_killedByInvalidate", "classmongo_1_1CappedRecordStoreV1Iterator.html#a64300e0137de2eb5c05e1e7d768d2aa3", null ],
+    [ "_opCtx", "classmongo_1_1CappedRecordStoreV1Iterator.html#aba3552550c228d1aecbbaf818666a2de", null ],
+    [ "_recordStore", "classmongo_1_1CappedRecordStoreV1Iterator.html#ae74e1a8123acef1eed7f1d45d6af47a9", null ]
+];

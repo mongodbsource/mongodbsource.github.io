@@ -1,0 +1,25 @@
+var classmongo_1_1UUIDCatalog =
+[
+    [ "UUIDCatalog", "classmongo_1_1UUIDCatalog.html#af14004b64913d48125b0b4d3aefb76c9", null ],
+    [ "_getOrdering_inlock", "classmongo_1_1UUIDCatalog.html#a4e5dfd8a81bfc0f1c2a22f6540f7d51f", null ],
+    [ "get", "classmongo_1_1UUIDCatalog.html#a64f8ceff6602e411728033e531312879", null ],
+    [ "get", "classmongo_1_1UUIDCatalog.html#ad65aeeb75b9b15768e04d9013385ee70", null ],
+    [ "lookupCollectionByUUID", "classmongo_1_1UUIDCatalog.html#a656be7bf98aa6dd0e535e19927b3665a", null ],
+    [ "lookupNSSByUUID", "classmongo_1_1UUIDCatalog.html#abd05667da0f3fb0f2fe9f6fb622b8c91", null ],
+    [ "MONGO_DISALLOW_COPYING", "classmongo_1_1UUIDCatalog.html#aae94d1f36e5ad529be16d720df1f559e", null ],
+    [ "next", "classmongo_1_1UUIDCatalog.html#a04aa5f6277780ec40b88a5a29cc9322f", null ],
+    [ "onCloseCatalog", "classmongo_1_1UUIDCatalog.html#a7d216cfa4ce1b58f25c4c7c2913d7cbe", null ],
+    [ "onCloseDatabase", "classmongo_1_1UUIDCatalog.html#a4cc96cadf91f7079c753412d34a4b9c5", null ],
+    [ "onCreateCollection", "classmongo_1_1UUIDCatalog.html#a7119475a81d35cb4f8127c81553645e5", null ],
+    [ "onDropCollection", "classmongo_1_1UUIDCatalog.html#ac6e603640b95e7c25d3c074c38f613b9", null ],
+    [ "onOpenCatalog", "classmongo_1_1UUIDCatalog.html#a2e6db9fc2bfaa63af0b676944108ff69", null ],
+    [ "onRenameCollection", "classmongo_1_1UUIDCatalog.html#a31f9593d415967bbd5aa991eb7a9af4c", null ],
+    [ "prev", "classmongo_1_1UUIDCatalog.html#a67975f7b4d62e5125fee995387667061", null ],
+    [ "registerUUIDCatalogEntry", "classmongo_1_1UUIDCatalog.html#aa77909558d9b0b11228c18dc7f7b8fd4", null ],
+    [ "removeUUIDCatalogEntry", "classmongo_1_1UUIDCatalog.html#ad0a623ad7b676339165ad6d2a9ee2930", null ],
+    [ "replaceUUIDCatalogEntry", "classmongo_1_1UUIDCatalog.html#a232ae6f8253f144e8c0c07080d6b6384", null ],
+    [ "_catalog", "classmongo_1_1UUIDCatalog.html#a43a712386092e9c3470cf46eea15f673", null ],
+    [ "_catalogLock", "classmongo_1_1UUIDCatalog.html#a89b3f0f0405418172767b63da8bfa427", null ],
+    [ "_orderedCollections", "classmongo_1_1UUIDCatalog.html#a85d861382bc14c790a387927bcdcce75", null ],
+    [ "_shadowCatalog", "classmongo_1_1UUIDCatalog.html#ab0590c945f26377bb0f13d3cee660802", null ]
+];

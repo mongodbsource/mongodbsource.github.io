@@ -1,0 +1,27 @@
+var classmongo_1_1MemoryMappedFile =
+[
+    [ "MemoryMappedFile", "classmongo_1_1MemoryMappedFile.html#adedcf341daad21e669cc8c51aff56c52", null ],
+    [ "~MemoryMappedFile", "classmongo_1_1MemoryMappedFile.html#aa2dbaa0d329509250b9497e705220f4d", null ],
+    [ "close", "classmongo_1_1MemoryMappedFile.html#ad6d86b37c26e4f304c518075e5d3cf8a", null ],
+    [ "create", "classmongo_1_1MemoryMappedFile.html#a5abb867b01a78317ca53f3d15427fc7c", null ],
+    [ "createPrivateMap", "classmongo_1_1MemoryMappedFile.html#aec79ac2e4bffc6fb793a64fcab57d47e", null ],
+    [ "flush", "classmongo_1_1MemoryMappedFile.html#ab61c0bb967398a78587a6622dcaf9c7f", null ],
+    [ "getFd", "classmongo_1_1MemoryMappedFile.html#a6b41ac4c4a5e4134df6ba4908d6367f6", null ],
+    [ "getUniqueId", "classmongo_1_1MemoryMappedFile.html#acf54b264a590d7e8f68433f8e971018a", null ],
+    [ "isClosed", "classmongo_1_1MemoryMappedFile.html#a166e41a1c9d016f5d715293e7dc53c7c", null ],
+    [ "length", "classmongo_1_1MemoryMappedFile.html#a83642a03a33a85daf36129ec32aec539", null ],
+    [ "map", "classmongo_1_1MemoryMappedFile.html#a1714f065f855c4fd5fcb6cae9afae114", null ],
+    [ "map", "classmongo_1_1MemoryMappedFile.html#aa8c311baa6ccee0e1cfba8a0fc02b24a", null ],
+    [ "prepareFlush", "classmongo_1_1MemoryMappedFile.html#aff9435afdff91d118ed2dec56796c62c", null ],
+    [ "remapPrivateView", "classmongo_1_1MemoryMappedFile.html#a2262c4ae86ec318b28b5da6e555d6852", null ],
+    [ "shortLength", "classmongo_1_1MemoryMappedFile.html#a935383a35aed923616ebe918a5cf2776", null ],
+    [ "totalMappedLengthInMB", "classmongo_1_1MemoryMappedFile.html#aa08be23b3ebcf1edae0d97681cbc347c", null ],
+    [ "updateLength", "classmongo_1_1MemoryMappedFile.html#a37303c6adccac705aba9f17a87e0d425", null ],
+    [ "viewForFlushing", "classmongo_1_1MemoryMappedFile.html#ac4cd65602e33087b800d0457db353e05", null ],
+    [ "_uniqueId", "classmongo_1_1MemoryMappedFile.html#a74c4dbfb59b337690eb60bf07c7eaa4e", null ],
+    [ "fd", "classmongo_1_1MemoryMappedFile.html#a8b52f65053728176d140ae78e413baf4", null ],
+    [ "len", "classmongo_1_1MemoryMappedFile.html#a845ba0c44e319a059744802e9b76bb4a", null ],
+    [ "maphandle", "classmongo_1_1MemoryMappedFile.html#aa89f2ad789a7d2d8c2724e70baab8e00", null ],
+    [ "totalMappedLength", "classmongo_1_1MemoryMappedFile.html#afc2807f1d86d5e26bcb8a0b3978efb9c", null ],
+    [ "views", "classmongo_1_1MemoryMappedFile.html#a20f490a4401fd2cc35bcd60ea7d71c9c", null ]
+];

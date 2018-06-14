@@ -1,0 +1,28 @@
+var classmongo_1_1WiredTigerSession =
+[
+    [ "CursorCache", "classmongo_1_1WiredTigerSession.html#a598887ea386f48ed34dd6fc9f9a67d25", null ],
+    [ "WiredTigerSession", "classmongo_1_1WiredTigerSession.html#a53452276d02c9fd94ff79557ed8f34bf", null ],
+    [ "WiredTigerSession", "classmongo_1_1WiredTigerSession.html#a3616d826afe940ebb0b03426576934fc", null ],
+    [ "~WiredTigerSession", "classmongo_1_1WiredTigerSession.html#a43cf2abb47171a4d6265d9b4c29c8fe5", null ],
+    [ "_getCursorEpoch", "classmongo_1_1WiredTigerSession.html#a2bffc6c85c9d477be08ed56e0f348ee1", null ],
+    [ "_getEpoch", "classmongo_1_1WiredTigerSession.html#ac7a00c1be74f383a36d09dc44438d13b", null ],
+    [ "closeAllCursors", "classmongo_1_1WiredTigerSession.html#ab5bcf92402c8b917de13560f65a4ea5a", null ],
+    [ "closeCursorsForQueuedDrops", "classmongo_1_1WiredTigerSession.html#a26345285cd3b7cef0f3d20ceb9f98462", null ],
+    [ "cursorsOut", "classmongo_1_1WiredTigerSession.html#a31dd9ad016f9714e867fe6bc56b31038", null ],
+    [ "dropQueuedIdentsAtSessionEndAllowed", "classmongo_1_1WiredTigerSession.html#ace3f60f204b988aa76c12af0f25f0e02", null ],
+    [ "genTableId", "classmongo_1_1WiredTigerSession.html#aa33d64baeb64fffc5faa612bef0590aa", null ],
+    [ "getCursor", "classmongo_1_1WiredTigerSession.html#abdd269619d9a5a85b6091b6d9e557e79", null ],
+    [ "getSession", "classmongo_1_1WiredTigerSession.html#a431bf4dd0326525ac66e35dab245b9ba", null ],
+    [ "isDropQueuedIdentsAtSessionEndAllowed", "classmongo_1_1WiredTigerSession.html#a94d007e8e05d6d23f41b72654d3bf01c", null ],
+    [ "releaseCursor", "classmongo_1_1WiredTigerSession.html#a8f824d0e7895f263b9bcc8fe6a86aa96", null ],
+    [ "WiredTigerSessionCache", "classmongo_1_1WiredTigerSession.html#a3943dd08214c57ada319e602844bd169", null ],
+    [ "_cache", "classmongo_1_1WiredTigerSession.html#a70955bb73bbecf01169619cf10647988", null ],
+    [ "_cursorEpoch", "classmongo_1_1WiredTigerSession.html#aee204f40b06fea1ca088d9adc086740d", null ],
+    [ "_cursorGen", "classmongo_1_1WiredTigerSession.html#ab75f7f2bd092bcedf68be1b35bf27ddb", null ],
+    [ "_cursors", "classmongo_1_1WiredTigerSession.html#a8e6daec4781b8f863d2a7849f033ccca", null ],
+    [ "_cursorsOut", "classmongo_1_1WiredTigerSession.html#a70324241eb169e4ed29f2e51f39e5dee", null ],
+    [ "_dropQueuedIdentsAtSessionEnd", "classmongo_1_1WiredTigerSession.html#a0b7ce221fe83a41906a0df3753873ad8", null ],
+    [ "_epoch", "classmongo_1_1WiredTigerSession.html#a452800897abb59c5252a22c7b5dc1288", null ],
+    [ "_session", "classmongo_1_1WiredTigerSession.html#a6219ba0a744f8243051c93a13a479b92", null ],
+    [ "kMetadataTableId", "classmongo_1_1WiredTigerSession.html#a584167e0716f6435316940a1c1a4f9c5", null ]
+];
