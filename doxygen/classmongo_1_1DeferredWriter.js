@@ -1,0 +1,25 @@
+var classmongo_1_1DeferredWriter =
+[
+    [ "TimePoint", "classmongo_1_1DeferredWriter.html#a71abc670cd0eb6172c78672b292d0a15", null ],
+    [ "DeferredWriter", "classmongo_1_1DeferredWriter.html#abec519dda959b2dd4e0cbb6d9a99582b", null ],
+    [ "~DeferredWriter", "classmongo_1_1DeferredWriter.html#a2a81f596ea2a059fc95e3b1be14ef8a3", null ],
+    [ "_getCollection", "classmongo_1_1DeferredWriter.html#a09f9517e0c04fc1f5554daf191da7f9b", null ],
+    [ "_logDroppedEntry", "classmongo_1_1DeferredWriter.html#a5ad946001904a84f91547226892c0326", null ],
+    [ "_logFailure", "classmongo_1_1DeferredWriter.html#a8b232e6a83d19390f131ce0342271e9b", null ],
+    [ "_makeCollection", "classmongo_1_1DeferredWriter.html#ae9a2236beb60438c3e9b16c2b0e10201", null ],
+    [ "_worker", "classmongo_1_1DeferredWriter.html#a5693896e6659422ecb5c0f3ebe2fa6e4", null ],
+    [ "getDroppedEntries", "classmongo_1_1DeferredWriter.html#ac31d6ae481cb66e9eee9a25715b67e2f", null ],
+    [ "insertDocument", "classmongo_1_1DeferredWriter.html#a359fd8a507b0f1a624f744a9ece98f45", null ],
+    [ "MONGO_DISALLOW_COPYING", "classmongo_1_1DeferredWriter.html#a93e4e8da9c3687cd8156f48a919e374c", null ],
+    [ "shutdown", "classmongo_1_1DeferredWriter.html#aaecba4752689add25a33d3391cb4e52c", null ],
+    [ "startup", "classmongo_1_1DeferredWriter.html#acdbe2a9cfe6c879f17a2298c3709cc4d", null ],
+    [ "_collectionOptions", "classmongo_1_1DeferredWriter.html#af3d623655e594949def96ae1f0908024", null ],
+    [ "_droppedEntries", "classmongo_1_1DeferredWriter.html#a76aee4ddfda4d0d030d5c423b13fb92f", null ],
+    [ "_lastLogged", "classmongo_1_1DeferredWriter.html#a114c4cf60b77dfeecf9ba068724e0451", null ],
+    [ "_lastLoggedDrop", "classmongo_1_1DeferredWriter.html#a910761d3937061bfe6974587b1c57c77", null ],
+    [ "_maxNumBytes", "classmongo_1_1DeferredWriter.html#acf31c1eb46925cc1c4bb184f4fc76516", null ],
+    [ "_mutex", "classmongo_1_1DeferredWriter.html#ace65942b8f691b1455238a3d554de1c9", null ],
+    [ "_nss", "classmongo_1_1DeferredWriter.html#a7bb55fa85c42ecf910d726c7322e5eae", null ],
+    [ "_numBytes", "classmongo_1_1DeferredWriter.html#a21fa3c335fdca159ad5839ea5ddb1535", null ],
+    [ "_pool", "classmongo_1_1DeferredWriter.html#a046f1891e5c87da1a5fd43ad54a81f83", null ]
+];

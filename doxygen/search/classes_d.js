@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['namespace',['Namespace',['../classmongo_1_1Namespace.html',1,'mongo']]],
+  ['namespacedetails',['NamespaceDetails',['../classmongo_1_1NamespaceDetails.html',1,'mongo']]],
+  ['namespacedetailscollectioncatalogentry',['NamespaceDetailsCollectionCatalogEntry',['../classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html',1,'mongo']]],
+  ['namespacedetailsrsv1metadata',['NamespaceDetailsRSV1MetaData',['../classmongo_1_1NamespaceDetailsRSV1MetaData.html',1,'mongo']]],
+  ['namespacehashtable',['NamespaceHashTable',['../classmongo_1_1NamespaceHashTable.html',1,'mongo']]],
+  ['namespaceindex',['NamespaceIndex',['../classmongo_1_1NamespaceIndex.html',1,'mongo']]],
+  ['namespaceuuidcache',['NamespaceUUIDCache',['../classmongo_1_1NamespaceUUIDCache.html',1,'mongo']]],
+  ['node',['Node',['../structmongo_1_1NamespaceHashTable_1_1Node.html',1,'mongo::NamespaceHashTable']]],
+  ['nomergebelowmarkleft',['NoMergeBelowMarkLeft',['../classmongo_1_1NoMergeBelowMarkLeft.html',1,'mongo']]],
+  ['nomergebelowmarkright',['NoMergeBelowMarkRight',['../classmongo_1_1NoMergeBelowMarkRight.html',1,'mongo']]],
+  ['nomoveatlowwatermarkleft',['NoMoveAtLowWaterMarkLeft',['../classmongo_1_1NoMoveAtLowWaterMarkLeft.html',1,'mongo']]],
+  ['nomoveatlowwatermarkright',['NoMoveAtLowWaterMarkRight',['../classmongo_1_1NoMoveAtLowWaterMarkRight.html',1,'mongo']]],
+  ['noopjournallistener',['NoOpJournalListener',['../classmongo_1_1NoOpJournalListener.html',1,'mongo']]],
+  ['np',['NP',['../structmongo_1_1MmapV1RecordHeader_1_1NP.html',1,'mongo::MmapV1RecordHeader']]],
+  ['numrecordschange',['NumRecordsChange',['../classmongo_1_1WiredTigerRecordStore_1_1NumRecordsChange.html',1,'mongo::WiredTigerRecordStore']]],
+  ['numrecschange',['NumRecsChange',['../classmongo_1_1MobileRecordStore_1_1NumRecsChange.html',1,'mongo::MobileRecordStore']]]
+];
