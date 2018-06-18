@@ -570,13 +570,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Marks the beginning of a unit of work. </p>
 <p>Each call must be matched with exactly one call to either commitUnitOfWork or abortUnitOfWork.</p>
-<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">opCtx</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly. </p>
 
 <p>Implements <a class="el" href="classmongo_1_1RecoveryUnit.html#a6bf744451000b79e20b1f641d4b8aaf6">mongo::RecoveryUnit</a>.</p>
 
@@ -864,12 +858,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Waits until all commits that happened before this call are durable in the journal. </p>
 <p>Returns true, unless the storage engine cannot guarantee durability, which should never happen when isDurable() returned true. This cannot be called from inside a unit of work, and should fail if it is.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">durable</td><td>Whether or not the storage engine can guarantee durability. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the storage engine can guarantee durability. </dd></dl>
 
 <p>Implements <a class="el" href="classmongo_1_1RecoveryUnit.html#a91074d53f8e4147977bfd90cd8ffa392">mongo::RecoveryUnit</a>.</p>
 
@@ -1071,8 +1060,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/louis/git/mongo/src/mongo/db/storage/mobile/<a class="el" href="mobile__recovery__unit_8h_source.html">mobile_recovery_unit.h</a></li>
-<li>/home/louis/git/mongo/src/mongo/db/storage/mobile/<a class="el" href="mobile__recovery__unit_8cpp.html">mobile_recovery_unit.cpp</a></li>
+<li>/home/louis/git/mongodbsource.github.io/src/src/mongo/db/storage/mobile/<a class="el" href="mobile__recovery__unit_8h_source.html">mobile_recovery_unit.h</a></li>
+<li>/home/louis/git/mongodbsource.github.io/src/src/mongo/db/storage/mobile/<a class="el" href="mobile__recovery__unit_8cpp.html">mobile_recovery_unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

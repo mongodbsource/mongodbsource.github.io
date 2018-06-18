@@ -390,13 +390,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Marks the beginning of a unit of work. </p>
 <p>Each call must be matched with exactly one call to either commitUnitOfWork or abortUnitOfWork.</p>
-<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">opCtx</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly. </p>
 
 <p>Implements <a class="el" href="classmongo_1_1RecoveryUnit.html#a6bf744451000b79e20b1f641d4b8aaf6">mongo::RecoveryUnit</a>.</p>
 
@@ -490,13 +484,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Obtains a majority committed snapshot. </p>
 <p>Snapshots should still be separately acquired and newer committed snapshots should be used if available whenever implementations would normally change snapshots.</p>
 <p>If no snapshot has yet been marked as Majority Committed, returns a status with error code ReadConcernMajorityNotAvailableYet. After this returns successfully, at any point where implementations attempt to acquire committed snapshot, if there are none available due to a call to <a class="el" href="classmongo_1_1SnapshotManager.html#a38694aef860d6144397c165e0a9f387a" title="Drops all snapshots and clears the &quot;committed&quot; snapshot. ">SnapshotManager::dropAllSnapshots()</a>, a AssertionException with the same code should be thrown.</p>
-<p>StorageEngines that don't support a <a class="el" href="classmongo_1_1SnapshotManager.html" title="Manages snapshots that can be read from at a later time. ">SnapshotManager</a> should use the default implementation.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>StorageEngines that don't support a <a class="el" href="classmongo_1_1SnapshotManager.html" title="Manages snapshots that can be read from at a later time. ">SnapshotManager</a> should use the default implementation. </p>
 
 <p>Reimplemented from <a class="el" href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">mongo::RecoveryUnit</a>.</p>
 
@@ -654,12 +642,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Waits until all commits that happened before this call are durable in the journal. </p>
 <p>Returns true, unless the storage engine cannot guarantee durability, which should never happen when isDurable() returned true. This cannot be called from inside a unit of work, and should fail if it is.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">durable</td><td>Whether or not the storage engine can guarantee durability. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the storage engine can guarantee durability. </dd></dl>
 
 <p>Implements <a class="el" href="classmongo_1_1RecoveryUnit.html#a91074d53f8e4147977bfd90cd8ffa392">mongo::RecoveryUnit</a>.</p>
 
@@ -751,8 +734,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/louis/git/mongo/src/mongo/db/storage/ephemeral_for_test/<a class="el" href="ephemeral__for__test__recovery__unit_8h_source.html">ephemeral_for_test_recovery_unit.h</a></li>
-<li>/home/louis/git/mongo/src/mongo/db/storage/ephemeral_for_test/<a class="el" href="ephemeral__for__test__recovery__unit_8cpp.html">ephemeral_for_test_recovery_unit.cpp</a></li>
+<li>/home/louis/git/mongodbsource.github.io/src/src/mongo/db/storage/ephemeral_for_test/<a class="el" href="ephemeral__for__test__recovery__unit_8h_source.html">ephemeral_for_test_recovery_unit.h</a></li>
+<li>/home/louis/git/mongodbsource.github.io/src/src/mongo/db/storage/ephemeral_for_test/<a class="el" href="ephemeral__for__test__recovery__unit_8cpp.html">ephemeral_for_test_recovery_unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

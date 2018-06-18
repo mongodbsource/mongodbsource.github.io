@@ -253,7 +253,8 @@ Private Member Functions</h2></td></tr>
 
 <p>The ReadSource indicates which exteral or provided timestamp to read from for future transactions. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6"></a>kNone&#160;</td><td class="fielddoc"><p>Do not read from a timestamp. This is the default. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6"></a>kNone&#160;</td><td class="fielddoc"><p>Do not read from a timestamp. </p>
+<p>This is the default. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a783bd0f6356d0eaacedb2fa325e73cd8"></a>kMajorityCommitted&#160;</td><td class="fielddoc"><p>Read from the majority all-commmitted timestamp. </p>
 </td></tr>
@@ -408,13 +409,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Marks the beginning of a unit of work. </p>
 <p>Each call must be matched with exactly one call to either commitUnitOfWork or abortUnitOfWork.</p>
-<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">opCtx</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Should be called through <a class="el" href="classmongo_1_1WriteUnitOfWork.html" title="The WriteUnitOfWork is an RAII type that begins a storage engine write unit of work on both the Locke...">WriteUnitOfWork</a> rather than directly. </p>
 
 <p>Implemented in <a class="el" href="classmongo_1_1HeapRecordStoreBtreeRecoveryUnit.html#acfa9dc90cac1e55fc90f66ba5ce91fb7">mongo::HeapRecordStoreBtreeRecoveryUnit</a>, <a class="el" href="classmongo_1_1WiredTigerRecoveryUnit.html#a6aa3e5517cd732e450d5e190d8c1c83d">mongo::WiredTigerRecoveryUnit</a>, <a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a99058e6c8eedb141e8e3c9a32345f2d0">mongo::MobileRecoveryUnit</a>, <a class="el" href="classmongo_1_1DurRecoveryUnit.html#a4a5034fbe4070d04f2cf528d1da49647">mongo::DurRecoveryUnit</a>, <a class="el" href="classmongo_1_1EphemeralForTestRecoveryUnit.html#acc6a37cfed7d5656a82236013ea282b6">mongo::EphemeralForTestRecoveryUnit</a>, and <a class="el" href="classmongo_1_1RecoveryUnitNoop.html#a794d7b224bf0a238f416125773f774b6">mongo::RecoveryUnitNoop</a>.</p>
 
@@ -650,13 +645,7 @@ Private Member Functions</h2></td></tr>
 <p>Obtains a majority committed snapshot. </p>
 <p>Snapshots should still be separately acquired and newer committed snapshots should be used if available whenever implementations would normally change snapshots.</p>
 <p>If no snapshot has yet been marked as Majority Committed, returns a status with error code ReadConcernMajorityNotAvailableYet. After this returns successfully, at any point where implementations attempt to acquire committed snapshot, if there are none available due to a call to <a class="el" href="classmongo_1_1SnapshotManager.html#a38694aef860d6144397c165e0a9f387a" title="Drops all snapshots and clears the &quot;committed&quot; snapshot. ">SnapshotManager::dropAllSnapshots()</a>, a AssertionException with the same code should be thrown.</p>
-<p>StorageEngines that don't support a <a class="el" href="classmongo_1_1SnapshotManager.html" title="Manages snapshots that can be read from at a later time. ">SnapshotManager</a> should use the default implementation.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>StorageEngines that don't support a <a class="el" href="classmongo_1_1SnapshotManager.html" title="Manages snapshots that can be read from at a later time. ">SnapshotManager</a> should use the default implementation. </p>
 
 <p>Reimplemented in <a class="el" href="classmongo_1_1WiredTigerRecoveryUnit.html#ac7fd71ce2c245937672ca499f3361bf9">mongo::WiredTigerRecoveryUnit</a>, and <a class="el" href="classmongo_1_1EphemeralForTestRecoveryUnit.html#a85aa493fa7fede7e117d92b40e5f2ada">mongo::EphemeralForTestRecoveryUnit</a>.</p>
 
@@ -1011,7 +1000,6 @@ template&lt;typename Callback &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timestamp</td><td>Timestamp to assign to future writes in a transaction </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1091,12 +1079,7 @@ template&lt;typename Callback &gt; </div>
 
 <p>Waits until all commits that happened before this call are durable in the journal. </p>
 <p>Returns true, unless the storage engine cannot guarantee durability, which should never happen when isDurable() returned true. This cannot be called from inside a unit of work, and should fail if it is.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">durable</td><td>Whether or not the storage engine can guarantee durability. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the storage engine can guarantee durability. </dd></dl>
 
 <p>Implemented in <a class="el" href="classmongo_1_1HeapRecordStoreBtreeRecoveryUnit.html#aeb4b1e2a801522ce434ae1182eaaf56e">mongo::HeapRecordStoreBtreeRecoveryUnit</a>, <a class="el" href="classmongo_1_1WiredTigerRecoveryUnit.html#a2945e8ac870a09b0a435cefa1fae33ef">mongo::WiredTigerRecoveryUnit</a>, <a class="el" href="classmongo_1_1RecoveryUnitNoop.html#a6647a644d8c8f013ca2f63de530e273c">mongo::RecoveryUnitNoop</a>, <a class="el" href="classmongo_1_1MobileRecoveryUnit.html#abad0226205e2b124c0d43ebffc402364">mongo::MobileRecoveryUnit</a>, <a class="el" href="classmongo_1_1DurRecoveryUnit.html#a2033db6bf8076b07f4fa6328b4f4b5b5">mongo::DurRecoveryUnit</a>, and <a class="el" href="classmongo_1_1EphemeralForTestRecoveryUnit.html#ae31d0b26d91130d299d4c7a1c47ad95f">mongo::EphemeralForTestRecoveryUnit</a>.</p>
 
@@ -1128,12 +1111,7 @@ template&lt;typename Callback &gt; </div>
 <p>Unlike <code>waitUntilDurable</code>, this method takes a stable checkpoint, making durable any writes on unjournaled tables that are behind the current stable timestamp. </p>
 <p>If the storage engine is starting from an "unstable" checkpoint, this method call will turn into an unstable checkpoint.</p>
 <p>This must not be called by a system taking user writes until after a stable timestamp is passed to the storage engine.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">durable</td><td>Whether or not the storage engine can guarantee durability. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the storage engine can guarantee durability. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classmongo_1_1WiredTigerRecoveryUnit.html#a99c386a08eab70681a430d70faafda2e">mongo::WiredTigerRecoveryUnit</a>.</p>
 
@@ -1238,7 +1216,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/louis/git/mongo/src/mongo/db/storage/<a class="el" href="recovery__unit_8h_source.html">recovery_unit.h</a></li>
+<li>/home/louis/git/mongodbsource.github.io/src/src/mongo/db/storage/<a class="el" href="recovery__unit_8h_source.html">recovery_unit.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

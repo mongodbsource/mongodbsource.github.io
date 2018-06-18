@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Storage Engine API", "index.html", [
+    [ "Storage Engine API", "md__home_louis_git_mongodbsource_8github_8io_src_src_mongo_db_storage_README.html", null ],
     [ "Namespace Members", "namespacemembers.html", [
       [ "All", "namespacemembers.html", "namespacemembers_dup" ],
       [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -64,11 +65,11 @@ var NAVTREEINDEX =
 "dur__recover_8cpp.html#ac28ff434cc98a48f5a0faba3c79aff90",
 "index__catalog__impl_8cpp.html#aa14ab71bef2805aeafd6a467dff4ea6e",
 "lock__manager__defs_8h.html#a2aa94c47a932beab6a228946cf93f3fb",
-"namespace__index_8cpp.html#a7f49e48dc2734e29846d561c4afd0630",
-"snapshot__manager_8h_source.html",
-"structmongo_1_1DatabaseHolder_1_1TUHook.html#a0488ccd68f9bfca2f56daa9710086c4f",
-"structmongo_1_1MmapV1RecordHeader_1_1NP.html#a8f6798d7c5885ec2d700735f9fb06617",
-"wiredtiger__begin__transaction__block_8cpp.html#a7f49e48dc2734e29846d561c4afd0630"
+"namespace__index_8cpp.html",
+"snapshot__manager_8h.html",
+"structmongo_1_1DatabaseHolder_1_1TUHook.html",
+"structmongo_1_1MmapV1RecordHeader_1_1NP.html#a08443555436f5a75dfa08004f0163445",
+"wiredtiger__begin__transaction__block_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
