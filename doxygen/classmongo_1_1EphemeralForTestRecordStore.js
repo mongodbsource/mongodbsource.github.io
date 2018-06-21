@@ -21,6 +21,7 @@ var classmongo_1_1EphemeralForTestRecordStore =
     [ "extractAndCheckLocForOplog", "classmongo_1_1EphemeralForTestRecordStore.html#aaeb069a45d1a2d0219681d80ab52b870", null ],
     [ "findRecord", "classmongo_1_1EphemeralForTestRecordStore.html#a78ccf6b56ef42b965c8f67810a55c8be", null ],
     [ "getCursor", "classmongo_1_1EphemeralForTestRecordStore.html#ad097ba420e49a1b3bff71f7b3cedc463", null ],
+    [ "getIdent", "classmongo_1_1EphemeralForTestRecordStore.html#ac8282d4eb45956785b9ee34583f3cdcf", null ],
     [ "increaseStorageSize", "classmongo_1_1EphemeralForTestRecordStore.html#a3967411a056a04536de970e238bc5cdd", null ],
     [ "insertRecord", "classmongo_1_1EphemeralForTestRecordStore.html#a84adad8f93100026f44a556cfb490ada", null ],
     [ "insertRecordsWithDocWriter", "classmongo_1_1EphemeralForTestRecordStore.html#ae18f0dcca3f9399c0387db2c6bb66d26", null ],

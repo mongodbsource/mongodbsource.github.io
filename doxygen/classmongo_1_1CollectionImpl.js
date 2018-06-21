@@ -51,7 +51,6 @@ var classmongo_1_1CollectionImpl =
     [ "parseValidationLevel", "classmongo_1_1CollectionImpl.html#a8b16d07f99440396fb971517fa2b6f71", null ],
     [ "parseValidator", "classmongo_1_1CollectionImpl.html#a7ecc2b542c3bbfeb1b8619d9dd562f5f", null ],
     [ "recordStoreGoingToUpdateInPlace", "classmongo_1_1CollectionImpl.html#acbaac4a47d0ab628deb2976b1b9f7c37", null ],
-    [ "refreshUUID", "classmongo_1_1CollectionImpl.html#a1ddacaf3406406a9c7f336e0abe85120", null ],
     [ "requiresIdIndex", "classmongo_1_1CollectionImpl.html#a60ac5530109c0231b5900f258b8d6e6c", null ],
     [ "setMinimumVisibleSnapshot", "classmongo_1_1CollectionImpl.html#a63bbe03b75d61431a172581c7664dcc2", null ],
     [ "setValidationAction", "classmongo_1_1CollectionImpl.html#a5160e2ab6d75d926dfdfbf0f6b78237a", null ],

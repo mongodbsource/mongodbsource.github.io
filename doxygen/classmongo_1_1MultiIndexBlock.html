@@ -141,13 +141,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd636af79c850c6ca89623402c00c9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc7b6e119aada478420ea01f5463ef29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; std::vector&lt; BSONObj &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#adc7b6e119aada478420ea01f5463ef29">init</a> (const BSONObj &amp;spec)</td></tr>
 <tr class="separator:adc7b6e119aada478420ea01f5463ef29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4daf570c172eb919dae3b6e607d80951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#a4daf570c172eb919dae3b6e607d80951">insertAllDocumentsInCollection</a> (std::set&lt; RecordId &gt; *const dupsOut=nullptr)</td></tr>
+<tr class="memitem:a4daf570c172eb919dae3b6e607d80951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#a4daf570c172eb919dae3b6e607d80951">insertAllDocumentsInCollection</a> (std::set&lt; RecordId &gt; *const dupsOut=nullptr)</td></tr>
 <tr class="memdesc:a4daf570c172eb919dae3b6e607d80951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts all documents in the <a class="el" href="classmongo_1_1Collection.html" title="this is NOT safe through a yield right now. ">Collection</a> into the indexes and logs with timing info.  <a href="#a4daf570c172eb919dae3b6e607d80951">More...</a><br /></td></tr>
 <tr class="separator:a4daf570c172eb919dae3b6e607d80951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41a83e30f28f2d9cace2a36adbddde1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#ac41a83e30f28f2d9cace2a36adbddde1">insert</a> (const BSONObj &amp;wholeDocument, const RecordId &amp;loc)</td></tr>
+<tr class="memitem:ac41a83e30f28f2d9cace2a36adbddde1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#ac41a83e30f28f2d9cace2a36adbddde1">insert</a> (const BSONObj &amp;wholeDocument, const RecordId &amp;loc)</td></tr>
 <tr class="memdesc:ac41a83e30f28f2d9cace2a36adbddde1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this after <a class="el" href="classmongo_1_1MultiIndexBlock.html#abd636af79c850c6ca89623402c00c9bc" title="Prepares the index(es) for building and returns the canonicalized form of the requested index specifi...">init()</a> for each document in the collection.  <a href="#ac41a83e30f28f2d9cace2a36adbddde1">More...</a><br /></td></tr>
 <tr class="separator:ac41a83e30f28f2d9cace2a36adbddde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad892b387df83a7f8c87ac79c6e12129f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#ad892b387df83a7f8c87ac79c6e12129f">doneInserting</a> (std::set&lt; RecordId &gt; *const dupsOut=nullptr)</td></tr>
+<tr class="memitem:ad892b387df83a7f8c87ac79c6e12129f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#ad892b387df83a7f8c87ac79c6e12129f">doneInserting</a> (std::set&lt; RecordId &gt; *const dupsOut=nullptr)</td></tr>
 <tr class="memdesc:ad892b387df83a7f8c87ac79c6e12129f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this after the last <a class="el" href="classmongo_1_1MultiIndexBlock.html#ac41a83e30f28f2d9cace2a36adbddde1" title="Call this after init() for each document in the collection. ">insert()</a>.  <a href="#ad892b387df83a7f8c87ac79c6e12129f">More...</a><br /></td></tr>
 <tr class="separator:ad892b387df83a7f8c87ac79c6e12129f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd55357499ea41c9f3d29f903f1fd008"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock.html#afd55357499ea41c9f3d29f903f1fd008">commit</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>(const BSONObj &amp;spec)&gt; onCreateFn=nullptr)</td></tr>
@@ -420,7 +420,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::doneInserting </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::doneInserting </td>
           <td>(</td>
           <td class="paramtype">std::set&lt; RecordId &gt; *const&#160;</td>
           <td class="paramname"><em>dupsOut</em> = <code>nullptr</code></td><td>)</td>
@@ -562,7 +562,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::insert </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::insert </td>
           <td>(</td>
           <td class="paramtype">const BSONObj &amp;&#160;</td>
           <td class="paramname"><em>wholeDocument</em>, </td>
@@ -602,7 +602,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::insertAllDocumentsInCollection </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::insertAllDocumentsInCollection </td>
           <td>(</td>
           <td class="paramtype">std::set&lt; RecordId &gt; *const&#160;</td>
           <td class="paramname"><em>dupsOut</em> = <code>nullptr</code></td><td>)</td>

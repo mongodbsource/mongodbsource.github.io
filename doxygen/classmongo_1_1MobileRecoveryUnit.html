@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('classmongo_1_1MobileRecoveryUnit.html'
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classmongo_1_1MobileRecoveryUnit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">mongo::MobileRecoveryUnit Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -145,8 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a651a95e7222690dbd05a98b7f8dbe3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1SnapshotId.html">SnapshotId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a651a95e7222690dbd05a98b7f8dbe3dd">getSnapshotId</a> () const override</td></tr>
 <tr class="memdesc:a651a95e7222690dbd05a98b7f8dbe3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the local <a class="el" href="classmongo_1_1SnapshotId.html">SnapshotId</a>.  <a href="#a651a95e7222690dbd05a98b7f8dbe3dd">More...</a><br /></td></tr>
 <tr class="separator:a651a95e7222690dbd05a98b7f8dbe3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4087566a69dd8625bd76217ba40e23da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1MobileSession.html">MobileSession</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a4087566a69dd8625bd76217ba40e23da">getSession</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
-<tr class="separator:a4087566a69dd8625bd76217ba40e23da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f8958e857cc87b2e0a74e9973060ea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1MobileSession.html">MobileSession</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a0f8958e857cc87b2e0a74e9973060ea0">getSession</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool readOnly=true)</td></tr>
+<tr class="separator:a0f8958e857cc87b2e0a74e9973060ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768cfb5c10b315c2619805c794444638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1MobileSession.html">MobileSession</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a768cfb5c10b315c2619805c794444638">getSessionNoTxn</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="separator:a768cfb5c10b315c2619805c794444638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13cca6da1648b09abd6055af21e0da92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a13cca6da1648b09abd6055af21e0da92">inActiveTxn</a> () const</td></tr>
@@ -172,13 +173,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7e155dd4639d64c3780a8e33b1229c2 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#ab7e155dd4639d64c3780a8e33b1229c2">preallocateSnapshot</a> ()</td></tr>
 <tr class="memdesc:ab7e155dd4639d64c3780a8e33b1229c2 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the <a class="el" href="classmongo_1_1RecoveryUnit.html" title="A RecoveryUnit is responsible for ensuring that data is persisted. ">RecoveryUnit</a> that a snapshot will be needed soon, if one was not already established.  <a href="classmongo_1_1RecoveryUnit.html#ab7e155dd4639d64c3780a8e33b1229c2">More...</a><br /></td></tr>
 <tr class="separator:ab7e155dd4639d64c3780a8e33b1229c2 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06eae806c652b8e9140a3e22c0f6d32 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">obtainMajorityCommittedSnapshot</a> ()</td></tr>
+<tr class="memitem:aa06eae806c652b8e9140a3e22c0f6d32 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">obtainMajorityCommittedSnapshot</a> ()</td></tr>
 <tr class="memdesc:aa06eae806c652b8e9140a3e22c0f6d32 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains a majority committed snapshot.  <a href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">More...</a><br /></td></tr>
 <tr class="separator:aa06eae806c652b8e9140a3e22c0f6d32 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eca651df7de7474ca04f9b58e605047 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual boost::optional&lt; Timestamp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a3eca651df7de7474ca04f9b58e605047">getPointInTimeReadTimestamp</a> () const</td></tr>
 <tr class="memdesc:a3eca651df7de7474ca04f9b58e605047 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Timestamp being used by this recovery unit or boost::none if not reading from a point in time.  <a href="classmongo_1_1RecoveryUnit.html#a3eca651df7de7474ca04f9b58e605047">More...</a><br /></td></tr>
 <tr class="separator:a3eca651df7de7474ca04f9b58e605047 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a741651c20eba9f946bcf58908f780c inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a2a741651c20eba9f946bcf58908f780c">setTimestamp</a> (Timestamp timestamp)</td></tr>
+<tr class="memitem:a2a741651c20eba9f946bcf58908f780c inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a2a741651c20eba9f946bcf58908f780c">setTimestamp</a> (Timestamp timestamp)</td></tr>
 <tr class="memdesc:a2a741651c20eba9f946bcf58908f780c inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a timestamp to assign to future writes in a transaction.  <a href="classmongo_1_1RecoveryUnit.html#a2a741651c20eba9f946bcf58908f780c">More...</a><br /></td></tr>
 <tr class="separator:a2a741651c20eba9f946bcf58908f780c inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c1fe82af78f29a8d45c60b74682216 inherit pub_methods_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#af7c1fe82af78f29a8d45c60b74682216">setCommitTimestamp</a> (Timestamp timestamp)</td></tr>
@@ -232,8 +233,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a89529706484d1fc397f697b88b474671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5308eeb9b60bcd2812a5fe1016259e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a5308eeb9b60bcd2812a5fe1016259e5d">_txnClose</a> (bool commit)</td></tr>
 <tr class="separator:a5308eeb9b60bcd2812a5fe1016259e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a197c523009c3535473d56a6a947eb1f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a197c523009c3535473d56a6a947eb1f5">_txnOpen</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
-<tr class="separator:a197c523009c3535473d56a6a947eb1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1afe847b9ed9327440375ee6b8a2432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#aa1afe847b9ed9327440375ee6b8a2432">_txnOpen</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool readOnly)</td></tr>
+<tr class="separator:aa1afe847b9ed9327440375ee6b8a2432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb175ad0775a73064450928b532ca439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#abb175ad0775a73064450928b532ca439">_upgradeToWriteSession</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="separator:abb175ad0775a73064450928b532ca439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -243,6 +246,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5dc7303628bad189d22adf7875abb23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c265cd77a4cf59e8c75aa4de5df465f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a1c265cd77a4cf59e8c75aa4de5df465f">_active</a></td></tr>
 <tr class="separator:a1c265cd77a4cf59e8c75aa4de5df465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56fbb10486bb9aa4ac12ff986a5f54fa"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a56fbb10486bb9aa4ac12ff986a5f54fa">_id</a></td></tr>
+<tr class="separator:a56fbb10486bb9aa4ac12ff986a5f54fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa414247817ec0e5253ad2612694df7b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#aa414247817ec0e5253ad2612694df7b6">_isReadOnly</a></td></tr>
+<tr class="separator:aa414247817ec0e5253ad2612694df7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf943681cd131bfc268cd72cd1c2deb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a7bf943681cd131bfc268cd72cd1c2deb">_path</a></td></tr>
 <tr class="separator:a7bf943681cd131bfc268cd72cd1c2deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fd26a6ad50acb08f141ec3725992669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1MobileSessionPool.html">MobileSessionPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a4fd26a6ad50acb08f141ec3725992669">_sessionPool</a></td></tr>
@@ -252,16 +259,22 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adbeac0e0db6adc6f9f409311309ad422"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#af464d2a539b05ecb10b6cb505c17b14e">Changes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#adbeac0e0db6adc6f9f409311309ad422">_changes</a></td></tr>
 <tr class="separator:adbeac0e0db6adc6f9f409311309ad422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a5bae81565e28a34fb61ce192b7946c95"><td class="memItemLeft" align="right" valign="top">static AtomicInt64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MobileRecoveryUnit.html#a5bae81565e28a34fb61ce192b7946c95">_nextID</a></td></tr>
+<tr class="separator:a5bae81565e28a34fb61ce192b7946c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classmongo_1_1RecoveryUnit"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classmongo_1_1RecoveryUnit')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classmongo_1_1RecoveryUnit.html">mongo::RecoveryUnit</a></td></tr>
 <tr class="memitem:ab73d986cec10146d72945aa3a11b87a4 inherit pub_types_classmongo_1_1RecoveryUnit"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4">ReadSource</a> { <br />
-&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6">kNone</a>, 
+&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a47e15fc5e0417f4ddd368e536798a138">kUnset</a>, 
+<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ae1a6254f10b3e2f69d8885df80174e1d">kNoTimestamp</a>, 
 <a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a783bd0f6356d0eaacedb2fa325e73cd8">kMajorityCommitted</a>, 
 <a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6ac3c436cd3a401e9f9b8d8c4853b5d7">kLastApplied</a>, 
-<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ab81b778c3f74a093f587f3d95a600c2e">kLastAppliedSnapshot</a>, 
 <br />
-&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6da9860a7e480d4d7f2cad14e29135e0">kProvided</a>
+&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ab81b778c3f74a093f587f3d95a600c2e">kLastAppliedSnapshot</a>, 
+<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6da9860a7e480d4d7f2cad14e29135e0">kProvided</a>
 <br />
  }<tr class="memdesc:ab73d986cec10146d72945aa3a11b87a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ReadSource indicates which exteral or provided timestamp to read from for future transactions.  <a href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4">More...</a><br /></td></tr>
 </td></tr>
@@ -440,8 +453,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a197c523009c3535473d56a6a947eb1f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a197c523009c3535473d56a6a947eb1f5">&#9670;&nbsp;</a></span>_txnOpen()</h2>
+<a id="aa1afe847b9ed9327440375ee6b8a2432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1afe847b9ed9327440375ee6b8a2432">&#9670;&nbsp;</a></span>_txnOpen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,6 +464,42 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::MobileRecoveryUnit::_txnOpen </td>
+          <td>(</td>
+          <td class="paramtype">OperationContext *&#160;</td>
+          <td class="paramname"><em>opCtx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>readOnly</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb175ad0775a73064450928b532ca439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb175ad0775a73064450928b532ca439">&#9670;&nbsp;</a></span>_upgradeToWriteSession()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::MobileRecoveryUnit::_upgradeToWriteSession </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -651,8 +700,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4087566a69dd8625bd76217ba40e23da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4087566a69dd8625bd76217ba40e23da">&#9670;&nbsp;</a></span>getSession()</h2>
+<a id="a0f8958e857cc87b2e0a74e9973060ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f8958e857cc87b2e0a74e9973060ea0">&#9670;&nbsp;</a></span>getSession()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -661,8 +710,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classmongo_1_1MobileSession.html">MobileSession</a> * mongo::MobileRecoveryUnit::getSession </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
-          <td class="paramname"><em>opCtx</em></td><td>)</td>
+          <td class="paramname"><em>opCtx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>readOnly</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -971,6 +1030,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a56fbb10486bb9aa4ac12ff986a5f54fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56fbb10486bb9aa4ac12ff986a5f54fa">&#9670;&nbsp;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t mongo::MobileRecoveryUnit::_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5dc7303628bad189d22adf7875abb23b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5dc7303628bad189d22adf7875abb23b">&#9670;&nbsp;</a></span>_inUnitOfWork</h2>
 
@@ -987,6 +1068,50 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa414247817ec0e5253ad2612694df7b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa414247817ec0e5253ad2612694df7b6">&#9670;&nbsp;</a></span>_isReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mongo::MobileRecoveryUnit::_isReadOnly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bae81565e28a34fb61ce192b7946c95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bae81565e28a34fb61ce192b7946c95">&#9670;&nbsp;</a></span>_nextID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AtomicInt64 mongo::MobileRecoveryUnit::_nextID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

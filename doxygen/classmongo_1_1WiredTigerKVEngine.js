@@ -72,7 +72,7 @@ var classmongo_1_1WiredTigerKVEngine =
     [ "_dropAllQueuesMutex", "classmongo_1_1WiredTigerKVEngine.html#a6c274e2f63e58e9de89b6d0c74e4de71", null ],
     [ "_durable", "classmongo_1_1WiredTigerKVEngine.html#a9b8cc81d4077dc68c500681ac8ea107c", null ],
     [ "_ephemeral", "classmongo_1_1WiredTigerKVEngine.html#a70ba05302f787f95815d3aa5f0d61bd6", null ],
-    [ "_eventHandler", "classmongo_1_1WiredTigerKVEngine.html#a3926390af5d38d9f439463ca927425ed", null ],
+    [ "_eventHandler", "classmongo_1_1WiredTigerKVEngine.html#a814946815b770a1ec21e7dfdf6170ff7", null ],
     [ "_fileVersion", "classmongo_1_1WiredTigerKVEngine.html#a2c9a259f07ee5137f3aff920fdc5ee1f", null ],
     [ "_identToDrop", "classmongo_1_1WiredTigerKVEngine.html#aab1291af8e8b304566edb12e98dea200", null ],
     [ "_identToDropMutex", "classmongo_1_1WiredTigerKVEngine.html#a1e98bb7b1e671f69a80c0fa57d9af9c7", null ],

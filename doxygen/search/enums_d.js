@@ -6,5 +6,6 @@ var searchData=
   ['startupversion',['StartupVersion',['../structmongo_1_1WiredTigerFileVersion.html#ad4b194a437a2430b1fde9810d080cc37',1,'mongo::WiredTigerFileVersion']]],
   ['state',['State',['../classmongo_1_1RecordAccessTracker.html#ac9f5d8bb75397d29907133cdae09482e',1,'mongo::RecordAccessTracker']]],
   ['status',['Status',['../structmongo_1_1LockRequest.html#aea2f369c21f27d4d7c853e308401a881',1,'mongo::LockRequest']]],
+  ['storageengineinitflags',['StorageEngineInitFlags',['../namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509',1,'mongo']]],
   ['storedeleteddoc',['StoreDeletedDoc',['../classmongo_1_1Collection.html#a456b6b58efed6899485917dbbaa3b42b',1,'mongo::Collection']]]
 ];

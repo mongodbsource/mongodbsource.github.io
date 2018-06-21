@@ -90,25 +90,74 @@ $(document).ready(function(){initNavTree('mobile__recovery__unit_8cpp.html','');
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">mobile_recovery_unit.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;mongo/platform/basic.h&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="write__conflict__exception_8h_source.html">mongo/db/concurrency/write_conflict_exception.h</a>&quot;</code><br />
 <code>#include &quot;mongo/db/operation_context.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="mobile__recovery__unit_8h_source.html">mongo/db/storage/mobile/mobile_recovery_unit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mobile__sqlite__statement_8h_source.html">mongo/db/storage/mobile/mobile_sqlite_statement.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mobile__util_8h_source.html">mongo/db/storage/mobile/mobile_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sorted__data__interface_8h_source.html">mongo/db/storage/sorted_data_interface.h</a>&quot;</code><br />
+<code>#include &quot;mongo/util/log.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacemongo"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html">mongo</a></td></tr>
 <tr class="memdesc:namespacemongo"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (C) 2014 MongoDB Inc. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7f49e48dc2734e29846d561c4afd0630"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mobile__recovery__unit_8cpp.html#a7f49e48dc2734e29846d561c4afd0630">MONGO_LOG_DEFAULT_COMPONENT</a>&#160;&#160;&#160;::mongo::logger::LogComponent::kStorage</td></tr>
+<tr class="memdesc:a7f49e48dc2734e29846d561c4afd0630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (C) 2017 MongoDB Inc.  <a href="#a7f49e48dc2734e29846d561c4afd0630">More...</a><br /></td></tr>
+<tr class="separator:a7f49e48dc2734e29846d561c4afd0630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae113e0b48053e7c15d0d9b57e69d1588"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mobile__recovery__unit_8cpp.html#ae113e0b48053e7c15d0d9b57e69d1588">RECOVERY_UNIT_TRACE</a>()&#160;&#160;&#160;LOG(<a class="el" href="mobile__util_8h.html#aad77a3cbb8f32037a0043da33ac0c237">MOBILE_TRACE_LEVEL</a>) &lt;&lt; &quot;MobileSE: RecoveryUnit ID:&quot; &lt;&lt; _id &lt;&lt; &quot; &quot;</td></tr>
+<tr class="separator:ae113e0b48053e7c15d0d9b57e69d1588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7f49e48dc2734e29846d561c4afd0630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f49e48dc2734e29846d561c4afd0630">&#9670;&nbsp;</a></span>MONGO_LOG_DEFAULT_COMPONENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MONGO_LOG_DEFAULT_COMPONENT&#160;&#160;&#160;::mongo::logger::LogComponent::kStorage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copyright (C) 2017 MongoDB Inc. </p>
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.</p>
+<p>You should have received a copy of the GNU Affero General Public License along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+<p>As a special exception, the copyright holders give permission to link the code of portions of this program with the OpenSSL library under certain conditions as described in each individual source file and distribute linked combinations including the program with the OpenSSL library. You must comply with the GNU Affero General Public License in all respects for all of the code used other than as permitted herein. If you modify file(s) with this exception, you may extend this exception to your version of the file(s), but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. If you delete this exception statement from all source files in the program, then also delete it in the license file. </p>
+
+</div>
+</div>
+<a id="ae113e0b48053e7c15d0d9b57e69d1588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae113e0b48053e7c15d0d9b57e69d1588">&#9670;&nbsp;</a></span>RECOVERY_UNIT_TRACE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RECOVERY_UNIT_TRACE</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;LOG(<a class="el" href="mobile__util_8h.html#aad77a3cbb8f32037a0043da33ac0c237">MOBILE_TRACE_LEVEL</a>) &lt;&lt; &quot;MobileSE: RecoveryUnit ID:&quot; &lt;&lt; _id &lt;&lt; &quot; &quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->

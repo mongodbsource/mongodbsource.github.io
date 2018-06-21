@@ -1,6 +1,7 @@
 var searchData=
 [
   ['fail',['fail',['../classmongo_1_1IndexCatalogImpl_1_1IndexBuildBlock.html#a2d2151a4653e8d775a91781584ad5910',1,'mongo::IndexCatalogImpl::IndexBuildBlock']]],
+  ['failpointhangduringbuild',['failPointHangDuringBuild',['../namespacemongo.html#a1ebc1ebd77753888ee30dac3cf5c7214',1,'mongo']]],
   ['fastmapnoalloc',['FastMapNoAlloc',['../classmongo_1_1FastMapNoAlloc.html#ae870fe8e05a33d7955bec03dd5bc226b',1,'mongo::FastMapNoAlloc']]],
   ['featuretracker',['FeatureTracker',['../classmongo_1_1KVCatalog_1_1FeatureTracker.html#a7b1729a1a9e1fe36bacf5a5f32cd5688',1,'mongo::KVCatalog::FeatureTracker']]],
   ['fetch',['fetch',['../classmongo_1_1MmapV1RecordFetcher.html#ae49d8a7986cb91ed22bab3a256f78760',1,'mongo::MmapV1RecordFetcher::fetch()'],['../classmongo_1_1RecordFetcher.html#a80985272a542a96bc8cca5b355751eef',1,'mongo::RecordFetcher::fetch()']]],

@@ -304,6 +304,7 @@ var namespacemongo =
     [ "WiredTigerCursor", "classmongo_1_1WiredTigerCursor.html", "classmongo_1_1WiredTigerCursor" ],
     [ "WiredTigerCustomizationHooks", "classmongo_1_1WiredTigerCustomizationHooks.html", "classmongo_1_1WiredTigerCustomizationHooks" ],
     [ "WiredTigerEngineRuntimeConfigParameter", "classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html", "classmongo_1_1WiredTigerEngineRuntimeConfigParameter" ],
+    [ "WiredTigerEventHandler", "classmongo_1_1WiredTigerEventHandler.html", "classmongo_1_1WiredTigerEventHandler" ],
     [ "WiredTigerExtensions", "classmongo_1_1WiredTigerExtensions.html", "classmongo_1_1WiredTigerExtensions" ],
     [ "WiredTigerFileVersion", "structmongo_1_1WiredTigerFileVersion.html", "structmongo_1_1WiredTigerFileVersion" ],
     [ "WiredTigerGlobalOptions", "classmongo_1_1WiredTigerGlobalOptions.html", "classmongo_1_1WiredTigerGlobalOptions" ],

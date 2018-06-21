@@ -149,9 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a58560bc1abad19cc972032ec12e98a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23606680518c1a83fe5ad543dffbcaaa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1KVPrefix.html">KVPrefix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#a23606680518c1a83fe5ad543dffbcaaa">getIndexPrefix</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData indexName) const =0</td></tr>
 <tr class="separator:a23606680518c1a83fe5ad543dffbcaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade33d2c8ffccb083436d1122f8f8e64f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#ade33d2c8ffccb083436d1122f8f8e64f">removeIndex</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData indexName)=0</td></tr>
+<tr class="memitem:ade33d2c8ffccb083436d1122f8f8e64f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#ade33d2c8ffccb083436d1122f8f8e64f">removeIndex</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData indexName)=0</td></tr>
 <tr class="separator:ade33d2c8ffccb083436d1122f8f8e64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb58c669b46dcac70dbeb01825cd6cf8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#adb58c669b46dcac70dbeb01825cd6cf8">prepareForIndexBuild</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const IndexDescriptor *spec, bool isBackgroundSecondaryBuild)=0</td></tr>
+<tr class="memitem:adb58c669b46dcac70dbeb01825cd6cf8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#adb58c669b46dcac70dbeb01825cd6cf8">prepareForIndexBuild</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const IndexDescriptor *spec, bool isBackgroundSecondaryBuild)=0</td></tr>
 <tr class="separator:adb58c669b46dcac70dbeb01825cd6cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5908405763aa2cd494cd170946de3f35"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#a5908405763aa2cd494cd170946de3f35">indexBuildSuccess</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData indexName)=0</td></tr>
 <tr class="separator:a5908405763aa2cd494cd170946de3f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,9 +168,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ce5003bb8b968765dd196bb9ef9c6a0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#a7ce5003bb8b968765dd196bb9ef9c6a0">setIsTemp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool isTemp)=0</td></tr>
 <tr class="memdesc:a7ce5003bb8b968765dd196bb9ef9c6a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the 'temp' setting for this collection.  <a href="#a7ce5003bb8b968765dd196bb9ef9c6a0">More...</a><br /></td></tr>
 <tr class="separator:a7ce5003bb8b968765dd196bb9ef9c6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e0f8460292d424c05213d7987f0a870"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#a6e0f8460292d424c05213d7987f0a870">addUUID</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#abb177419fd6becc1a3087a1a123cf520">CollectionUUID</a> <a class="el" href="namespacemongo.html#a367f60b9cf118a601ba3d9dc34437e50">uuid</a>, <a class="el" href="classmongo_1_1Collection.html">Collection</a> *coll)=0</td></tr>
-<tr class="memdesc:a6e0f8460292d424c05213d7987f0a870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a new UUID to this collection.  <a href="#a6e0f8460292d424c05213d7987f0a870">More...</a><br /></td></tr>
-<tr class="separator:a6e0f8460292d424c05213d7987f0a870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a430cf7583dcae500e1ace74d2296bca4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CollectionCatalogEntry.html#a430cf7583dcae500e1ace74d2296bca4">isEqualToMetadataUUID</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#a940a98568aba07058328f25194093af0">OptionalCollectionUUID</a> <a class="el" href="namespacemongo.html#a367f60b9cf118a601ba3d9dc34437e50">uuid</a>)=0</td></tr>
 <tr class="memdesc:a430cf7583dcae500e1ace74d2296bca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the UUID argument to the UUID obtained from the metadata.  <a href="#a430cf7583dcae500e1ace74d2296bca4">More...</a><br /></td></tr>
 <tr class="separator:a430cf7583dcae500e1ace74d2296bca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,53 +233,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6e0f8460292d424c05213d7987f0a870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e0f8460292d424c05213d7987f0a870">&#9670;&nbsp;</a></span>addUUID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::CollectionCatalogEntry::addUUID </td>
-          <td>(</td>
-          <td class="paramtype">OperationContext *&#160;</td>
-          <td class="paramname"><em>opCtx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacemongo.html#abb177419fd6becc1a3087a1a123cf520">CollectionUUID</a>&#160;</td>
-          <td class="paramname"><em>uuid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmongo_1_1Collection.html">Collection</a> *&#160;</td>
-          <td class="paramname"><em>coll</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Assigns a new UUID to this collection. </p>
-<p>All collections must have UUIDs, so this is called if a collection erroneously does not have a UUID. </p>
-
-<p>Implemented in <a class="el" href="classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#a1f843664dec2e39b51732a6ccbbb18e0">mongo::NamespaceDetailsCollectionCatalogEntry</a>, and <a class="el" href="classmongo_1_1KVCollectionCatalogEntry.html#a95e2be31b1f5c8b220520aab539e3015">mongo::KVCollectionCatalogEntry</a>.</p>
-
-</div>
-</div>
 <a id="a94e9cbd2b620b44f4f0b97188c91ea90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94e9cbd2b620b44f4f0b97188c91ea90">&#9670;&nbsp;</a></span>getAllIndexes()</h2>
 
@@ -822,7 +772,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::CollectionCatalogEntry::prepareForIndexBuild </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::CollectionCatalogEntry::prepareForIndexBuild </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -866,7 +816,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::CollectionCatalogEntry::removeIndex </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::CollectionCatalogEntry::removeIndex </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

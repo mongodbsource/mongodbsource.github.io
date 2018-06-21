@@ -28,7 +28,6 @@ var searchData=
   ['decoderecordid',['decodeRecordId',['../classmongo_1_1KeyString.html#a6987df6bdfb1f43ad06c361d5879d4d6',1,'mongo::KeyString']]],
   ['decoderecordidatend',['decodeRecordIdAtEnd',['../classmongo_1_1KeyString.html#a3670c239cf7b6c23c0f13c68d5e075d8',1,'mongo::KeyString']]],
   ['defaultdatabasecatalogentryfactory',['defaultDatabaseCatalogEntryFactory',['../namespacemongo.html#a3bb0760931f6a5e99a21a8ab7e222a0f',1,'mongo']]],
-  ['defaulteventhandlers',['defaultEventHandlers',['../classmongo_1_1WiredTigerUtil.html#affc18e0163b05774e88e270084ee5acd',1,'mongo::WiredTigerUtil']]],
   ['defaultfornewfiles',['defaultForNewFiles',['../classmongo_1_1DataFileVersion.html#a8e15dab269f101f038fff794f3b3f377',1,'mongo::DataFileVersion']]],
   ['deferredwriter',['DeferredWriter',['../classmongo_1_1DeferredWriter.html#abec519dda959b2dd4e0cbb6d9a99582b',1,'mongo::DeferredWriter']]],
   ['defineonlyinfinalsubclasstopreventslicing',['defineOnlyInFinalSubclassToPreventSlicing',['../classmongo_1_1WriteConflictException.html#ac573fbd7d554d3433b58b89073ed3cf7',1,'mongo::WriteConflictException']]],

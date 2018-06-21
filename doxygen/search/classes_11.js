@@ -28,7 +28,7 @@ var searchData=
   ['sqlitestatement',['SqliteStatement',['../classmongo_1_1SqliteStatement.html',1,'mongo']]],
   ['standardbulkbuilder',['StandardBulkBuilder',['../classmongo_1_1WiredTigerIndex_1_1StandardBulkBuilder.html',1,'mongo::WiredTigerIndex']]],
   ['standardwiredtigerrecordstore',['StandardWiredTigerRecordStore',['../classmongo_1_1StandardWiredTigerRecordStore.html',1,'mongo']]],
-  ['stats',['Stats',['../structmongo_1_1dur_1_1Stats.html',1,'mongo::dur::Stats'],['../structmongo_1_1NamespaceDetails_1_1Stats.html',1,'mongo::NamespaceDetails::Stats']]],
+  ['stats',['Stats',['../structmongo_1_1NamespaceDetails_1_1Stats.html',1,'mongo::NamespaceDetails::Stats'],['../structmongo_1_1dur_1_1Stats.html',1,'mongo::dur::Stats']]],
   ['statuswith',['StatusWith',['../classmongo_1_1StatusWith.html',1,'mongo']]],
   ['stone',['Stone',['../structmongo_1_1WiredTigerRecordStore_1_1OplogStones_1_1Stone.html',1,'mongo::WiredTigerRecordStore::OplogStones']]],
   ['storageengine',['StorageEngine',['../classmongo_1_1StorageEngine.html',1,'mongo']]],

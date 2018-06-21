@@ -109,16 +109,16 @@ $(document).ready(function(){initNavTree('classmongo_1_1DataProtector.html','');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d5438663ef26e3a784e39929785b88e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a9d5438663ef26e3a784e39929785b88e">~DataProtector</a> ()=default</td></tr>
 <tr class="separator:a9d5438663ef26e3a784e39929785b88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c77f4706600f534dfef005b83c2291"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#ae1c77f4706600f534dfef005b83c2291">protect</a> (const std::uint8_t *in, std::size_t inLen, std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
+<tr class="memitem:ae1c77f4706600f534dfef005b83c2291"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#ae1c77f4706600f534dfef005b83c2291">protect</a> (const std::uint8_t *in, std::size_t inLen, std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
 <tr class="memdesc:ae1c77f4706600f534dfef005b83c2291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy <code>inLen</code> bytes from <code>in</code>, process them, and write the processed bytes into <code>out</code>.  <a href="#ae1c77f4706600f534dfef005b83c2291">More...</a><br /></td></tr>
 <tr class="separator:ae1c77f4706600f534dfef005b83c2291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9581d4a5b13a3da862034c1245ddb98f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a9581d4a5b13a3da862034c1245ddb98f">finalize</a> (std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
+<tr class="memitem:a9581d4a5b13a3da862034c1245ddb98f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a9581d4a5b13a3da862034c1245ddb98f">finalize</a> (std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
 <tr class="memdesc:a9581d4a5b13a3da862034c1245ddb98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declares that this <a class="el" href="classmongo_1_1DataProtector.html" title="Performs an implementation specific transformation on a series of input buffers to produce a protecte...">DataProtector</a> will be provided no more data to protect.  <a href="#a9581d4a5b13a3da862034c1245ddb98f">More...</a><br /></td></tr>
 <tr class="separator:a9581d4a5b13a3da862034c1245ddb98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96fa2e8eeaba78ea551e0dc63ffc620a"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a96fa2e8eeaba78ea551e0dc63ffc620a">getNumberOfBytesReservedForTag</a> () const =0</td></tr>
 <tr class="memdesc:a96fa2e8eeaba78ea551e0dc63ffc620a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bytes reserved for metadata at the beginning of the first output buffer.  <a href="#a96fa2e8eeaba78ea551e0dc63ffc620a">More...</a><br /></td></tr>
 <tr class="separator:a96fa2e8eeaba78ea551e0dc63ffc620a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a211e59e36c70d84bffb851214ceedd2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a211e59e36c70d84bffb851214ceedd2f">finalizeTag</a> (std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
+<tr class="memitem:a211e59e36c70d84bffb851214ceedd2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DataProtector.html#a211e59e36c70d84bffb851214ceedd2f">finalizeTag</a> (std::uint8_t *out, std::size_t outLen, std::size_t *bytesWritten)=0</td></tr>
 <tr class="memdesc:a211e59e36c70d84bffb851214ceedd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills buffer <code>out</code> of size <code>outLen</code>, with implementation defined metadata that had to be calculated after finalization.  <a href="#a211e59e36c70d84bffb851214ceedd2f">More...</a><br /></td></tr>
 <tr class="separator:a211e59e36c70d84bffb851214ceedd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DataProtector::finalize </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DataProtector::finalize </td>
           <td>(</td>
           <td class="paramtype">std::uint8_t *&#160;</td>
           <td class="paramname"><em>out</em>, </td>
@@ -204,7 +204,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DataProtector::finalizeTag </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DataProtector::finalizeTag </td>
           <td>(</td>
           <td class="paramtype">std::uint8_t *&#160;</td>
           <td class="paramname"><em>out</em>, </td>
@@ -277,7 +277,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DataProtector::protect </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DataProtector::protect </td>
           <td>(</td>
           <td class="paramtype">const std::uint8_t *&#160;</td>
           <td class="paramname"><em>in</em>, </td>

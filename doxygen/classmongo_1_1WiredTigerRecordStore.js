@@ -31,6 +31,7 @@ var classmongo_1_1WiredTigerRecordStore =
     [ "findRecord", "classmongo_1_1WiredTigerRecordStore.html#ada7d5d97b19e522705267264b9d22cce", null ],
     [ "generateCreateString", "classmongo_1_1WiredTigerRecordStore.html#a56c8c18ad10747aac1b99c2c30b14ae4", null ],
     [ "getCursor", "classmongo_1_1WiredTigerRecordStore.html#ae25df04b22b252b7751a616578808fd2", null ],
+    [ "getIdent", "classmongo_1_1WiredTigerRecordStore.html#a0a330da6d3076a7a8381ee45475bad02", null ],
     [ "getKey", "classmongo_1_1WiredTigerRecordStore.html#a819382240092635bd2f7f10df8c13db4", null ],
     [ "getManyCursors", "classmongo_1_1WiredTigerRecordStore.html#af70575129e67dd2aa4642cb5a4328a04", null ],
     [ "getRandomCursor", "classmongo_1_1WiredTigerRecordStore.html#a1fa9e789ade11477d7454bbd0a77d6d4", null ],

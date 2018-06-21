@@ -269,6 +269,10 @@ var hierarchy =
       [ "mongo::TestHeadManager", "classmongo_1_1TestHeadManager.html", null ]
     ] ],
     [ "mongo::HealthLog", "classmongo_1_1HealthLog.html", null ],
+    [ "mongo::DatabaseHolder::Impl", "classmongo_1_1DatabaseHolder_1_1Impl.html", [
+      [ "mongo::DatabaseHolderImpl", "classmongo_1_1DatabaseHolderImpl.html", null ],
+      [ "mongo::DatabaseHolderMock", "classmongo_1_1DatabaseHolderMock.html", null ]
+    ] ],
     [ "mongo::IndexCatalog::IndexIterator::Impl", "classmongo_1_1IndexCatalog_1_1IndexIterator_1_1Impl.html", [
       [ "mongo::IndexCatalogImpl::IndexIteratorImpl", "classmongo_1_1IndexCatalogImpl_1_1IndexIteratorImpl.html", null ]
     ] ],
@@ -277,10 +281,6 @@ var hierarchy =
     ] ],
     [ "mongo::IndexCatalogEntry::Impl", "classmongo_1_1IndexCatalogEntry_1_1Impl.html", [
       [ "mongo::IndexCatalogEntryImpl", "classmongo_1_1IndexCatalogEntryImpl.html", null ]
-    ] ],
-    [ "mongo::DatabaseHolder::Impl", "classmongo_1_1DatabaseHolder_1_1Impl.html", [
-      [ "mongo::DatabaseHolderImpl", "classmongo_1_1DatabaseHolderImpl.html", null ],
-      [ "mongo::DatabaseHolderMock", "classmongo_1_1DatabaseHolderMock.html", null ]
     ] ],
     [ "mongo::MultiIndexBlock::Impl", "classmongo_1_1MultiIndexBlock_1_1Impl.html", [
       [ "mongo::MultiIndexBlockImpl", "classmongo_1_1MultiIndexBlockImpl.html", null ]
@@ -375,8 +375,8 @@ var hierarchy =
     [ "mongo::MAdvise", "classmongo_1_1MAdvise.html", null ],
     [ "mongo::BSONCollectionCatalogEntry::MetaData", "structmongo_1_1BSONCollectionCatalogEntry_1_1MetaData.html", null ],
     [ "mongo::MMAPV1Options", "structmongo_1_1MMAPV1Options.html", null ],
-    [ "mongo::MmapV1RecordHeader", "classmongo_1_1MmapV1RecordHeader.html", null ],
     [ "mongo::HeapRecordStoreBtree::MmapV1RecordHeader", "structmongo_1_1HeapRecordStoreBtree_1_1MmapV1RecordHeader.html", null ],
+    [ "mongo::MmapV1RecordHeader", "classmongo_1_1MmapV1RecordHeader.html", null ],
     [ "mongo::MobileDelayedOpQueue", "classmongo_1_1MobileDelayedOpQueue.html", null ],
     [ "mongo::MobileSession", "classmongo_1_1MobileSession.html", null ],
     [ "mongo::MobileSessionPool", "classmongo_1_1MobileSessionPool.html", null ],
@@ -523,8 +523,8 @@ var hierarchy =
       [ "mongo::dur::BufReaderUnitTest", "classmongo_1_1dur_1_1BufReaderUnitTest.html", null ],
       [ "mongo::IndexUpdateTest", "classmongo_1_1IndexUpdateTest.html", null ]
     ] ],
-    [ "mongo::dur::Stats", "structmongo_1_1dur_1_1Stats.html", null ],
     [ "mongo::NamespaceDetails::Stats", "structmongo_1_1NamespaceDetails_1_1Stats.html", null ],
+    [ "mongo::dur::Stats", "structmongo_1_1dur_1_1Stats.html", null ],
     [ "mongo::StatusWith< T >", "classmongo_1_1StatusWith.html", null ],
     [ "mongo::WiredTigerRecordStore::OplogStones::Stone", "structmongo_1_1WiredTigerRecordStore_1_1OplogStones_1_1Stone.html", null ],
     [ "mongo::StorageEngine", "classmongo_1_1StorageEngine.html", [
@@ -548,13 +548,13 @@ var hierarchy =
       [ "UUIDCatalogTest", "classUUIDCatalogTest.html", null ]
     ] ],
     [ "mongo::TestStruct", "structmongo_1_1TestStruct.html", null ],
+    [ "mongo::Collection::TUHook", "structmongo_1_1Collection_1_1TUHook.html", null ],
     [ "mongo::IndexCatalog::IndexIterator::TUHook", "structmongo_1_1IndexCatalog_1_1IndexIterator_1_1TUHook.html", null ],
     [ "mongo::CollectionInfoCache::TUHook", "structmongo_1_1CollectionInfoCache_1_1TUHook.html", null ],
-    [ "mongo::MultiIndexBlock::TUHook", "structmongo_1_1MultiIndexBlock_1_1TUHook.html", null ],
-    [ "mongo::IndexCatalogEntry::TUHook", "structmongo_1_1IndexCatalogEntry_1_1TUHook.html", null ],
-    [ "mongo::Database::TUHook", "structmongo_1_1Database_1_1TUHook.html", null ],
     [ "mongo::IndexCatalog::TUHook", "structmongo_1_1IndexCatalog_1_1TUHook.html", null ],
-    [ "mongo::Collection::TUHook", "structmongo_1_1Collection_1_1TUHook.html", null ],
+    [ "mongo::MultiIndexBlock::TUHook", "structmongo_1_1MultiIndexBlock_1_1TUHook.html", null ],
+    [ "mongo::Database::TUHook", "structmongo_1_1Database_1_1TUHook.html", null ],
+    [ "mongo::IndexCatalogEntry::TUHook", "structmongo_1_1IndexCatalogEntry_1_1TUHook.html", null ],
     [ "mongo::DatabaseHolder::TUHook", "structmongo_1_1DatabaseHolder_1_1TUHook.html", null ],
     [ "mongo::KeyString::TypeBits", "classmongo_1_1KeyString_1_1TypeBits.html", null ],
     [ "mongo::UninterruptibleLockGuard", "classmongo_1_1UninterruptibleLockGuard.html", null ],
@@ -591,6 +591,7 @@ var hierarchy =
     [ "mongo::dur::WriteIntent", "structmongo_1_1dur_1_1WriteIntent.html", null ],
     [ "mongo::WriteUnitOfWork", "classmongo_1_1WriteUnitOfWork.html", null ],
     [ "WT_EVENT_HANDLER", null, [
+      [ "mongo::WiredTigerEventHandler", "classmongo_1_1WiredTigerEventHandler.html", null ],
       [ "mongo::WiredTigerUtil::ErrorAccumulator", "classmongo_1_1WiredTigerUtil_1_1ErrorAccumulator.html", null ]
     ] ],
     [ "WT_ITEM", null, [

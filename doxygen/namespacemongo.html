@@ -845,6 +845,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html">WiredTigerEngineRuntimeConfigParameter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">WT_CONNECTION::reconfigure get/setParameter support.  <a href="classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1WiredTigerEventHandler.html">WiredTigerEventHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a WT_EVENT_HANDLER with MongoDB's default handlers.  <a href="classmongo_1_1WiredTigerEventHandler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1WiredTigerExtensions.html">WiredTigerExtensions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmongo_1_1WiredTigerFileVersion.html">WiredTigerFileVersion</a></td></tr>
@@ -971,6 +974,11 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775ad1f8915d0812f687903a2d5dcfa9cf27">kValidateFull</a> = 0x03
  }</td></tr>
 <tr class="separator:a7cc155634c5bc912468d33fe47041775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a494d5fa2736ba0736c28889bd6a25509"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509">StorageEngineInitFlags</a> { <a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509ae42a46449141de50086790a68ee27098">kNone</a> = 0, 
+<a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509a07ee92fe9c466a89caa21617eb5b9025">kAllowNoLockFile</a> = 1 &lt;&lt; 0
+ }<tr class="memdesc:a494d5fa2736ba0736c28889bd6a25509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valid flags to pass to initializeStorageEngine.  <a href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a494d5fa2736ba0736c28889bd6a25509"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3ebc0a91ee78ba95fc1ef18a948a2b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a9a3ebc0a91ee78ba95fc1ef18a948a2b">LockMode</a> { <br />
 &#160;&#160;<a class="el" href="namespacemongo.html#a9a3ebc0a91ee78ba95fc1ef18a948a2baa625d3d8cf5b7d884d2506c3a9d09dc1">MODE_NONE</a> = 0, 
 <a class="el" href="namespacemongo.html#a9a3ebc0a91ee78ba95fc1ef18a948a2ba4fffdd33b470c4dfe4834fd76327f8fb">MODE_IS</a> = 1, 
@@ -1211,11 +1219,11 @@ Functions</h2></td></tr>
 <tr class="separator:ab1598cc9c5cccf3fecc8747ac9b8f3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8737971b3261d9ef84b27ec3750fbe50"><td class="memItemLeft" align="right" valign="top">MONGO_INITIALIZER()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a8737971b3261d9ef84b27ec3750fbe50">RepairDatabaseMMapV1</a> (InitializerContext *<a class="el" href="namespacemongo.html#a1311a60cda82aef10a9d234d3710dad2">context</a>)</td></tr>
 <tr class="separator:a8737971b3261d9ef84b27ec3750fbe50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76eaf554d9b695062d66ca3e8dff0da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a76eaf554d9b695062d66ca3e8dff0da4">setRepairDatabaseMmapv1Impl</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *, const std::string &amp;, bool, bool)&gt; impl)</td></tr>
+<tr class="memitem:a76eaf554d9b695062d66ca3e8dff0da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a76eaf554d9b695062d66ca3e8dff0da4">setRepairDatabaseMmapv1Impl</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *, const std::string &amp;, bool, bool)&gt; impl)</td></tr>
 <tr class="separator:a76eaf554d9b695062d66ca3e8dff0da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5070114b27b550ee4940bb77809cbdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ad5070114b27b550ee4940bb77809cbdb">repairDatabaseMmapv1</a> (<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, bool preserveClonedFilesOnFailure, bool backupOriginalFiles)</td></tr>
+<tr class="memitem:ad5070114b27b550ee4940bb77809cbdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ad5070114b27b550ee4940bb77809cbdb">repairDatabaseMmapv1</a> (<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, bool preserveClonedFilesOnFailure, bool backupOriginalFiles)</td></tr>
 <tr class="separator:ad5070114b27b550ee4940bb77809cbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16f138c5bfbb62d0f004f2d25da19ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a16f138c5bfbb62d0f004f2d25da19ad3">setRepairDatabaseMmapv1Impl</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *, OperationContext *, std::string const &amp;, bool, bool)&gt; impl)</td></tr>
+<tr class="memitem:a16f138c5bfbb62d0f004f2d25da19ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a16f138c5bfbb62d0f004f2d25da19ad3">setRepairDatabaseMmapv1Impl</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *, OperationContext *, std::string const &amp;, bool, bool)&gt; impl)</td></tr>
 <tr class="separator:a16f138c5bfbb62d0f004f2d25da19ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0711e89b1fec952e5721e101d37c0f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af0711e89b1fec952e5721e101d37c0f5">touch_pages</a> (const char *buf, size_t <a class="el" href="record__store__v1__base_8cpp.html#ae809d5359ac030c60a30a8f0b2294b82">length</a>, size_t pageSize=4096)</td></tr>
 <tr class="memdesc:af0711e89b1fec952e5721e101d37c0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Touches a range of pages, to encourage the OS to get them into the buffer pool.  <a href="#af0711e89b1fec952e5721e101d37c0f5">More...</a><br /></td></tr>
@@ -1226,9 +1234,12 @@ Functions</h2></td></tr>
 <tr class="separator:a9f9c4da84635f12ed7817f2048e29dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3a7bd9476352415ce625aee50e8078"><td class="memItemLeft" align="right" valign="top">GlobalInitializerRegisterer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2d3a7bd9476352415ce625aee50e8078">mobileKVEngineInitializer</a> (&quot;MobileKVEngineInit&quot;, {&quot;ServiceContext&quot;}, [](InitializerContext *<a class="el" href="namespacemongo.html#a1311a60cda82aef10a9d234d3710dad2">context</a>) { <a class="el" href="namespacemongo.html#a96e4d1f1c0fbdfacb6cf998ce6594c36">registerStorageEngine</a>(getGlobalServiceContext(), std::make_unique&lt; MobileFactory &gt;());return Status::OK();}, [](DeinitializerContext *const) { return Status::OK();})</td></tr>
 <tr class="separator:a2d3a7bd9476352415ce625aee50e8078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4e2f5b3cd6d536c7acaf980e532dade2">sqliteRCToStatus</a> (int retCode, const char *prefix=NULL)</td></tr>
+<tr class="memitem:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4e2f5b3cd6d536c7acaf980e532dade2">sqliteRCToStatus</a> (int retCode, const char *prefix=NULL)</td></tr>
 <tr class="memdesc:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SQLite return codes to MongoDB statuses.  <a href="#a4e2f5b3cd6d536c7acaf980e532dade2">More...</a><br /></td></tr>
 <tr class="separator:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab82a7481e7f140b01deeca07c61c67d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aab82a7481e7f140b01deeca07c61c67d">sqliteStatusToStr</a> (int retStatus)</td></tr>
+<tr class="memdesc:aab82a7481e7f140b01deeca07c61c67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SQLite return codes to string equivalents.  <a href="#aab82a7481e7f140b01deeca07c61c67d">More...</a><br /></td></tr>
+<tr class="separator:aab82a7481e7f140b01deeca07c61c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a806fcc651b68502e1f1526f7f96c2883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a806fcc651b68502e1f1526f7f96c2883">checkStatus</a> (int retStatus, int desiredStatus, const char *fnName, const char *errMsg=NULL)</td></tr>
 <tr class="memdesc:a806fcc651b68502e1f1526f7f96c2883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if retStatus == desiredStatus; else calls fassert.  <a href="#a806fcc651b68502e1f1526f7f96c2883">More...</a><br /></td></tr>
 <tr class="separator:a806fcc651b68502e1f1526f7f96c2883"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1270,9 +1281,9 @@ Functions</h2></td></tr>
 <tr class="separator:a64aa495898316eed736463e9d0fb2d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80065c2d81e7109e171f5ab5b820a8af"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmongo_1_1SortedDataInterfaceHarnessHelper.html">SortedDataInterfaceHarnessHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a80065c2d81e7109e171f5ab5b820a8af">newSortedDataInterfaceHarnessHelper</a> ()</td></tr>
 <tr class="separator:a80065c2d81e7109e171f5ab5b820a8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348fd159a22fcbd0427b32e9062099d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a348fd159a22fcbd0427b32e9062099d1">initializeStorageEngine</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>)</td></tr>
-<tr class="memdesc:a348fd159a22fcbd0427b32e9062099d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the storage engine on "service".  <a href="#a348fd159a22fcbd0427b32e9062099d1">More...</a><br /></td></tr>
-<tr class="separator:a348fd159a22fcbd0427b32e9062099d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944708ec1994ac2113dbb7dc94c2c16d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a944708ec1994ac2113dbb7dc94c2c16d">initializeStorageEngine</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>, <a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509">StorageEngineInitFlags</a> initFlags)</td></tr>
+<tr class="memdesc:a944708ec1994ac2113dbb7dc94c2c16d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the storage engine on "service".  <a href="#a944708ec1994ac2113dbb7dc94c2c16d">More...</a><br /></td></tr>
+<tr class="separator:a944708ec1994ac2113dbb7dc94c2c16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9838e1e4f82037d7dcd5706f8ca42cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a9838e1e4f82037d7dcd5706f8ca42cb4">shutdownGlobalStorageEngineCleanly</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>)</td></tr>
 <tr class="memdesc:a9838e1e4f82037d7dcd5706f8ca42cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down storage engine cleanly and releases any locks on mongod.lock.  <a href="#a9838e1e4f82037d7dcd5706f8ca42cb4">More...</a><br /></td></tr>
 <tr class="separator:a9838e1e4f82037d7dcd5706f8ca42cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1288,7 +1299,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6cf0df425310e0ea209a88460194088e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1StorageEngine_1_1Factory.html">StorageEngine::Factory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a6cf0df425310e0ea209a88460194088e">getFactoryForStorageEngine</a> (ServiceContext *<a class="el" href="namespacemongo.html#a1311a60cda82aef10a9d234d3710dad2">context</a>, StringData <a class="el" href="namespacemongo.html#af823efc6816bc4d4dfa8b5cb74c22db9">name</a>)</td></tr>
 <tr class="memdesc:a6cf0df425310e0ea209a88460194088e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an unowned pointer to the factory for the named storage engine, or nullptr.  <a href="#a6cf0df425310e0ea209a88460194088e">More...</a><br /></td></tr>
 <tr class="separator:a6cf0df425310e0ea209a88460194088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fcd44d82e4e7a4d3d4cee8af652ca53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2fcd44d82e4e7a4d3d4cee8af652ca53">validateStorageOptions</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>, const BSONObj &amp;storageEngineOptions, stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(const <a class="el" href="classmongo_1_1StorageEngine_1_1Factory.html">StorageEngine::Factory</a> *const, const BSONObj &amp;)&gt; validateFunc)</td></tr>
+<tr class="memitem:a2fcd44d82e4e7a4d3d4cee8af652ca53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2fcd44d82e4e7a4d3d4cee8af652ca53">validateStorageOptions</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>, const BSONObj &amp;storageEngineOptions, stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(const <a class="el" href="classmongo_1_1StorageEngine_1_1Factory.html">StorageEngine::Factory</a> *const, const BSONObj &amp;)&gt; validateFunc)</td></tr>
 <tr class="separator:a2fcd44d82e4e7a4d3d4cee8af652ca53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a755f0d74065d880ec57115f0849e52e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a755f0d74065d880ec57115f0849e52e5">appendStorageEngineList</a> (ServiceContext *<a class="el" href="kv__engine__test__timestamps_8cpp.html#aee98591324ce91824008a9452f5d812f">service</a>, BSONObjBuilder *result)</td></tr>
 <tr class="separator:a755f0d74065d880ec57115f0849e52e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1332,11 +1343,11 @@ Functions</h2></td></tr>
 <tr class="separator:a46c06eec3d128e414f95be113a2dd730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23714b7c039e78e89f40527fcb38c7c6"><td class="memItemLeft" align="right" valign="top">ExportedServerParameter&lt; std::int32_t, ServerParameterType::kStartupAndRuntime &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a23714b7c039e78e89f40527fcb38c7c6">WiredTigerCursorCacheSizeSetting</a> (ServerParameterSet::getGlobal(), &quot;wiredTigerCursorCacheSize&quot;, &amp;kWiredTigerCursorCacheSize)</td></tr>
 <tr class="separator:a23714b7c039e78e89f40527fcb38c7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6dba89bc21e10784a5434fd943966d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af6dba89bc21e10784a5434fd943966d9">wtRCToStatus_slow</a> (int retCode, const char *prefix)</td></tr>
+<tr class="memitem:af6dba89bc21e10784a5434fd943966d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af6dba89bc21e10784a5434fd943966d9">wtRCToStatus_slow</a> (int retCode, const char *prefix)</td></tr>
 <tr class="separator:af6dba89bc21e10784a5434fd943966d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bad0695e79f49fba08784fe09df7420"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2bad0695e79f49fba08784fe09df7420">wt_keeptxnopen</a> ()</td></tr>
 <tr class="separator:a2bad0695e79f49fba08784fe09df7420"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a082f87d5dd7b424f43dd12ee522a17b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a082f87d5dd7b424f43dd12ee522a17b2">wtRCToStatus</a> (int retCode, const char *prefix=NULL)</td></tr>
+<tr class="memitem:a082f87d5dd7b424f43dd12ee522a17b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a082f87d5dd7b424f43dd12ee522a17b2">wtRCToStatus</a> (int retCode, const char *prefix=NULL)</td></tr>
 <tr class="memdesc:a082f87d5dd7b424f43dd12ee522a17b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts wiredtiger return codes to mongodb statuses.  <a href="#a082f87d5dd7b424f43dd12ee522a17b2">More...</a><br /></td></tr>
 <tr class="separator:a082f87d5dd7b424f43dd12ee522a17b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a4115440664f09dd97b4880bfc5c34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a84a4115440664f09dd97b4880bfc5c34">TEST_F</a> (<a class="el" href="classmongo_1_1WiredTigerUtilMetadataTest.html">WiredTigerUtilMetadataTest</a>, GetConfigurationStringInvalidURI)</td></tr>
@@ -1405,7 +1416,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a4b546fc4557dd0a620a4705dad8d7547"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4b546fc4557dd0a620a4705dad8d7547">resourceTypeName</a> (<a class="el" href="namespacemongo.html#a75510fa34e6496bad7d7dd32e0db6b83">ResourceType</a> resourceType)</td></tr>
 <tr class="memdesc:a4b546fc4557dd0a620a4705dad8d7547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a human-readable name for the specified resource type.  <a href="#a4b546fc4557dd0a620a4705dad8d7547">More...</a><br /></td></tr>
 <tr class="separator:a4b546fc4557dd0a620a4705dad8d7547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ccb498d7017c3ebeb45c6b8efba140"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a37ccb498d7017c3ebeb45c6b8efba140">lockRequestStatusName</a> (<a class="el" href="structmongo_1_1LockRequest.html#aea2f369c21f27d4d7c853e308401a881">LockRequest::Status</a> <a class="el" href="namespacemongo.html#a5e47f1aa0a70c0ae88d01561c1d2602f">status</a>)</td></tr>
+<tr class="memitem:a37ccb498d7017c3ebeb45c6b8efba140"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a37ccb498d7017c3ebeb45c6b8efba140">lockRequestStatusName</a> (<a class="el" href="structmongo_1_1LockRequest.html#aea2f369c21f27d4d7c853e308401a881">LockRequest::Status</a> <a class="el" href="namespacemongo.html#a82fa4e2e71623255142cdcc5c399d7b2">status</a>)</td></tr>
 <tr class="memdesc:a37ccb498d7017c3ebeb45c6b8efba140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a human readable status name for the specified <a class="el" href="structmongo_1_1LockRequest.html" title="There is one of those entries per each request for a lock. ">LockRequest</a> status.  <a href="#a37ccb498d7017c3ebeb45c6b8efba140">More...</a><br /></td></tr>
 <tr class="separator:a37ccb498d7017c3ebeb45c6b8efba140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aa94c47a932beab6a228946cf93f3fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2aa94c47a932beab6a228946cf93f3fb">isSharedLockMode</a> (<a class="el" href="namespacemongo.html#a9a3ebc0a91ee78ba95fc1ef18a948a2b">LockMode</a> mode)</td></tr>
@@ -1533,36 +1544,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a4decbffb5aecb23839feb66e95e0d7ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4decbffb5aecb23839feb66e95e0d7ce">writeConflictRetry</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData opStr, StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, F &amp;&amp;f)</td></tr>
 <tr class="memdesc:a4decbffb5aecb23839feb66e95e0d7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the argument function f as many times as needed for f to complete or throw an exception other than <a class="el" href="classmongo_1_1WriteConflictException.html" title="This is thrown if during a write, two or more operations conflict with each other. ">WriteConflictException</a>.  <a href="#a4decbffb5aecb23839feb66e95e0d7ce">More...</a><br /></td></tr>
 <tr class="separator:a4decbffb5aecb23839feb66e95e0d7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28f0ed171e47d32ba09b14306fd39d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a28f0ed171e47d32ba09b14306fd39d02">emptyCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName)</td></tr>
+<tr class="memitem:a28f0ed171e47d32ba09b14306fd39d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a28f0ed171e47d32ba09b14306fd39d02">emptyCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName)</td></tr>
 <tr class="memdesc:a28f0ed171e47d32ba09b14306fd39d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops all documents contained in the capped collection, "collectionName".  <a href="#a28f0ed171e47d32ba09b14306fd39d02">More...</a><br /></td></tr>
 <tr class="separator:a28f0ed171e47d32ba09b14306fd39d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd72f03fcd36aadef1481fead6f2ba3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#adfd72f03fcd36aadef1481fead6f2ba3">cloneCollectionAsCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1Database.html">Database</a> *<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>, const std::string &amp;shortFrom, const std::string &amp;shortTo, long long size, bool temp)</td></tr>
+<tr class="memitem:adfd72f03fcd36aadef1481fead6f2ba3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#adfd72f03fcd36aadef1481fead6f2ba3">cloneCollectionAsCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1Database.html">Database</a> *<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>, const std::string &amp;shortFrom, const std::string &amp;shortTo, long long size, bool temp)</td></tr>
 <tr class="memdesc:adfd72f03fcd36aadef1481fead6f2ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clones the collection "shortFrom" to the capped collection "shortTo" with a size of "size".  <a href="#adfd72f03fcd36aadef1481fead6f2ba3">More...</a><br /></td></tr>
 <tr class="separator:adfd72f03fcd36aadef1481fead6f2ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa916ca144580f73a5cd2a6272b5c5c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aa916ca144580f73a5cd2a6272b5c5c9e">convertToCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName, long long size)</td></tr>
+<tr class="memitem:aa916ca144580f73a5cd2a6272b5c5c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aa916ca144580f73a5cd2a6272b5c5c9e">convertToCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName, long long size)</td></tr>
 <tr class="memdesc:aa916ca144580f73a5cd2a6272b5c5c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the collection "collectionName" to a capped collection with a size of "size".  <a href="#aa916ca144580f73a5cd2a6272b5c5c9e">More...</a><br /></td></tr>
 <tr class="separator:aa916ca144580f73a5cd2a6272b5c5c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a578b8af56700720849deff9ced890c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a578b8af56700720849deff9ced890c4d">collMod</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, const BSONObj &amp;cmdObj, BSONObjBuilder *result)</td></tr>
+<tr class="memitem:a578b8af56700720849deff9ced890c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a578b8af56700720849deff9ced890c4d">collMod</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, const BSONObj &amp;cmdObj, BSONObjBuilder *result)</td></tr>
 <tr class="memdesc:a578b8af56700720849deff9ced890c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the collection modification described in "cmdObj" on the collection "ns".  <a href="#a578b8af56700720849deff9ced890c4d">More...</a><br /></td></tr>
 <tr class="separator:a578b8af56700720849deff9ced890c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794019b401448e5521764056fd097044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a794019b401448e5521764056fd097044">collModWithUpgrade</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;nss, const BSONObj &amp;cmdObj)</td></tr>
+<tr class="memitem:a794019b401448e5521764056fd097044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a794019b401448e5521764056fd097044">collModWithUpgrade</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;nss, const BSONObj &amp;cmdObj)</td></tr>
 <tr class="memdesc:a794019b401448e5521764056fd097044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the collMod operation and optionally updates formatVersion of unique indexes belonging to collection "nss".  <a href="#a794019b401448e5521764056fd097044">More...</a><br /></td></tr>
 <tr class="separator:a794019b401448e5521764056fd097044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f268e35b4a3473ecd5ddbb1209b859a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1f268e35b4a3473ecd5ddbb1209b859a">collModForUUIDUpgrade</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;nss, const BSONObj &amp;cmdObj, <a class="el" href="namespacemongo.html#abb177419fd6becc1a3087a1a123cf520">CollectionUUID</a> <a class="el" href="namespacemongo.html#a367f60b9cf118a601ba3d9dc34437e50">uuid</a>)</td></tr>
-<tr class="separator:a1f268e35b4a3473ecd5ddbb1209b859a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480a71ff38a30afaea1fbd1de50d8a63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a480a71ff38a30afaea1fbd1de50d8a63">addCollectionUUIDs</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
-<tr class="memdesc:a480a71ff38a30afaea1fbd1de50d8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds UUIDs to all replicated collections of all databases if they do not already have UUIDs.  <a href="#a480a71ff38a30afaea1fbd1de50d8a63">More...</a><br /></td></tr>
-<tr class="separator:a480a71ff38a30afaea1fbd1de50d8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1864d9e361979f960261f2cd55606e50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1864d9e361979f960261f2cd55606e50">_updateNonReplicatedIndexPerCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1Collection.html">Collection</a> *coll)</td></tr>
+<tr class="memitem:a1864d9e361979f960261f2cd55606e50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1864d9e361979f960261f2cd55606e50">_updateNonReplicatedIndexPerCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1Collection.html">Collection</a> *coll)</td></tr>
 <tr class="separator:a1864d9e361979f960261f2cd55606e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3785fc865733b56b46abfe970cd5e846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3785fc865733b56b46abfe970cd5e846">_updateNonReplicatedUniqueIndexesPerDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName)</td></tr>
+<tr class="memitem:a3785fc865733b56b46abfe970cd5e846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3785fc865733b56b46abfe970cd5e846">_updateNonReplicatedUniqueIndexesPerDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName)</td></tr>
 <tr class="separator:a3785fc865733b56b46abfe970cd5e846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7789c228574f2bf46162c10a043ec4eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a7789c228574f2bf46162c10a043ec4eb">_updateUniqueIndexesForDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbname)</td></tr>
 <tr class="separator:a7789c228574f2bf46162c10a043ec4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cad34caa100dd74ddbd3b2429a3d3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a93cad34caa100dd74ddbd3b2429a3d3c">updateUniqueIndexesOnUpgrade</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="separator:a93cad34caa100dd74ddbd3b2429a3d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3709fbb55ff59d76c4f3c24b36358d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ae3709fbb55ff59d76c4f3c24b36358d8">updateNonReplicatedUniqueIndexes</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memitem:ae3709fbb55ff59d76c4f3c24b36358d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ae3709fbb55ff59d76c4f3c24b36358d8">updateNonReplicatedUniqueIndexes</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="separator:ae3709fbb55ff59d76c4f3c24b36358d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a480a71ff38a30afaea1fbd1de50d8a63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a480a71ff38a30afaea1fbd1de50d8a63">addCollectionUUIDs</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memdesc:a480a71ff38a30afaea1fbd1de50d8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds UUIDs to all replicated collections of all databases if they do not already have UUIDs.  <a href="#a480a71ff38a30afaea1fbd1de50d8a63">More...</a><br /></td></tr>
+<tr class="separator:a480a71ff38a30afaea1fbd1de50d8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f53be4d9473340c33aa7910289e336b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a5f53be4d9473340c33aa7910289e336b">MONGO_DEFINE_SHIM</a> (Collection::makeImpl)</td></tr>
 <tr class="separator:a5f53be4d9473340c33aa7910289e336b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e9e760a7f50bd9cb30f775b66ad819f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a7e9e760a7f50bd9cb30f775b66ad819f">MONGO_DEFINE_SHIM</a> (Collection::parseValidationLevel)</td></tr>
@@ -1643,10 +1652,10 @@ Functions</h2></td></tr>
 <tr class="separator:a961ea1c336967f65f816aad3d5ac435b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e51b7002423455193153ce5d368fca1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a0e51b7002423455193153ce5d368fca1">TEST</a> (<a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a>, ParseUUID)</td></tr>
 <tr class="separator:a0e51b7002423455193153ce5d368fca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cc2b97fa412dc55e763157e9d87daa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3cc2b97fa412dc55e763157e9d87daa2">createCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONObj &amp;cmdObj, const BSONObj &amp;idIndex=BSONObj())</td></tr>
+<tr class="memitem:a3cc2b97fa412dc55e763157e9d87daa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3cc2b97fa412dc55e763157e9d87daa2">createCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONObj &amp;cmdObj, const BSONObj &amp;idIndex=BSONObj())</td></tr>
 <tr class="memdesc:a3cc2b97fa412dc55e763157e9d87daa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a collection as described in "cmdObj" on the database "dbName".  <a href="#a3cc2b97fa412dc55e763157e9d87daa2">More...</a><br /></td></tr>
 <tr class="separator:a3cc2b97fa412dc55e763157e9d87daa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07af7b8bd1b197216a486c6b3e31667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af07af7b8bd1b197216a486c6b3e31667">createCollectionForApplyOps</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONElement &amp;ui, const BSONObj &amp;cmdObj, const BSONObj &amp;idIndex=BSONObj())</td></tr>
+<tr class="memitem:af07af7b8bd1b197216a486c6b3e31667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af07af7b8bd1b197216a486c6b3e31667">createCollectionForApplyOps</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONElement &amp;ui, const BSONObj &amp;cmdObj, const BSONObj &amp;idIndex=BSONObj())</td></tr>
 <tr class="memdesc:af07af7b8bd1b197216a486c6b3e31667"><td class="mdescLeft">&#160;</td><td class="mdescRight">As above, but only used by replication to apply operations.  <a href="#af07af7b8bd1b197216a486c6b3e31667">More...</a><br /></td></tr>
 <tr class="separator:af07af7b8bd1b197216a486c6b3e31667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4465742ecb2e8d416cf90e3b45a7d1ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4465742ecb2e8d416cf90e3b45a7d1ac">MONGO_DEFINE_SHIM</a> (Database::makeImpl)</td></tr>
@@ -1663,14 +1672,14 @@ Functions</h2></td></tr>
 <tr class="separator:abd74a1e3a5e679e95c3650b5aea2fa9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd058593b5b3cc7197ea6ef7efffe265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#afd058593b5b3cc7197ea6ef7efffe265">uassertNamespaceNotIndex</a> (StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, StringData caller)</td></tr>
 <tr class="separator:afd058593b5b3cc7197ea6ef7efffe265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31630053e40de173de744256c8f2b18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af31630053e40de173de744256c8f2b18">LOG</a> (1)&lt;&lt; &quot;create <a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a> &quot;&lt;&lt; ns&lt;&lt; ' '&lt;&lt; <a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a></td></tr>
-<tr class="separator:af31630053e40de173de744256c8f2b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e533329d930fb8d354e8a640af6b57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a> (!status.isOK()) return <a class="el" href="namespacemongo.html#a5e47f1aa0a70c0ae88d01561c1d2602f">status</a></td></tr>
-<tr class="separator:a05e533329d930fb8d354e8a640af6b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd43bb9f1982352e27eb09e7ad31835"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#adcd43bb9f1982352e27eb09e7ad31835">LOG</a> (1)&lt;&lt; &quot;create <a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a> &quot;&lt;&lt; ns&lt;&lt; ' '&lt;&lt; collectionOptions.toBSON()</td></tr>
+<tr class="separator:adcd43bb9f1982352e27eb09e7ad31835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba205644c7aa1bf7236ec3f9c681ac2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aba205644c7aa1bf7236ec3f9c681ac2c">if</a> (!collectionOptions.collation.isEmpty())</td></tr>
 <tr class="separator:aba205644c7aa1bf7236ec3f9c681ac2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718521a2376fc7b8ace86ce130c9d5c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a718521a2376fc7b8ace86ce130c9d5c6">if</a> (!collectionOptions.validator.isEmpty())</td></tr>
 <tr class="separator:a718521a2376fc7b8ace86ce130c9d5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e533329d930fb8d354e8a640af6b57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a> (!status.isOK()) return <a class="el" href="namespacemongo.html#a82fa4e2e71623255142cdcc5c399d7b2">status</a></td></tr>
+<tr class="separator:a05e533329d930fb8d354e8a640af6b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a123c75cc29d527956f0c8857893d945f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a123c75cc29d527956f0c8857893d945f">if</a> (auto indexOptions=collectionOptions.indexOptionDefaults[&quot;storageEngine&quot;])</td></tr>
 <tr class="separator:a123c75cc29d527956f0c8857893d945f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae545b3c54e6e55e32c6444f60832b491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ae545b3c54e6e55e32c6444f60832b491">if</a> (collectionOptions.isView())</td></tr>
@@ -1681,14 +1690,14 @@ Functions</h2></td></tr>
 <tr class="separator:a0101be984fb36bc65ae09e53ac65646a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103782375acb72ef5263874c9775e234"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a103782375acb72ef5263874c9775e234">shouldBypassDocumentValidationForCommand</a> (const BSONObj &amp;cmdObj)</td></tr>
 <tr class="separator:a103782375acb72ef5263874c9775e234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42bcd2dabef3b9ac115047dc2e5467d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a42bcd2dabef3b9ac115047dc2e5467d9">dropCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName, BSONObjBuilder &amp;result, const repl::OpTime &amp;dropOpTime, <a class="el" href="namespacemongo.html#a4a02a3fb54114dda703505d91e447178">DropCollectionSystemCollectionMode</a> systemCollectionMode)</td></tr>
+<tr class="memitem:a42bcd2dabef3b9ac115047dc2e5467d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a42bcd2dabef3b9ac115047dc2e5467d9">dropCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;collectionName, BSONObjBuilder &amp;result, const repl::OpTime &amp;dropOpTime, <a class="el" href="namespacemongo.html#a4a02a3fb54114dda703505d91e447178">DropCollectionSystemCollectionMode</a> systemCollectionMode)</td></tr>
 <tr class="separator:a42bcd2dabef3b9ac115047dc2e5467d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a515e3bdf4910e6c01087da33ff95e5fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a515e3bdf4910e6c01087da33ff95e5fe">MONGO_FAIL_POINT_DEFINE</a> (dropDatabaseHangAfterLastCollectionDrop)</td></tr>
 <tr class="separator:a515e3bdf4910e6c01087da33ff95e5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02eb6d5bb487234937f621374a400cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ac02eb6d5bb487234937f621374a400cf">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName)</td></tr>
+<tr class="memitem:ac02eb6d5bb487234937f621374a400cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ac02eb6d5bb487234937f621374a400cf">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName)</td></tr>
 <tr class="memdesc:ac02eb6d5bb487234937f621374a400cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops the database "dbName".  <a href="#ac02eb6d5bb487234937f621374a400cf">More...</a><br /></td></tr>
 <tr class="separator:ac02eb6d5bb487234937f621374a400cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345b2aa584ef923c640ecce580f065b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a345b2aa584ef923c640ecce580f065b0">dropIndexes</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;nss, const BSONObj &amp;idxDescriptor, BSONObjBuilder *result)</td></tr>
+<tr class="memitem:a345b2aa584ef923c640ecce580f065b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a345b2aa584ef923c640ecce580f065b0">dropIndexes</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;nss, const BSONObj &amp;idxDescriptor, BSONObjBuilder *result)</td></tr>
 <tr class="memdesc:a345b2aa584ef923c640ecce580f065b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops the index from collection "nss" that matches the "idxDescriptor" and populates "result" with some statistics about the dropped index.  <a href="#a345b2aa584ef923c640ecce580f065b0">More...</a><br /></td></tr>
 <tr class="separator:a345b2aa584ef923c640ecce580f065b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a99d90e9fd981fe42067bdf1172f1ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3a99d90e9fd981fe42067bdf1172f1ad">MONGO_DEFINE_SHIM</a> (IndexCatalog::makeImpl)</td></tr>
@@ -1711,16 +1720,22 @@ Functions</h2></td></tr>
 <tr class="separator:a9a635d2ccc6fa00bef7feead85174922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd61b189224089651b0b3bdfa443751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#acbd61b189224089651b0b3bdfa443751">MONGO_FAIL_POINT_DEFINE</a> (slowBackgroundIndexBuild)</td></tr>
 <tr class="separator:acbd61b189224089651b0b3bdfa443751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9e1c095ed8a66739fc36ab2be09c47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a5a9e1c095ed8a66739fc36ab2be09c47">MONGO_FAIL_POINT_DEFINE</a> (hangBeforeIndexBuildOf)</td></tr>
+<tr class="separator:a5a9e1c095ed8a66739fc36ab2be09c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec23db0aca46fa7971504e78e0cddc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a7ec23db0aca46fa7971504e78e0cddc4">MONGO_FAIL_POINT_DEFINE</a> (hangAfterIndexBuildOf)</td></tr>
+<tr class="separator:a7ec23db0aca46fa7971504e78e0cddc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b9f8a7228095965ea4d869ff950cd9"><td class="memItemLeft" align="right" valign="top">AtomicInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ac2b9f8a7228095965ea4d869ff950cd9">maxIndexBuildMemoryUsageMegabytes</a> (500)</td></tr>
 <tr class="separator:ac2b9f8a7228095965ea4d869ff950cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebc1ebd77753888ee30dac3cf5c7214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1ebc1ebd77753888ee30dac3cf5c7214">failPointHangDuringBuild</a> (FailPoint *fp, StringData where, const BSONObj &amp;doc)</td></tr>
+<tr class="separator:a1ebc1ebd77753888ee30dac3cf5c7214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f46e0918c7a6109094aef0379a2fad2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a2f46e0918c7a6109094aef0379a2fad2">MONGO_EXPORT_STARTUP_SERVER_PARAMETER</a> (<a class="el" href="namespacemongo.html#a56a2e1d2fe9f02903eb094ad6d299a95">debugCollectionUUIDs</a>, bool, false)</td></tr>
 <tr class="separator:a2f46e0918c7a6109094aef0379a2fad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c79335b2f86b225f3dd3ea86cc6fa6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1c79335b2f86b225f3dd3ea86cc6fa6a">renameCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;source, const NamespaceString &amp;target, const <a class="el" href="structmongo_1_1RenameCollectionOptions.html">RenameCollectionOptions</a> &amp;<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>)</td></tr>
+<tr class="memitem:a1c79335b2f86b225f3dd3ea86cc6fa6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a1c79335b2f86b225f3dd3ea86cc6fa6a">renameCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;source, const NamespaceString &amp;target, const <a class="el" href="structmongo_1_1RenameCollectionOptions.html">RenameCollectionOptions</a> &amp;options)</td></tr>
 <tr class="separator:a1c79335b2f86b225f3dd3ea86cc6fa6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a350af8c904347c09542745860b363a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a350af8c904347c09542745860b363a47">renameCollectionForApplyOps</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONElement &amp;ui, const BSONObj &amp;cmd, const repl::OpTime &amp;renameOpTime)</td></tr>
+<tr class="memitem:a350af8c904347c09542745860b363a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a350af8c904347c09542745860b363a47">renameCollectionForApplyOps</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;dbName, const BSONElement &amp;ui, const BSONObj &amp;cmd, const repl::OpTime &amp;renameOpTime)</td></tr>
 <tr class="memdesc:a350af8c904347c09542745860b363a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">As above, but may only be called from applyCommand_inlock.  <a href="#a350af8c904347c09542745860b363a47">More...</a><br /></td></tr>
 <tr class="separator:a350af8c904347c09542745860b363a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5ae8f2dbb9858bcc0cbdae5aeb6eb63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ab5ae8f2dbb9858bcc0cbdae5aeb6eb63">renameCollectionForRollback</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;target, const UUID &amp;<a class="el" href="namespacemongo.html#a367f60b9cf118a601ba3d9dc34437e50">uuid</a>)</td></tr>
+<tr class="memitem:ab5ae8f2dbb9858bcc0cbdae5aeb6eb63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ab5ae8f2dbb9858bcc0cbdae5aeb6eb63">renameCollectionForRollback</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const NamespaceString &amp;target, const UUID &amp;<a class="el" href="namespacemongo.html#a367f60b9cf118a601ba3d9dc34437e50">uuid</a>)</td></tr>
 <tr class="memdesc:ab5ae8f2dbb9858bcc0cbdae5aeb6eb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="namespacemongo.html#a1c79335b2f86b225f3dd3ea86cc6fa6a">renameCollection()</a>, but used for rolling back renameCollection operations only.  <a href="#ab5ae8f2dbb9858bcc0cbdae5aeb6eb63">More...</a><br /></td></tr>
 <tr class="separator:ab5ae8f2dbb9858bcc0cbdae5aeb6eb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5998d55af0c7532aa97e99e3c64dc7e9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a5998d55af0c7532aa97e99e3c64dc7e9">partitionOf</a> (const char x, const std::size_t nPartitions)</td></tr>
@@ -1908,20 +1923,16 @@ Variables</h2></td></tr>
 <tr class="separator:a1ace62cb2974199839eefddeae6eb21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ae6ca2f1e345dcee0a3bf19089f12f0"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a></td></tr>
 <tr class="separator:a4ae6ca2f1e345dcee0a3bf19089f12f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad271b77bcd8d56d7a7e2205e9cb55df7"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a></td></tr>
-<tr class="separator:ad271b77bcd8d56d7a7e2205e9cb55df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb7f41e65b63c497ad526ad9d6781d39"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#abb7f41e65b63c497ad526ad9d6781d39">parseKind</a></td></tr>
-<tr class="separator:abb7f41e65b63c497ad526ad9d6781d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3261f4eafa6f2b6f2fcbf66b54d3cb7"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ad3261f4eafa6f2b6f2fcbf66b54d3cb7">createDefaultIndexes</a></td></tr>
-<tr class="separator:ad3261f4eafa6f2b6f2fcbf66b54d3cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd53a44ec884164bc07ed073e9f31da"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a> bool const BSONObj &amp;idIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a></td></tr>
-<tr class="separator:a7dd53a44ec884164bc07ed073e9f31da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe44cd4005c47b9ce19eca9d55d96ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a>(<a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a>) return <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(ErrorCodes <a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a>(<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;getViewCatalog() -&gt;lookup(<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)) return <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(ErrorCodes <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#adfe44cd4005c47b9ce19eca9d55d96ac">collectionOptions</a></td></tr>
-<tr class="separator:adfe44cd4005c47b9ce19eca9d55d96ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e47f1aa0a70c0ae88d01561c1d2602f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a5e47f1aa0a70c0ae88d01561c1d2602f">status</a> = collectionOptions.parse(<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>, <a class="el" href="namespacemongo.html#abb7f41e65b63c497ad526ad9d6781d39">parseKind</a>)</td></tr>
-<tr class="separator:a5e47f1aa0a70c0ae88d01561c1d2602f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95e2d88ca5cc24160e501eae4ff7eb7b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; CollatorInterface &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a95e2d88ca5cc24160e501eae4ff7eb7b">collator</a></td></tr>
-<tr class="separator:a95e2d88ca5cc24160e501eae4ff7eb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e91d5f8fed3f68cd92afc8261891bb"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a86e91d5f8fed3f68cd92afc8261891bb">collectionOptions</a></td></tr>
+<tr class="separator:a86e91d5f8fed3f68cd92afc8261891bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84736bb17fb48c10d599b5a944cdcdeb"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a84736bb17fb48c10d599b5a944cdcdeb">createDefaultIndexes</a></td></tr>
+<tr class="separator:a84736bb17fb48c10d599b5a944cdcdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22dc5094e8aebfd46494f3960afbcc3"><td class="memItemLeft" align="right" valign="top">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> bool const BSONObj &amp;idIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a></td></tr>
+<tr class="separator:ac22dc5094e8aebfd46494f3960afbcc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0f7ff411ce0b1a22ee980d043cd5137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aba205644c7aa1bf7236ec3f9c681ac2c">if</a>(<a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a>) return <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(ErrorCodes <a class="el" href="namespacemongo.html#aba205644c7aa1bf7236ec3f9c681ac2c">if</a>(<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;getViewCatalog() -&gt;lookup(<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)) return <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(ErrorCodes std::unique_ptr&lt; CollatorInterface &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#af0f7ff411ce0b1a22ee980d043cd5137">collator</a></td></tr>
+<tr class="separator:af0f7ff411ce0b1a22ee980d043cd5137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82fa4e2e71623255142cdcc5c399d7b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a82fa4e2e71623255142cdcc5c399d7b2">status</a></td></tr>
+<tr class="separator:a82fa4e2e71623255142cdcc5c399d7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc9fad41ba924fad0072bf1800c17972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#afc9fad41ba924fad0072bf1800c17972">else</a></td></tr>
 <tr class="separator:afc9fad41ba924fad0072bf1800c17972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c033e98d0a849f24bbc8b9549334913"><td class="memItemLeft" align="right" valign="top">const OperationContext::Decoration&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4c033e98d0a849f24bbc8b9549334913">documentValidationDisabled</a></td></tr>
@@ -1939,7 +1950,7 @@ Variables</h2></td></tr>
 <tr class="separator:a60c3952a61724f79cd04d7a57fff9bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708ded8f3ab1ba118a992b41b1b62033"><td class="memItemLeft" align="right" valign="top">OperationContext const IndexDescriptor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a708ded8f3ab1ba118a992b41b1b62033">desc</a></td></tr>
 <tr class="separator:a708ded8f3ab1ba118a992b41b1b62033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa639063deea016a1dac8f046e93900a6"><td class="memItemLeft" align="right" valign="top">OperationContext const IndexDescriptor InsertDeleteOptions *<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a></td></tr>
+<tr class="memitem:aa639063deea016a1dac8f046e93900a6"><td class="memItemLeft" align="right" valign="top">OperationContext const IndexDescriptor InsertDeleteOptions *options&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a></td></tr>
 <tr class="separator:aa639063deea016a1dac8f046e93900a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3414f055e8a90d7e0b378a00bcd33a79"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a3414f055e8a90d7e0b378a00bcd33a79">INDEX_CATALOG_INIT</a> = 283711</td></tr>
 <tr class="separator:a3414f055e8a90d7e0b378a00bcd33a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2380,6 +2391,27 @@ an existing lock held in mode 'Granted Mode'?"</p>
 
 </div>
 </div>
+<a id="a494d5fa2736ba0736c28889bd6a25509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a494d5fa2736ba0736c28889bd6a25509">&#9670;&nbsp;</a></span>StorageEngineInitFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509">mongo::StorageEngineInitFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Valid flags to pass to initializeStorageEngine. </p>
+<p>Used as a bitfield. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a494d5fa2736ba0736c28889bd6a25509ae42a46449141de50086790a68ee27098"></a>kNone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a494d5fa2736ba0736c28889bd6a25509a07ee92fe9c466a89caa21617eb5b9025"></a>kAllowNoLockFile&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a7cc155634c5bc912468d33fe47041775"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7cc155634c5bc912468d33fe47041775">&#9670;&nbsp;</a></span>ValidateCmdLevel</h2>
 
@@ -2607,7 +2639,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::_updateNonReplicatedIndexPerCollection </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::_updateNonReplicatedIndexPerCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -2635,7 +2667,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::_updateNonReplicatedUniqueIndexesPerDatabase </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::_updateNonReplicatedUniqueIndexesPerDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3026,7 +3058,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">mongo::Status</a> mongo::cloneCollectionAsCapped </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">mongo::Status</a> mongo::cloneCollectionAsCapped </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3080,7 +3112,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::collMod </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::collMod </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3115,46 +3147,6 @@ an existing lock held in mode 'Granted Mode'?"</p>
 
 </div>
 </div>
-<a id="a1f268e35b4a3473ecd5ddbb1209b859a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f268e35b4a3473ecd5ddbb1209b859a">&#9670;&nbsp;</a></span>collModForUUIDUpgrade()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::collModForUUIDUpgrade </td>
-          <td>(</td>
-          <td class="paramtype">OperationContext *&#160;</td>
-          <td class="paramname"><em>opCtx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const NamespaceString &amp;&#160;</td>
-          <td class="paramname"><em>nss</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const BSONObj &amp;&#160;</td>
-          <td class="paramname"><em>cmdObj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacemongo.html#abb177419fd6becc1a3087a1a123cf520">CollectionUUID</a>&#160;</td>
-          <td class="paramname"><em>uuid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a794019b401448e5521764056fd097044"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a794019b401448e5521764056fd097044">&#9670;&nbsp;</a></span>collModWithUpgrade()</h2>
 
@@ -3162,7 +3154,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::collModWithUpgrade </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::collModWithUpgrade </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3268,7 +3260,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">mongo::Status</a> mongo::convertToCapped </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">mongo::Status</a> mongo::convertToCapped </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3304,7 +3296,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::createCollection </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::createCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3347,7 +3339,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::createCollectionForApplyOps </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::createCollectionForApplyOps </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3687,7 +3679,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::dropCollection </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::dropCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3733,7 +3725,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::dropDatabase </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::dropDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3763,7 +3755,7 @@ an existing lock held in mode 'Granted Mode'?"</p>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::dropIndexes </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::dropIndexes </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3825,7 +3817,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">mongo::Status</a> mongo::emptyCapped </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">mongo::Status</a> mongo::emptyCapped </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -3905,6 +3897,40 @@ template&lt;typename Target , typename Current &gt; </div>
 </div><div class="memdoc">
 
 <p>Aliases for Win32 CRT functions. </p>
+
+</div>
+</div>
+<a id="a1ebc1ebd77753888ee30dac3cf5c7214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebc1ebd77753888ee30dac3cf5c7214">&#9670;&nbsp;</a></span>failPointHangDuringBuild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::failPointHangDuringBuild </td>
+          <td>(</td>
+          <td class="paramtype">FailPoint *&#160;</td>
+          <td class="paramname"><em>fp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StringData&#160;</td>
+          <td class="paramname"><em>where</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BSONObj &amp;&#160;</td>
+          <td class="paramname"><em>doc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -4218,26 +4244,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="a05e533329d930fb8d354e8a640af6b57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05e533329d930fb8d354e8a640af6b57">&#9670;&nbsp;</a></span>if() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mongo::if </td>
-          <td>(</td>
-          <td class="paramtype">!status.&#160;</td>
-          <td class="paramname"><em>isOK</em>()</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aba205644c7aa1bf7236ec3f9c681ac2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba205644c7aa1bf7236ec3f9c681ac2c">&#9670;&nbsp;</a></span>if() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba205644c7aa1bf7236ec3f9c681ac2c">&#9670;&nbsp;</a></span>if() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4255,7 +4263,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a718521a2376fc7b8ace86ce130c9d5c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a718521a2376fc7b8ace86ce130c9d5c6">&#9670;&nbsp;</a></span>if() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a718521a2376fc7b8ace86ce130c9d5c6">&#9670;&nbsp;</a></span>if() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4265,6 +4273,24 @@ template&lt;typename Target , typename Current &gt; </div>
           <td>(</td>
           <td class="paramtype">!collectionOptions.validator.&#160;</td>
           <td class="paramname"><em>isEmpty</em>()</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05e533329d930fb8d354e8a640af6b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e533329d930fb8d354e8a640af6b57">&#9670;&nbsp;</a></span>if() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::if </td>
+          <td>(</td>
+          <td class="paramtype">!status.&#160;</td>
+          <td class="paramname"><em>isOK</em>()</td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -4382,8 +4408,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="a348fd159a22fcbd0427b32e9062099d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a348fd159a22fcbd0427b32e9062099d1">&#9670;&nbsp;</a></span>initializeStorageEngine()</h2>
+<a id="a944708ec1994ac2113dbb7dc94c2c16d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944708ec1994ac2113dbb7dc94c2c16d">&#9670;&nbsp;</a></span>initializeStorageEngine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4392,8 +4418,18 @@ template&lt;typename Target , typename Current &gt; </div>
           <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::initializeStorageEngine </td>
           <td>(</td>
           <td class="paramtype">ServiceContext *&#160;</td>
-          <td class="paramname"><em>service</em></td><td>)</td>
+          <td class="paramname"><em>service</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="namespacemongo.html#a494d5fa2736ba0736c28889bd6a25509">StorageEngineInitFlags</a>&#160;</td>
+          <td class="paramname"><em>initFlags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4948,8 +4984,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="af31630053e40de173de744256c8f2b18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af31630053e40de173de744256c8f2b18">&#9670;&nbsp;</a></span>LOG()</h2>
+<a id="adcd43bb9f1982352e27eb09e7ad31835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd43bb9f1982352e27eb09e7ad31835">&#9670;&nbsp;</a></span>LOG()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5492,7 +5528,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a15379a73f423fe688a0b9911d32ce924"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15379a73f423fe688a0b9911d32ce924">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[1/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15379a73f423fe688a0b9911d32ce924">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5510,7 +5546,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a504086f1517fe0e6369428a89eb5c798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a504086f1517fe0e6369428a89eb5c798">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[2/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a504086f1517fe0e6369428a89eb5c798">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5528,7 +5564,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a515e3bdf4910e6c01087da33ff95e5fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a515e3bdf4910e6c01087da33ff95e5fe">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[3/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a515e3bdf4910e6c01087da33ff95e5fe">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5546,7 +5582,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a1d3cdb035357e09b8edef9524d9f06b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d3cdb035357e09b8edef9524d9f06b1">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[4/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3cdb035357e09b8edef9524d9f06b1">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[4/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5563,26 +5599,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="a6d950e1564cb370a414fd9cebcb7fd4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d950e1564cb370a414fd9cebcb7fd4d">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[5/11]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mongo::MONGO_FAIL_POINT_DEFINE </td>
-          <td>(</td>
-          <td class="paramtype">recordNeedsFetchFail&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2e09427253fdad14da10088b2978a39f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e09427253fdad14da10088b2978a39f">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[6/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e09427253fdad14da10088b2978a39f">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5599,8 +5617,26 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
+<a id="a6d950e1564cb370a414fd9cebcb7fd4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d950e1564cb370a414fd9cebcb7fd4d">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[6/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::MONGO_FAIL_POINT_DEFINE </td>
+          <td>(</td>
+          <td class="paramtype">recordNeedsFetchFail&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9a635d2ccc6fa00bef7feead85174922"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a635d2ccc6fa00bef7feead85174922">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[7/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a635d2ccc6fa00bef7feead85174922">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5618,7 +5654,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="acbd61b189224089651b0b3bdfa443751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbd61b189224089651b0b3bdfa443751">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[8/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acbd61b189224089651b0b3bdfa443751">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5635,8 +5671,44 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
+<a id="a5a9e1c095ed8a66739fc36ab2be09c47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9e1c095ed8a66739fc36ab2be09c47">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[9/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::MONGO_FAIL_POINT_DEFINE </td>
+          <td>(</td>
+          <td class="paramtype">hangBeforeIndexBuildOf&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ec23db0aca46fa7971504e78e0cddc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec23db0aca46fa7971504e78e0cddc4">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[10/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::MONGO_FAIL_POINT_DEFINE </td>
+          <td>(</td>
+          <td class="paramtype">hangAfterIndexBuildOf&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5e1ecfa24491e85332c7d86b29ba9ed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e1ecfa24491e85332c7d86b29ba9ed7">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[9/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e1ecfa24491e85332c7d86b29ba9ed7">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5654,7 +5726,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="a12127dc5bd9e5474aba92dc90a20a123"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12127dc5bd9e5474aba92dc90a20a123">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[10/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a12127dc5bd9e5474aba92dc90a20a123">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[12/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5672,7 +5744,7 @@ template&lt;typename Target , typename Current &gt; </div>
 </div>
 </div>
 <a id="ae24a73265e932b33efd62d138aa11e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae24a73265e932b33efd62d138aa11e7e">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[11/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24a73265e932b33efd62d138aa11e7e">&#9670;&nbsp;</a></span>MONGO_FAIL_POINT_DEFINE() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7462,7 +7534,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::renameCollection </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::renameCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -7502,7 +7574,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::renameCollectionForApplyOps </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::renameCollectionForApplyOps </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -7552,7 +7624,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::renameCollectionForRollback </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::renameCollectionForRollback </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -7589,7 +7661,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::repairDatabaseMmapv1 </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::repairDatabaseMmapv1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *&#160;</td>
           <td class="paramname"><em>engine</em>, </td>
@@ -7714,7 +7786,7 @@ template&lt;typename Target , typename Current &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::setRepairDatabaseMmapv1Impl </td>
           <td>(</td>
-          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *, const std::string &amp;, bool, bool)&gt;&#160;</td>
+          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, OperationContext *, const std::string &amp;, bool, bool)&gt;&#160;</td>
           <td class="paramname"><em>impl</em></td><td>)</td>
           <td></td>
         </tr>
@@ -7732,7 +7804,7 @@ template&lt;typename Target , typename Current &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::setRepairDatabaseMmapv1Impl </td>
           <td>(</td>
-          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *, OperationContext *, std::string const &amp;, bool, bool)&gt;&#160;</td>
+          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(<a class="el" href="classmongo_1_1StorageEngine.html">StorageEngine</a> *, OperationContext *, std::string const &amp;, bool, bool)&gt;&#160;</td>
           <td class="paramname"><em>impl</em></td><td>)</td>
           <td></td>
         </tr>
@@ -7850,7 +7922,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::sqliteRCToStatus </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::sqliteRCToStatus </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>retCode</em>, </td>
@@ -7870,6 +7942,26 @@ template&lt;typename Target , typename Current &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts SQLite return codes to MongoDB statuses. </p>
+
+</div>
+</div>
+<a id="aab82a7481e7f140b01deeca07c61c67d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab82a7481e7f140b01deeca07c61c67d">&#9670;&nbsp;</a></span>sqliteStatusToStr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * mongo::sqliteStatusToStr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>retStatus</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts SQLite return codes to string equivalents. </p>
 
 </div>
 </div>
@@ -8037,36 +8129,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="a559c9ca70f94c5d0bbb5ba3f69601e78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a559c9ca70f94c5d0bbb5ba3f69601e78">&#9670;&nbsp;</a></span>TEST() <span class="overload">[5/101]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mongo::TEST </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmongo_1_1LockerImpl.html">LockerImpl</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">LockNoConflict&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="acaffff1a1989de9bdf8ef3e904e8fdb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaffff1a1989de9bdf8ef3e904e8fdb8">&#9670;&nbsp;</a></span>TEST() <span class="overload">[6/101]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acaffff1a1989de9bdf8ef3e904e8fdb8">&#9670;&nbsp;</a></span>TEST() <span class="overload">[5/101]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8081,6 +8145,34 @@ template&lt;typename Target , typename Current &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">SimpleRoundTrip&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a559c9ca70f94c5d0bbb5ba3f69601e78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559c9ca70f94c5d0bbb5ba3f69601e78">&#9670;&nbsp;</a></span>TEST() <span class="overload">[6/101]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::TEST </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmongo_1_1LockerImpl.html">LockerImpl</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LockNoConflict&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -9891,36 +9983,8 @@ template&lt;typename Target , typename Current &gt; </div>
 
 </div>
 </div>
-<a id="a741d5eb3d724d782819a408072472c9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a741d5eb3d724d782819a408072472c9a">&#9670;&nbsp;</a></span>TEST() <span class="overload">[71/101]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">mongo::TEST </td>
-          <td>(</td>
-          <td class="paramtype">WiredTigerUtilTest&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GetStatisticsValueValidKey&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a05817bace3762aba8202d705b06c482f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05817bace3762aba8202d705b06c482f">&#9670;&nbsp;</a></span>TEST() <span class="overload">[72/101]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a05817bace3762aba8202d705b06c482f">&#9670;&nbsp;</a></span>TEST() <span class="overload">[71/101]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9935,6 +9999,34 @@ template&lt;typename Target , typename Current &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">MaxTimeMSWhitelistedOptionIgnored&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a741d5eb3d724d782819a408072472c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741d5eb3d724d782819a408072472c9a">&#9670;&nbsp;</a></span>TEST() <span class="overload">[72/101]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mongo::TEST </td>
+          <td>(</td>
+          <td class="paramtype">WiredTigerUtilTest&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GetStatisticsValueValidKey&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -11470,7 +11562,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::updateNonReplicatedUniqueIndexes </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::updateNonReplicatedUniqueIndexes </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -11563,7 +11655,7 @@ template&lt;typename Target , typename Current &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::validateStorageOptions </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::validateStorageOptions </td>
           <td>(</td>
           <td class="paramtype">ServiceContext *&#160;</td>
           <td class="paramname"><em>service</em>, </td>
@@ -11577,7 +11669,7 @@ template&lt;typename Target , typename Current &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(const <a class="el" href="classmongo_1_1StorageEngine_1_1Factory.html">StorageEngine::Factory</a> *const, const BSONObj &amp;)&gt;&#160;</td>
+          <td class="paramtype">stdx::function&lt; <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(const <a class="el" href="classmongo_1_1StorageEngine_1_1Factory.html">StorageEngine::Factory</a> *const, const BSONObj &amp;)&gt;&#160;</td>
           <td class="paramname"><em>validateFunc</em>&#160;</td>
         </tr>
         <tr>
@@ -11776,7 +11868,7 @@ template&lt;typename F &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::wtRCToStatus </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::wtRCToStatus </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>retCode</em>, </td>
@@ -11811,7 +11903,7 @@ template&lt;typename F &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::wtRCToStatus_slow </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::wtRCToStatus_slow </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>retCode</em>, </td>
@@ -12041,14 +12133,14 @@ template&lt;typename F &gt; </div>
 
 </div>
 </div>
-<a id="a95e2d88ca5cc24160e501eae4ff7eb7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e2d88ca5cc24160e501eae4ff7eb7b">&#9670;&nbsp;</a></span>collator</h2>
+<a id="af0f7ff411ce0b1a22ee980d043cd5137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f7ff411ce0b1a22ee980d043cd5137">&#9670;&nbsp;</a></span>collator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;CollatorInterface&gt; mongo::collator</td>
+          <td class="memname"><a class="el" href="namespacemongo.html#aba205644c7aa1bf7236ec3f9c681ac2c">if</a> (<a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a>) return <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(ErrorCodes <a class="el" href="namespacemongo.html#aba205644c7aa1bf7236ec3f9c681ac2c">if</a> (<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;getViewCatalog()-&gt;lookup(<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)) return <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>(ErrorCodes std::unique_ptr&lt;CollatorInterface&gt; mongo::collator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12069,14 +12161,14 @@ template&lt;typename F &gt; </div>
 
 </div>
 </div>
-<a id="adfe44cd4005c47b9ce19eca9d55d96ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfe44cd4005c47b9ce19eca9d55d96ac">&#9670;&nbsp;</a></span>collectionOptions</h2>
+<a id="a86e91d5f8fed3f68cd92afc8261891bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e91d5f8fed3f68cd92afc8261891bb">&#9670;&nbsp;</a></span>collectionOptions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a> (<a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a>) return <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(ErrorCodes <a class="el" href="namespacemongo.html#a05e533329d930fb8d354e8a640af6b57">if</a> (<a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;getViewCatalog()-&gt;lookup(<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)) return <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>(ErrorCodes <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> mongo::collectionOptions</td>
+          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> mongo::collectionOptions</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12234,18 +12326,18 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    <a class="code" href="namespacemongo.html#a96e4d1f1c0fbdfacb6cf998ce6594c36">registerStorageEngine</a>(getGlobalServiceContext(),</div><div class="line">                          std::make_unique&lt;DevNullStorageEngineFactory&gt;())</div><div class="ttc" id="namespacemongo_html_a96e4d1f1c0fbdfacb6cf998ce6594c36"><div class="ttname"><a href="namespacemongo.html#a96e4d1f1c0fbdfacb6cf998ce6594c36">mongo::registerStorageEngine</a></div><div class="ttdeci">void registerStorageEngine(ServiceContext *service, std::unique_ptr&lt; StorageEngine::Factory &gt; factory)</div><div class="ttdoc">Registers a storage engine onto the given &quot;service&quot;. </div><div class="ttdef"><b>Definition:</b> storage_engine_init.cpp:233</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    <a class="code" href="namespacemongo.html#a96e4d1f1c0fbdfacb6cf998ce6594c36">registerStorageEngine</a>(getGlobalServiceContext(),</div><div class="line">                          std::make_unique&lt;DevNullStorageEngineFactory&gt;())</div><div class="ttc" id="namespacemongo_html_a96e4d1f1c0fbdfacb6cf998ce6594c36"><div class="ttname"><a href="namespacemongo.html#a96e4d1f1c0fbdfacb6cf998ce6594c36">mongo::registerStorageEngine</a></div><div class="ttdeci">void registerStorageEngine(ServiceContext *service, std::unique_ptr&lt; StorageEngine::Factory &gt; factory)</div><div class="ttdoc">Registers a storage engine onto the given &quot;service&quot;. </div><div class="ttdef"><b>Definition:</b> storage_engine_init.cpp:234</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad3261f4eafa6f2b6f2fcbf66b54d3cb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3261f4eafa6f2b6f2fcbf66b54d3cb7">&#9670;&nbsp;</a></span>createDefaultIndexes</h2>
+<a id="a84736bb17fb48c10d599b5a944cdcdeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84736bb17fb48c10d599b5a944cdcdeb">&#9670;&nbsp;</a></span>createDefaultIndexes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a> bool mongo::createDefaultIndexes</td>
+          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> bool mongo::createDefaultIndexes</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12420,12 +12512,12 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">        invariant(</div><div class="line">            <a class="code" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;<a class="code" href="classmongo_1_1Database.html#ac1e4dab4972aeb6384ec50240d9d323b">createCollection</a>(<a class="code" href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a>, <a class="code" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, <a class="code" href="namespacemongo.html#adfe44cd4005c47b9ce19eca9d55d96ac">collectionOptions</a>, <a class="code" href="namespacemongo.html#ad3261f4eafa6f2b6f2fcbf66b54d3cb7">createDefaultIndexes</a>, idIndex))</div><div class="ttc" id="recovery__unit__test__harness_8cpp_html_ab24d37dc37f081701d0857805b05e893"><div class="ttname"><a href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a></div><div class="ttdeci">ServiceContext::UniqueOperationContext opCtx</div><div class="ttdef"><b>Definition:</b> recovery_unit_test_harness.cpp:49</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">        invariant(</div><div class="line">            <a class="code" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>-&gt;<a class="code" href="classmongo_1_1Database.html#ac1e4dab4972aeb6384ec50240d9d323b">createCollection</a>(<a class="code" href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a>, <a class="code" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, <a class="code" href="namespacemongo.html#a86e91d5f8fed3f68cd92afc8261891bb">collectionOptions</a>, <a class="code" href="namespacemongo.html#a84736bb17fb48c10d599b5a944cdcdeb">createDefaultIndexes</a>, idIndex))</div><div class="ttc" id="recovery__unit__test__harness_8cpp_html_ab24d37dc37f081701d0857805b05e893"><div class="ttname"><a href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a></div><div class="ttdeci">ServiceContext::UniqueOperationContext opCtx</div><div class="ttdef"><b>Definition:</b> recovery_unit_test_harness.cpp:49</div></div>
 <div class="ttc" id="namespacemongo_html_aa1aad236ca83643ab0718062dd62f4fc"><div class="ttname"><a href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">mongo::ns</a></div><div class="ttdeci">Collection *const const NamespaceString &amp; ns</div><div class="ttdef"><b>Definition:</b> collection_info_cache_impl.cpp:53</div></div>
-<div class="ttc" id="classmongo_1_1Database_html_ac1e4dab4972aeb6384ec50240d9d323b"><div class="ttname"><a href="classmongo_1_1Database.html#ac1e4dab4972aeb6384ec50240d9d323b">mongo::Database::createCollection</a></div><div class="ttdeci">Collection * createCollection(OperationContext *const opCtx, StringData ns, const CollectionOptions &amp;options=CollectionOptions(), const bool createDefaultIndexes=true, const BSONObj &amp;idIndex=BSONObj())</div><div class="ttdef"><b>Definition:</b> database.h:307</div></div>
-<div class="ttc" id="namespacemongo_html_adfe44cd4005c47b9ce19eca9d55d96ac"><div class="ttname"><a href="namespacemongo.html#adfe44cd4005c47b9ce19eca9d55d96ac">mongo::collectionOptions</a></div><div class="ttdeci">if(collection) return Status(ErrorCodes if(db-&gt;getViewCatalog() -&gt;lookup(opCtx, ns)) return Status(ErrorCodes CollectionOptions collectionOptions</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:970</div></div>
+<div class="ttc" id="namespacemongo_html_a86e91d5f8fed3f68cd92afc8261891bb"><div class="ttname"><a href="namespacemongo.html#a86e91d5f8fed3f68cd92afc8261891bb">mongo::collectionOptions</a></div><div class="ttdeci">OperationContext Database StringData CollectionOptions collectionOptions</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
+<div class="ttc" id="classmongo_1_1Database_html_ac1e4dab4972aeb6384ec50240d9d323b"><div class="ttname"><a href="classmongo_1_1Database.html#ac1e4dab4972aeb6384ec50240d9d323b">mongo::Database::createCollection</a></div><div class="ttdeci">Collection * createCollection(OperationContext *const opCtx, StringData ns, const CollectionOptions &amp;options=CollectionOptions(), const bool createDefaultIndexes=true, const BSONObj &amp;idIndex=BSONObj())</div><div class="ttdef"><b>Definition:</b> database.h:302</div></div>
+<div class="ttc" id="namespacemongo_html_a84736bb17fb48c10d599b5a944cdcdeb"><div class="ttname"><a href="namespacemongo.html#a84736bb17fb48c10d599b5a944cdcdeb">mongo::createDefaultIndexes</a></div><div class="ttdeci">OperationContext Database StringData CollectionOptions bool createDefaultIndexes</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
 <div class="ttc" id="namespacemongo_html_a4ae6ca2f1e345dcee0a3bf19089f12f0"><div class="ttname"><a href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">mongo::db</a></div><div class="ttdeci">OperationContext Database * db</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
-<div class="ttc" id="namespacemongo_html_ad3261f4eafa6f2b6f2fcbf66b54d3cb7"><div class="ttname"><a href="namespacemongo.html#ad3261f4eafa6f2b6f2fcbf66b54d3cb7">mongo::createDefaultIndexes</a></div><div class="ttdeci">OperationContext Database StringData BSONObj CollectionOptions::ParseKind bool createDefaultIndexes</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13059,34 +13151,6 @@ template&lt;typename F &gt; </div>
 
 </div>
 </div>
-<a id="ad271b77bcd8d56d7a7e2205e9cb55df7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad271b77bcd8d56d7a7e2205e9cb55df7">&#9670;&nbsp;</a></span>options</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj mongo::options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abb7f41e65b63c497ad526ad9d6781d39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb7f41e65b63c497ad526ad9d6781d39">&#9670;&nbsp;</a></span>parseKind</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a> mongo::parseKind</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aed9bb732f5e66383badd06c4ebac4150"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed9bb732f5e66383badd06c4ebac4150">&#9670;&nbsp;</a></span>privateViews</h2>
 
@@ -13168,7 +13232,7 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    ResourceId(<a class="code" href="namespacemongo.html#a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad">RESOURCE_GLOBAL</a>, ResourceId::SINGLETON_PARALLEL_BATCH_WRITER_MODE)</div><div class="ttc" id="namespacemongo_html_a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad"><div class="ttname"><a href="namespacemongo.html#a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad">mongo::RESOURCE_GLOBAL</a></div><div class="ttdoc">Used for mode changes or global exclusive operations. </div><div class="ttdef"><b>Definition:</b> lock_manager_defs.h:162</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    ResourceId(<a class="code" href="namespacemongo.html#a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad">RESOURCE_GLOBAL</a>, ResourceId::SINGLETON_PARALLEL_BATCH_WRITER_MODE)</div><div class="ttc" id="namespacemongo_html_a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad"><div class="ttname"><a href="namespacemongo.html#a75510fa34e6496bad7d7dd32e0db6b83afbc2bb7e421e8f5025217219d91884ad">mongo::RESOURCE_GLOBAL</a></div><div class="ttdoc">Used for mode changes or global exclusive operations. </div><div class="ttdef"><b>Definition:</b> lock_manager_defs.h:164</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13194,14 +13258,14 @@ template&lt;typename F &gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line">= {0,</div><div class="line">                           1,  </div><div class="line">                           1,  </div><div class="line">                           0,</div><div class="line">                           9,  </div><div class="line">                           0,</div><div class="line">                           0,  </div><div class="line">                           0,</div><div class="line">                           13,  </div><div class="line">                           0,</div><div class="line">                           1,  </div><div class="line">                           1,  </div><div class="line">                           9,  </div><div class="line">                           0,</div><div class="line">                           1,  </div><div class="line">                           0}</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a7dd53a44ec884164bc07ed073e9f31da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dd53a44ec884164bc07ed073e9f31da">&#9670;&nbsp;</a></span>Status</h2>
+<a id="ac22dc5094e8aebfd46494f3960afbcc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22dc5094e8aebfd46494f3960afbcc3">&#9670;&nbsp;</a></span>Status</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData BSONObj <a class="el" href="structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5">CollectionOptions::ParseKind</a> bool const BSONObj&amp; idIndex mongo::Status</td>
+          <td class="memname">OperationContext <a class="el" href="classmongo_1_1Database.html">Database</a> StringData <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> bool const BSONObj&amp; idIndex mongo::Status</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13209,18 +13273,21 @@ template&lt;typename F &gt; </div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a5e47f1aa0a70c0ae88d01561c1d2602f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e47f1aa0a70c0ae88d01561c1d2602f">&#9670;&nbsp;</a></span>status</h2>
+<a id="a82fa4e2e71623255142cdcc5c399d7b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82fa4e2e71623255142cdcc5c399d7b2">&#9670;&nbsp;</a></span>status</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">mongo::status = collectionOptions.parse(<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>, <a class="el" href="namespacemongo.html#abb7f41e65b63c497ad526ad9d6781d39">parseKind</a>)</td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::status</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="namespacemongo.html#a2fcd44d82e4e7a4d3d4cee8af652ca53">validateStorageOptions</a>(</div><div class="line">        <a class="code" href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a>-&gt;getServiceContext(),</div><div class="line">        <a class="code" href="namespacemongo.html#a86e91d5f8fed3f68cd92afc8261891bb">collectionOptions</a>.storageEngine,</div><div class="line">        [](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; x, <span class="keyword">const</span> <span class="keyword">auto</span>&amp; y) { <span class="keywordflow">return</span> x-&gt;validateCollectionStorageOptions(y); })</div><div class="ttc" id="recovery__unit__test__harness_8cpp_html_ab24d37dc37f081701d0857805b05e893"><div class="ttname"><a href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a></div><div class="ttdeci">ServiceContext::UniqueOperationContext opCtx</div><div class="ttdef"><b>Definition:</b> recovery_unit_test_harness.cpp:49</div></div>
+<div class="ttc" id="namespacemongo_html_a86e91d5f8fed3f68cd92afc8261891bb"><div class="ttname"><a href="namespacemongo.html#a86e91d5f8fed3f68cd92afc8261891bb">mongo::collectionOptions</a></div><div class="ttdeci">OperationContext Database StringData CollectionOptions collectionOptions</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
+<div class="ttc" id="namespacemongo_html_a2fcd44d82e4e7a4d3d4cee8af652ca53"><div class="ttname"><a href="namespacemongo.html#a2fcd44d82e4e7a4d3d4cee8af652ca53">mongo::validateStorageOptions</a></div><div class="ttdeci">Status validateStorageOptions(ServiceContext *service, const BSONObj &amp;storageEngineOptions, stdx::function&lt; Status(const StorageEngine::Factory *const, const BSONObj &amp;)&gt; validateFunc)</div><div class="ttdef"><b>Definition:</b> storage_engine_init.cpp:261</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0b4820ddecb805ab7d7390b4678ee784"></a>
@@ -13272,12 +13339,11 @@ template&lt;typename F &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">OperationContext const IndexDescriptor InsertDeleteOptions* <a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a> mongo::void</td>
+          <td class="memname">OperationContext const IndexDescriptor InsertDeleteOptions* options mongo::void</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    <span class="keywordflow">return</span> IndexCatalogImpl::prepareInsertDeleteOptions(<a class="code" href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a>, <a class="code" href="namespacemongo.html#a708ded8f3ab1ba118a992b41b1b62033">desc</a>, <a class="code" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>)</div><div class="ttc" id="recovery__unit__test__harness_8cpp_html_ab24d37dc37f081701d0857805b05e893"><div class="ttname"><a href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a></div><div class="ttdeci">ServiceContext::UniqueOperationContext opCtx</div><div class="ttdef"><b>Definition:</b> recovery_unit_test_harness.cpp:49</div></div>
-<div class="ttc" id="namespacemongo_html_ad271b77bcd8d56d7a7e2205e9cb55df7"><div class="ttname"><a href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">mongo::options</a></div><div class="ttdeci">OperationContext Database StringData BSONObj options</div><div class="ttdef"><b>Definition:</b> database_impl.cpp:949</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    <span class="keywordflow">return</span> IndexCatalogImpl::prepareInsertDeleteOptions(<a class="code" href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a>, <a class="code" href="namespacemongo.html#a708ded8f3ab1ba118a992b41b1b62033">desc</a>, options)</div><div class="ttc" id="recovery__unit__test__harness_8cpp_html_ab24d37dc37f081701d0857805b05e893"><div class="ttname"><a href="recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893">opCtx</a></div><div class="ttdeci">ServiceContext::UniqueOperationContext opCtx</div><div class="ttdef"><b>Definition:</b> recovery_unit_test_harness.cpp:49</div></div>
 <div class="ttc" id="namespacemongo_html_a708ded8f3ab1ba118a992b41b1b62033"><div class="ttname"><a href="namespacemongo.html#a708ded8f3ab1ba118a992b41b1b62033">mongo::desc</a></div><div class="ttdeci">OperationContext const IndexDescriptor * desc</div><div class="ttdef"><b>Definition:</b> index_catalog_impl.cpp:97</div></div>
 </div><!-- fragment -->
 </div>

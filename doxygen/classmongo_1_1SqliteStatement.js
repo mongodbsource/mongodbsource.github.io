@@ -15,5 +15,7 @@ var classmongo_1_1SqliteStatement =
     [ "setExceptionStatus", "classmongo_1_1SqliteStatement.html#ae349eb1017d8303b13e1640cdb8ad644", null ],
     [ "step", "classmongo_1_1SqliteStatement.html#ae3e9cc0be159f3da7a26370a4f651ba1", null ],
     [ "_exceptionStatus", "classmongo_1_1SqliteStatement.html#a2a8a22ffc4f7aaa3cb08faa903efa4e1", null ],
+    [ "_id", "classmongo_1_1SqliteStatement.html#a454d7257037c9614f6ba70d80122af5e", null ],
+    [ "_nextID", "classmongo_1_1SqliteStatement.html#a279a38346fba79e831eb635900cbf472", null ],
     [ "_stmt", "classmongo_1_1SqliteStatement.html#a432955eecc1f5f8bcd501ae7bfb9755c", null ]
 ];

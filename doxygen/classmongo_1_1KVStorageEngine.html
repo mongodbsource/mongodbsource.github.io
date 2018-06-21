@@ -119,7 +119,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ed7e8fbdb722a02e3c0472ecf2c903c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a1ed7e8fbdb722a02e3c0472ecf2c903c">KVStorageEngine</a> (<a class="el" href="classmongo_1_1KVEngine.html">KVEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, const <a class="el" href="structmongo_1_1KVStorageEngineOptions.html">KVStorageEngineOptions</a> &amp;<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>=<a class="el" href="structmongo_1_1KVStorageEngineOptions.html">KVStorageEngineOptions</a>(), stdx::function&lt; <a class="el" href="namespacemongo.html#a68f2219510070d42c4cdababae6476df">KVDatabaseCatalogEntryFactory</a> &gt; databaseCatalogEntryFactory=<a class="el" href="namespacemongo.html#a3bb0760931f6a5e99a21a8ab7e222a0f">defaultDatabaseCatalogEntryFactory</a>)</td></tr>
+<tr class="memitem:a1ed7e8fbdb722a02e3c0472ecf2c903c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a1ed7e8fbdb722a02e3c0472ecf2c903c">KVStorageEngine</a> (<a class="el" href="classmongo_1_1KVEngine.html">KVEngine</a> *<a class="el" href="kv__engine__test__timestamps_8cpp.html#a512e8ffd7bb1f4789aab06e3aaab1784">engine</a>, const <a class="el" href="structmongo_1_1KVStorageEngineOptions.html">KVStorageEngineOptions</a> &amp;options=<a class="el" href="structmongo_1_1KVStorageEngineOptions.html">KVStorageEngineOptions</a>(), stdx::function&lt; <a class="el" href="namespacemongo.html#a68f2219510070d42c4cdababae6476df">KVDatabaseCatalogEntryFactory</a> &gt; databaseCatalogEntryFactory=<a class="el" href="namespacemongo.html#a3bb0760931f6a5e99a21a8ab7e222a0f">defaultDatabaseCatalogEntryFactory</a>)</td></tr>
 <tr class="separator:a1ed7e8fbdb722a02e3c0472ecf2c903c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51cc4074ff06c04ddc025ee16d16dd5d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a51cc4074ff06c04ddc025ee16d16dd5d">~KVStorageEngine</a> ()</td></tr>
 <tr class="separator:a51cc4074ff06c04ddc025ee16d16dd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,15 +144,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d826367fbf5ea91e491c0bae1a85995"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a7d826367fbf5ea91e491c0bae1a85995">supportsCappedCollections</a> () const</td></tr>
 <tr class="memdesc:a7d826367fbf5ea91e491c0bae1a85995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the storage engine supports capped collections.  <a href="#a7d826367fbf5ea91e491c0bae1a85995">More...</a><br /></td></tr>
 <tr class="separator:a7d826367fbf5ea91e491c0bae1a85995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49afe684a8c3b3584c607cb8fc5ce18b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a49afe684a8c3b3584c607cb8fc5ce18b">closeDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)</td></tr>
+<tr class="memitem:a49afe684a8c3b3584c607cb8fc5ce18b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a49afe684a8c3b3584c607cb8fc5ce18b">closeDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)</td></tr>
 <tr class="memdesc:a49afe684a8c3b3584c607cb8fc5ce18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all file handles associated with a database.  <a href="#a49afe684a8c3b3584c607cb8fc5ce18b">More...</a><br /></td></tr>
 <tr class="separator:a49afe684a8c3b3584c607cb8fc5ce18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224750035fbe1c90609a1460dc178362"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a224750035fbe1c90609a1460dc178362">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)</td></tr>
+<tr class="memitem:a224750035fbe1c90609a1460dc178362"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a224750035fbe1c90609a1460dc178362">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)</td></tr>
 <tr class="memdesc:a224750035fbe1c90609a1460dc178362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all data and metadata for a database.  <a href="#a224750035fbe1c90609a1460dc178362">More...</a><br /></td></tr>
 <tr class="separator:a224750035fbe1c90609a1460dc178362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0643a23df3f939ba6aabdcd398282bef"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a0643a23df3f939ba6aabdcd398282bef">flushAllFiles</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool sync)</td></tr>
 <tr class="separator:a0643a23df3f939ba6aabdcd398282bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8e92cb418218aa9ea6840f72b500402"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#ac8e92cb418218aa9ea6840f72b500402">beginBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memitem:ac8e92cb418218aa9ea6840f72b500402"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#ac8e92cb418218aa9ea6840f72b500402">beginBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="memdesc:ac8e92cb418218aa9ea6840f72b500402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transitions the storage engine into backup mode.  <a href="#ac8e92cb418218aa9ea6840f72b500402">More...</a><br /></td></tr>
 <tr class="separator:ac8e92cb418218aa9ea6840f72b500402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc07929ce0bac83a5d5ed0dd4e8a2c91"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#abc07929ce0bac83a5d5ed0dd4e8a2c91">endBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
@@ -164,7 +164,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ca83c96ec70ce6a6bd32f6543f26a6e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a5ca83c96ec70ce6a6bd32f6543f26a6e">isEphemeral</a> () const</td></tr>
 <tr class="memdesc:a5ca83c96ec70ce6a6bd32f6543f26a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the engine does not persist data to disk; false otherwise.  <a href="#a5ca83c96ec70ce6a6bd32f6543f26a6e">More...</a><br /></td></tr>
 <tr class="separator:a5ca83c96ec70ce6a6bd32f6543f26a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8265d01f486d17f39c4a9ed1d4863018"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a8265d01f486d17f39c4a9ed1d4863018">repairRecordStore</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)</td></tr>
+<tr class="memitem:a8265d01f486d17f39c4a9ed1d4863018"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a8265d01f486d17f39c4a9ed1d4863018">repairRecordStore</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)</td></tr>
 <tr class="memdesc:a8265d01f486d17f39c4a9ed1d4863018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recover as much data as possible from a potentially corrupt <a class="el" href="classmongo_1_1RecordStore.html" title="An abstraction used for storing documents in a collection or entries in an index. ...">RecordStore</a>.  <a href="#a8265d01f486d17f39c4a9ed1d4863018">More...</a><br /></td></tr>
 <tr class="separator:a8265d01f486d17f39c4a9ed1d4863018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cd4bff9edda16ed1fa07ac965439b36"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#a1cd4bff9edda16ed1fa07ac965439b36">cleanShutdown</a> ()</td></tr>
@@ -248,10 +248,10 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:af19e92b680a34b9d4f2113c09c323abd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#af19e92b680a34b9d4f2113c09c323abd">_dropCollectionsNoTimestamp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1KVDatabaseCatalogEntryBase.html">KVDatabaseCatalogEntryBase</a> *<a class="el" href="namespacemongo.html#a3c6ec6fdbdff92d84fcba5e2a40e35b5">dbce</a>, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> begin, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> end)</td></tr>
+<tr class="memitem:af19e92b680a34b9d4f2113c09c323abd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#af19e92b680a34b9d4f2113c09c323abd">_dropCollectionsNoTimestamp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1KVDatabaseCatalogEntryBase.html">KVDatabaseCatalogEntryBase</a> *<a class="el" href="namespacemongo.html#a3c6ec6fdbdff92d84fcba5e2a40e35b5">dbce</a>, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> begin, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> end)</td></tr>
 <tr class="memdesc:af19e92b680a34b9d4f2113c09c323abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first <code>dropCollection</code> error that this method encounters.  <a href="#af19e92b680a34b9d4f2113c09c323abd">More...</a><br /></td></tr>
 <tr class="separator:af19e92b680a34b9d4f2113c09c323abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee737e2c71b5637a4b7cf30fe5b93a57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#aee737e2c71b5637a4b7cf30fe5b93a57">_dropCollectionsWithTimestamp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1KVDatabaseCatalogEntryBase.html">KVDatabaseCatalogEntryBase</a> *<a class="el" href="namespacemongo.html#a3c6ec6fdbdff92d84fcba5e2a40e35b5">dbce</a>, std::list&lt; std::string &gt; &amp;toDrop, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> begin, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> end)</td></tr>
+<tr class="memitem:aee737e2c71b5637a4b7cf30fe5b93a57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#aee737e2c71b5637a4b7cf30fe5b93a57">_dropCollectionsWithTimestamp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1KVDatabaseCatalogEntryBase.html">KVDatabaseCatalogEntryBase</a> *<a class="el" href="namespacemongo.html#a3c6ec6fdbdff92d84fcba5e2a40e35b5">dbce</a>, std::list&lt; std::string &gt; &amp;toDrop, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> begin, <a class="el" href="classmongo_1_1KVStorageEngine.html#ab1db876484f6f3d6c040472af9573948">CollIter</a> end)</td></tr>
 <tr class="separator:aee737e2c71b5637a4b7cf30fe5b93a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53f18e2e182b70194d0245ece179a1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1KVStorageEngine.html#ac53f18e2e182b70194d0245ece179a1a">_dumpCatalog</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="separator:ac53f18e2e182b70194d0245ece179a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -411,7 +411,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::_dropCollectionsNoTimestamp </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::_dropCollectionsNoTimestamp </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -462,7 +462,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::_dropCollectionsWithTimestamp </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::_dropCollectionsWithTimestamp </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -542,7 +542,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::beginBackup </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::beginBackup </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -635,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::closeDatabase </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::closeDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -675,7 +675,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::dropDatabase </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::dropDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1329,7 +1329,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::KVStorageEngine::repairRecordStore </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::KVStorageEngine::repairRecordStore </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

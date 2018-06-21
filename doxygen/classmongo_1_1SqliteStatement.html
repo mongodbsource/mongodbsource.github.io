@@ -92,7 +92,9 @@ $(document).ready(function(){initNavTree('classmongo_1_1SqliteStatement.html',''
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classmongo_1_1SqliteStatement-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">mongo::SqliteStatement Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -141,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19cd6a29fed704525f0f72a56eb5d652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#a19cd6a29fed704525f0f72a56eb5d652">reset</a> ()</td></tr>
 <tr class="memdesc:a19cd6a29fed704525f0f72a56eb5d652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the statement to the first of the query result rows.  <a href="#a19cd6a29fed704525f0f72a56eb5d652">More...</a><br /></td></tr>
 <tr class="separator:a19cd6a29fed704525f0f72a56eb5d652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae349eb1017d8303b13e1640cdb8ad644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#ae349eb1017d8303b13e1640cdb8ad644">setExceptionStatus</a> (int <a class="el" href="namespacemongo.html#a5e47f1aa0a70c0ae88d01561c1d2602f">status</a>)</td></tr>
+<tr class="memitem:ae349eb1017d8303b13e1640cdb8ad644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#ae349eb1017d8303b13e1640cdb8ad644">setExceptionStatus</a> (int <a class="el" href="namespacemongo.html#a82fa4e2e71623255142cdcc5c399d7b2">status</a>)</td></tr>
 <tr class="memdesc:ae349eb1017d8303b13e1640cdb8ad644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the last status on the prepared statement.  <a href="#ae349eb1017d8303b13e1640cdb8ad644">More...</a><br /></td></tr>
 <tr class="separator:ae349eb1017d8303b13e1640cdb8ad644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,12 +153,22 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:adc126ec26a0ac79200713fb45ad78006"><td class="mdescLeft">&#160;</td><td class="mdescRight">A one step query execution that wraps sqlite3_prepare_v2(), sqlite3_step(), and sqlite3_finalize().  <a href="#adc126ec26a0ac79200713fb45ad78006">More...</a><br /></td></tr>
 <tr class="separator:adc126ec26a0ac79200713fb45ad78006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a454d7257037c9614f6ba70d80122af5e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#a454d7257037c9614f6ba70d80122af5e">_id</a></td></tr>
+<tr class="separator:a454d7257037c9614f6ba70d80122af5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a432955eecc1f5f8bcd501ae7bfb9755c"><td class="memItemLeft" align="right" valign="top">sqlite3_stmt *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#a432955eecc1f5f8bcd501ae7bfb9755c">_stmt</a></td></tr>
 <tr class="separator:a432955eecc1f5f8bcd501ae7bfb9755c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a8a22ffc4f7aaa3cb08faa903efa4e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#a2a8a22ffc4f7aaa3cb08faa903efa4e1">_exceptionStatus</a> = SQLITE_OK</td></tr>
 <tr class="separator:a2a8a22ffc4f7aaa3cb08faa903efa4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a279a38346fba79e831eb635900cbf472"><td class="memItemLeft" align="right" valign="top">static AtomicInt64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SqliteStatement.html#a279a38346fba79e831eb635900cbf472">_nextID</a></td></tr>
+<tr class="separator:a279a38346fba79e831eb635900cbf472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9fe9a2ad9b14635099e4d463ee50a741"></a>
@@ -549,6 +561,42 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a454d7257037c9614f6ba70d80122af5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454d7257037c9614f6ba70d80122af5e">&#9670;&nbsp;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t mongo::SqliteStatement::_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a279a38346fba79e831eb635900cbf472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279a38346fba79e831eb635900cbf472">&#9670;&nbsp;</a></span>_nextID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AtomicInt64 mongo::SqliteStatement::_nextID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

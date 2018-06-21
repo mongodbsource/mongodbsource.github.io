@@ -62,7 +62,6 @@ var classmongo_1_1Collection =
     [ "ok", "classmongo_1_1Collection.html#ae367d7e0cb0d4ae7e64d9e1f9567671a", null ],
     [ "parseValidator", "classmongo_1_1Collection.html#a243f3805883f9c031b6ad085609f78ff", null ],
     [ "recordStoreGoingToUpdateInPlace", "classmongo_1_1Collection.html#a12e521198e1f95e7b179a15db588d3a4", null ],
-    [ "refreshUUID", "classmongo_1_1Collection.html#a081f947955c5ab788144a3938410eb96", null ],
     [ "requiresIdIndex", "classmongo_1_1Collection.html#a4d757624da21c54401d49cfafee5d43e", null ],
     [ "setMinimumVisibleSnapshot", "classmongo_1_1Collection.html#a34100dee4910bb186c88ff5a76b3ec76", null ],
     [ "setValidationAction", "classmongo_1_1Collection.html#a0cc33f6f0e1ecb7d72d0c5209125d277", null ],

@@ -2,7 +2,6 @@ var classmongo_1_1CollectionCatalogEntry =
 [
     [ "CollectionCatalogEntry", "classmongo_1_1CollectionCatalogEntry.html#aaaa7dec0b54a020889f8827308ee6432", null ],
     [ "~CollectionCatalogEntry", "classmongo_1_1CollectionCatalogEntry.html#a899574c13dd382c0401ed6862cbe5f31", null ],
-    [ "addUUID", "classmongo_1_1CollectionCatalogEntry.html#a6e0f8460292d424c05213d7987f0a870", null ],
     [ "getAllIndexes", "classmongo_1_1CollectionCatalogEntry.html#a94e9cbd2b620b44f4f0b97188c91ea90", null ],
     [ "getAllUniqueIndexes", "classmongo_1_1CollectionCatalogEntry.html#a3f62f10c0797853aebcbece40ea6ef39", null ],
     [ "getCollectionOptions", "classmongo_1_1CollectionCatalogEntry.html#ac529b92e2d761933dba78c93c6e92195", null ],

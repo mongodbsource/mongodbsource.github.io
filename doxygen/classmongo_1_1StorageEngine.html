@@ -168,21 +168,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a85e34ad431938728c6298468ecc7da53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fdbd8c81df1ae30cf33d754c90d6f47"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#a3fdbd8c81df1ae30cf33d754c90d6f47">closeCatalog</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="separator:a3fdbd8c81df1ae30cf33d754c90d6f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9d09d544bed98f57a14daff8cadc1a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#ab9d09d544bed98f57a14daff8cadc1a3">closeDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)=0</td></tr>
+<tr class="memitem:ab9d09d544bed98f57a14daff8cadc1a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#ab9d09d544bed98f57a14daff8cadc1a3">closeDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)=0</td></tr>
 <tr class="memdesc:ab9d09d544bed98f57a14daff8cadc1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all file handles associated with a database.  <a href="#ab9d09d544bed98f57a14daff8cadc1a3">More...</a><br /></td></tr>
 <tr class="separator:ab9d09d544bed98f57a14daff8cadc1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadd689646a3b23fe88fb873f19b0c946"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#aadd689646a3b23fe88fb873f19b0c946">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)=0</td></tr>
+<tr class="memitem:aadd689646a3b23fe88fb873f19b0c946"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#aadd689646a3b23fe88fb873f19b0c946">dropDatabase</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#a4ae6ca2f1e345dcee0a3bf19089f12f0">db</a>)=0</td></tr>
 <tr class="memdesc:aadd689646a3b23fe88fb873f19b0c946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all data and metadata for a database.  <a href="#aadd689646a3b23fe88fb873f19b0c946">More...</a><br /></td></tr>
 <tr class="separator:aadd689646a3b23fe88fb873f19b0c946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc70f10ab115ffb7a18a3d0189ac9176"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#afc70f10ab115ffb7a18a3d0189ac9176">flushAllFiles</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool sync)=0</td></tr>
 <tr class="separator:afc70f10ab115ffb7a18a3d0189ac9176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad40644ee1add010e9e8e746ffb8c91d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#ad40644ee1add010e9e8e746ffb8c91d2">beginBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memitem:ad40644ee1add010e9e8e746ffb8c91d2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#ad40644ee1add010e9e8e746ffb8c91d2">beginBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="memdesc:ad40644ee1add010e9e8e746ffb8c91d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transitions the storage engine into backup mode.  <a href="#ad40644ee1add010e9e8e746ffb8c91d2">More...</a><br /></td></tr>
 <tr class="separator:ad40644ee1add010e9e8e746ffb8c91d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ebe160dc5086e8c87eb54e9dd9c1aa5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#a9ebe160dc5086e8c87eb54e9dd9c1aa5">endBackup</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="memdesc:a9ebe160dc5086e8c87eb54e9dd9c1aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transitions the storage engine out of backup mode.  <a href="#a9ebe160dc5086e8c87eb54e9dd9c1aa5">More...</a><br /></td></tr>
 <tr class="separator:a9ebe160dc5086e8c87eb54e9dd9c1aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb3b3983813f900f61a4389602d5007"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#afeb3b3983813f900f61a4389602d5007">repairRecordStore</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)=0</td></tr>
+<tr class="memitem:afeb3b3983813f900f61a4389602d5007"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#afeb3b3983813f900f61a4389602d5007">repairRecordStore</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const std::string &amp;<a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)=0</td></tr>
 <tr class="memdesc:afeb3b3983813f900f61a4389602d5007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recover as much data as possible from a potentially corrupt <a class="el" href="classmongo_1_1RecordStore.html" title="An abstraction used for storing documents in a collection or entries in an index. ...">RecordStore</a>.  <a href="#afeb3b3983813f900f61a4389602d5007">More...</a><br /></td></tr>
 <tr class="separator:afeb3b3983813f900f61a4389602d5007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a8d564d6ddbc279938d60ec8d16dd54"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1StorageEngine.html#a8a8d564d6ddbc279938d60ec8d16dd54">cleanShutdown</a> ()=0</td></tr>
@@ -291,7 +291,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::StorageEngine::beginBackup </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::StorageEngine::beginBackup </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -384,7 +384,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::StorageEngine::closeDatabase </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::StorageEngine::closeDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -424,7 +424,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::StorageEngine::dropDatabase </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::StorageEngine::dropDatabase </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1004,7 +1004,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::StorageEngine::repairRecordStore </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::StorageEngine::repairRecordStore </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

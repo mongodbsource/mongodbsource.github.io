@@ -9,6 +9,7 @@ var searchData=
   ['wiredtigercursor',['WiredTigerCursor',['../classmongo_1_1WiredTigerCursor.html',1,'mongo']]],
   ['wiredtigercustomizationhooks',['WiredTigerCustomizationHooks',['../classmongo_1_1WiredTigerCustomizationHooks.html',1,'mongo']]],
   ['wiredtigerengineruntimeconfigparameter',['WiredTigerEngineRuntimeConfigParameter',['../classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html',1,'mongo']]],
+  ['wiredtigereventhandler',['WiredTigerEventHandler',['../classmongo_1_1WiredTigerEventHandler.html',1,'mongo']]],
   ['wiredtigerextensions',['WiredTigerExtensions',['../classmongo_1_1WiredTigerExtensions.html',1,'mongo']]],
   ['wiredtigerfileversion',['WiredTigerFileVersion',['../structmongo_1_1WiredTigerFileVersion.html',1,'mongo']]],
   ['wiredtigerglobaloptions',['WiredTigerGlobalOptions',['../classmongo_1_1WiredTigerGlobalOptions.html',1,'mongo']]],

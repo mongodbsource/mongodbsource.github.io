@@ -118,7 +118,7 @@ Inheritance diagram for mongo::RecordStoreValidateAdaptor:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aad405c659b45a32129b95ce6e4f003a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStoreValidateAdaptor.html#aad405c659b45a32129b95ce6e4f003a6">RecordStoreValidateAdaptor</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1IndexConsistency.html">IndexConsistency</a> *indexConsistency, <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775">ValidateCmdLevel</a> level, <a class="el" href="classmongo_1_1IndexCatalog.html">IndexCatalog</a> *ic, ValidateResultsMap *irm)</td></tr>
 <tr class="separator:aad405c659b45a32129b95ce6e4f003a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4232a22fedb563e9e656c783a96fb71"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStoreValidateAdaptor.html#aa4232a22fedb563e9e656c783a96fb71">validate</a> (const RecordId &amp;recordId, const <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> &amp;record, size_t *dataSize)</td></tr>
+<tr class="memitem:aa4232a22fedb563e9e656c783a96fb71"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStoreValidateAdaptor.html#aa4232a22fedb563e9e656c783a96fb71">validate</a> (const RecordId &amp;recordId, const <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> &amp;record, size_t *dataSize)</td></tr>
 <tr class="memdesc:aa4232a22fedb563e9e656c783a96fb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the BSON object and traverses through its key set to keep track of the index consistency.  <a href="#aa4232a22fedb563e9e656c783a96fb71">More...</a><br /></td></tr>
 <tr class="separator:aa4232a22fedb563e9e656c783a96fb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd616b2d552a00fd80b35015347c6a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStoreValidateAdaptor.html#affd616b2d552a00fd80b35015347c6a6">traverseIndex</a> (const IndexAccessMethod *iam, const IndexDescriptor *<a class="el" href="namespacemongo.html#ab392e9e94fdd2cbe1a810028244fc9bb">descriptor</a>, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *results, int64_t *numTraversedKeys)</td></tr>
@@ -297,7 +297,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::RecordStoreValidateAdaptor::validate </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::RecordStoreValidateAdaptor::validate </td>
           <td>(</td>
           <td class="paramtype">const RecordId &amp;&#160;</td>
           <td class="paramname"><em>recordId</em>, </td>

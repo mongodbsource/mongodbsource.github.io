@@ -133,8 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5fc86fd667eb8276103b271fad215930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f8781e9119e13fe8445328b0c4820f4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a940a98568aba07058328f25194093af0">OptionalCollectionUUID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a0f8781e9119e13fe8445328b0c4820f4">uuid</a> () const =0</td></tr>
 <tr class="separator:a0f8781e9119e13fe8445328b0c4820f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a276c2645f5d735583a3a2c3abc758831"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a276c2645f5d735583a3a2c3abc758831">refreshUUID</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
-<tr class="separator:a276c2645f5d735583a3a2c3abc758831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ca8e42f238be64dfe31b87429e505af"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classmongo_1_1IndexCatalog.html">IndexCatalog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a1ca8e42f238be64dfe31b87429e505af">getIndexCatalog</a> () const =0</td></tr>
 <tr class="separator:a1ca8e42f238be64dfe31b87429e505af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a881bc8b68fe3951619180e4ed44dcc86"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1IndexCatalog.html">IndexCatalog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a881bc8b68fe3951619180e4ed44dcc86">getIndexCatalog</a> ()=0</td></tr>
@@ -157,13 +155,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab02a991fab8d434900743b949694091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1468150234e6019d4e84c4bc6027fc27"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a1468150234e6019d4e84c4bc6027fc27">deleteDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StmtId stmtId, const RecordId &amp;loc, OpDebug *opDebug, bool fromMigrate, bool noWarn, <a class="el" href="classmongo_1_1Collection.html#a456b6b58efed6899485917dbbaa3b42b">StoreDeletedDoc</a> storeDeletedDoc)=0</td></tr>
 <tr class="separator:a1468150234e6019d4e84c4bc6027fc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7069dc143f0d0e21e1ab71abe0cab5e7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a7069dc143f0d0e21e1ab71abe0cab5e7">insertDocuments</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, std::vector&lt; InsertStatement &gt;::const_iterator begin, std::vector&lt; InsertStatement &gt;::const_iterator end, OpDebug *opDebug, bool enforceQuota, bool fromMigrate)=0</td></tr>
+<tr class="memitem:a7069dc143f0d0e21e1ab71abe0cab5e7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a7069dc143f0d0e21e1ab71abe0cab5e7">insertDocuments</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, std::vector&lt; InsertStatement &gt;::const_iterator begin, std::vector&lt; InsertStatement &gt;::const_iterator end, OpDebug *opDebug, bool enforceQuota, bool fromMigrate)=0</td></tr>
 <tr class="separator:a7069dc143f0d0e21e1ab71abe0cab5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da15f48d21aa00f160cf47b1c5340ce"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a3da15f48d21aa00f160cf47b1c5340ce">insertDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const InsertStatement &amp;doc, OpDebug *opDebug, bool enforceQuota, bool fromMigrate)=0</td></tr>
+<tr class="memitem:a3da15f48d21aa00f160cf47b1c5340ce"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a3da15f48d21aa00f160cf47b1c5340ce">insertDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const InsertStatement &amp;doc, OpDebug *opDebug, bool enforceQuota, bool fromMigrate)=0</td></tr>
 <tr class="separator:a3da15f48d21aa00f160cf47b1c5340ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7dc1f15b28bdd3b621827e540b9ceaf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ae7dc1f15b28bdd3b621827e540b9ceaf">insertDocumentsForOplog</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1DocWriter.html">DocWriter</a> *const *docs, Timestamp *timestamps, size_t nDocs)=0</td></tr>
+<tr class="memitem:ae7dc1f15b28bdd3b621827e540b9ceaf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ae7dc1f15b28bdd3b621827e540b9ceaf">insertDocumentsForOplog</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1DocWriter.html">DocWriter</a> *const *docs, Timestamp *timestamps, size_t nDocs)=0</td></tr>
 <tr class="separator:ae7dc1f15b28bdd3b621827e540b9ceaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a033f6c867a26b40eee307ba2d6f4131d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a033f6c867a26b40eee307ba2d6f4131d">insertDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;doc, const std::vector&lt; <a class="el" href="classmongo_1_1MultiIndexBlock.html">MultiIndexBlock</a> *&gt; &amp;indexBlocks, bool enforceQuota)=0</td></tr>
+<tr class="memitem:a033f6c867a26b40eee307ba2d6f4131d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a033f6c867a26b40eee307ba2d6f4131d">insertDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;doc, const std::vector&lt; <a class="el" href="classmongo_1_1MultiIndexBlock.html">MultiIndexBlock</a> *&gt; &amp;indexBlocks, bool enforceQuota)=0</td></tr>
 <tr class="separator:a033f6c867a26b40eee307ba2d6f4131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc2216b361ccaeb486d61582279d7e3"><td class="memItemLeft" align="right" valign="top">virtual RecordId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#aadc2216b361ccaeb486d61582279d7e3">updateDocument</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;oldLocation, const <a class="el" href="classmongo_1_1Snapshotted.html">Snapshotted</a>&lt; BSONObj &gt; &amp;oldDoc, const BSONObj &amp;newDoc, bool enforceQuota, bool indexesAffected, OpDebug *opDebug, OplogUpdateEntryArgs *args)=0</td></tr>
 <tr class="separator:aadc2216b361ccaeb486d61582279d7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,29 +169,29 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29a9b91c25d5912d3a54d6678cacaf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17945d28552fd1972156efb38fbac42b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a17945d28552fd1972156efb38fbac42b">updateDocumentWithDamages</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc, const <a class="el" href="classmongo_1_1Snapshotted.html">Snapshotted</a>&lt; <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> &gt; &amp;oldRec, const char *damageSource, const mutablebson::DamageVector &amp;damages, OplogUpdateEntryArgs *args)=0</td></tr>
 <tr class="separator:a17945d28552fd1972156efb38fbac42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78b3d21da481b259a20f638a6af14b07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; <a class="el" href="structmongo_1_1CompactStats.html">CompactStats</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a78b3d21da481b259a20f638a6af14b07">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="structmongo_1_1CompactOptions.html">CompactOptions</a> *<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>)=0</td></tr>
+<tr class="memitem:a78b3d21da481b259a20f638a6af14b07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; <a class="el" href="structmongo_1_1CompactStats.html">CompactStats</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a78b3d21da481b259a20f638a6af14b07">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="structmongo_1_1CompactOptions.html">CompactOptions</a> *options)=0</td></tr>
 <tr class="separator:a78b3d21da481b259a20f638a6af14b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d744aeeaf54a262b6d8d246ea4c8d8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a34d744aeeaf54a262b6d8d246ea4c8d8">truncate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
+<tr class="memitem:a34d744aeeaf54a262b6d8d246ea4c8d8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a34d744aeeaf54a262b6d8d246ea4c8d8">truncate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
 <tr class="separator:a34d744aeeaf54a262b6d8d246ea4c8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d79b8d3acf79fe8d5d8dc7081679dcf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a2d79b8d3acf79fe8d5d8dc7081679dcf">validate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775">ValidateCmdLevel</a> level, bool background, std::unique_ptr&lt; <a class="el" href="classmongo_1_1Lock_1_1CollectionLock.html">Lock::CollectionLock</a> &gt; collLk, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *results, BSONObjBuilder *output)=0</td></tr>
+<tr class="memitem:a2d79b8d3acf79fe8d5d8dc7081679dcf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a2d79b8d3acf79fe8d5d8dc7081679dcf">validate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775">ValidateCmdLevel</a> level, bool background, std::unique_ptr&lt; <a class="el" href="classmongo_1_1Lock_1_1CollectionLock.html">Lock::CollectionLock</a> &gt; collLk, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *results, BSONObjBuilder *output)=0</td></tr>
 <tr class="separator:a2d79b8d3acf79fe8d5d8dc7081679dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c7f7e294ccd2a789f220b247430db3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ac9c7f7e294ccd2a789f220b247430db3">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool touchData, bool touchIndexes, BSONObjBuilder *output) const =0</td></tr>
+<tr class="memitem:ac9c7f7e294ccd2a789f220b247430db3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ac9c7f7e294ccd2a789f220b247430db3">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool touchData, bool touchIndexes, BSONObjBuilder *output) const =0</td></tr>
 <tr class="separator:ac9c7f7e294ccd2a789f220b247430db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb60a39ad265d09b20d6862d8ff1a26"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#aabb60a39ad265d09b20d6862d8ff1a26">cappedTruncateAfter</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, RecordId end, bool <a class="el" href="btree__interface_8cpp.html#a70a7fb264031a3a75f54886770610f78">inclusive</a>)=0</td></tr>
 <tr class="separator:aabb60a39ad265d09b20d6862d8ff1a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d30f2259ff9fd687f5d8c8049fd644"><td class="memItemLeft" align="right" valign="top">virtual StatusWithMatchExpression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a83d30f2259ff9fd687f5d8c8049fd644">parseValidator</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;validator, MatchExpressionParser::AllowedFeatureSet allowedFeatures, boost::optional&lt; ServerGlobalParams::FeatureCompatibility::Version &gt; maxFeatureCompatibilityVersion=boost::none) const =0</td></tr>
 <tr class="separator:a83d30f2259ff9fd687f5d8c8049fd644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7958d78c2b3c8b46e57a5fc6f6700f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ada7958d78c2b3c8b46e57a5fc6f6700f">setValidator</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObj validator)=0</td></tr>
+<tr class="memitem:ada7958d78c2b3c8b46e57a5fc6f6700f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ada7958d78c2b3c8b46e57a5fc6f6700f">setValidator</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObj validator)=0</td></tr>
 <tr class="separator:ada7958d78c2b3c8b46e57a5fc6f6700f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68e85e1dbac05efee4018700a49802ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a68e85e1dbac05efee4018700a49802ad">setValidationLevel</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData newLevel)=0</td></tr>
+<tr class="memitem:a68e85e1dbac05efee4018700a49802ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a68e85e1dbac05efee4018700a49802ad">setValidationLevel</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData newLevel)=0</td></tr>
 <tr class="separator:a68e85e1dbac05efee4018700a49802ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff06b0891ba901f931db651ba197d968"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#aff06b0891ba901f931db651ba197d968">setValidationAction</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData newAction)=0</td></tr>
+<tr class="memitem:aff06b0891ba901f931db651ba197d968"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#aff06b0891ba901f931db651ba197d968">setValidationAction</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData newAction)=0</td></tr>
 <tr class="separator:aff06b0891ba901f931db651ba197d968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a18cddc257779ae5cfbc8e16b6130d1"><td class="memItemLeft" align="right" valign="top">virtual StringData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a4a18cddc257779ae5cfbc8e16b6130d1">getValidationLevel</a> () const =0</td></tr>
 <tr class="separator:a4a18cddc257779ae5cfbc8e16b6130d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c10fa42f6d96d57e49f5af9fab1b43d"><td class="memItemLeft" align="right" valign="top">virtual StringData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a5c10fa42f6d96d57e49f5af9fab1b43d">getValidationAction</a> () const =0</td></tr>
 <tr class="separator:a5c10fa42f6d96d57e49f5af9fab1b43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1b56ca53d8c05c786634a0322844d21"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ac1b56ca53d8c05c786634a0322844d21">updateValidator</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObj newValidator, StringData newLevel, StringData newAction)=0</td></tr>
+<tr class="memitem:ac1b56ca53d8c05c786634a0322844d21"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ac1b56ca53d8c05c786634a0322844d21">updateValidator</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObj newValidator, StringData newLevel, StringData newAction)=0</td></tr>
 <tr class="separator:ac1b56ca53d8c05c786634a0322844d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5dac1b6e6c1ebfe2ea28ae41bcb7f0a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#ac5dac1b6e6c1ebfe2ea28ae41bcb7f0a">isCapped</a> () const =0</td></tr>
 <tr class="separator:ac5dac1b6e6c1ebfe2ea28ae41bcb7f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,10 +222,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:adf8a247f88706340a78feeacf48b52d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affb4ba3c9e8b9f5ce62212dd2f10407a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1CollectionCatalogEntry.html">CollectionCatalogEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#affb4ba3c9e8b9f5ce62212dd2f10407a">details</a> () const =0</td></tr>
 <tr class="separator:affb4ba3c9e8b9f5ce62212dd2f10407a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f0d8d5ae67e906c839e7341eb7501d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a7f0d8d5ae67e906c839e7341eb7501d4">aboutToDeleteCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc, <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> <a class="el" href="ephemeral__for__test__record__store__test_8cpp.html#a7b0b6386ed9af4d133c80f6322cc60dc">data</a>)=0</td></tr>
+<tr class="memitem:a7f0d8d5ae67e906c839e7341eb7501d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a7f0d8d5ae67e906c839e7341eb7501d4">aboutToDeleteCapped</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc, <a class="el" href="classmongo_1_1RecordData.html">RecordData</a> <a class="el" href="ephemeral__for__test__record__store__test_8cpp.html#a7b0b6386ed9af4d133c80f6322cc60dc">data</a>)=0</td></tr>
 <tr class="memdesc:a7f0d8d5ae67e906c839e7341eb7501d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will be called right before loc is deleted when wrapping.  <a href="#a7f0d8d5ae67e906c839e7341eb7501d4">More...</a><br /></td></tr>
 <tr class="separator:a7f0d8d5ae67e906c839e7341eb7501d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eaace44e3e20ff3087022d96159b29d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a1eaace44e3e20ff3087022d96159b29d">recordStoreGoingToUpdateInPlace</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc)=0</td></tr>
+<tr class="memitem:a1eaace44e3e20ff3087022d96159b29d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1Collection_1_1Impl.html#a1eaace44e3e20ff3087022d96159b29d">recordStoreGoingToUpdateInPlace</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc)=0</td></tr>
 <tr class="separator:a1eaace44e3e20ff3087022d96159b29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmongo_1_1CappedCallback"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmongo_1_1CappedCallback')"><img src="closed.png" alt="-"/>&#160;Private Member Functions inherited from <a class="el" href="classmongo_1_1CappedCallback.html">mongo::CappedCallback</a></td></tr>
 <tr class="memitem:a0444c66e682458785084f1f84ee67563 inherit pub_methods_classmongo_1_1CappedCallback"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1CappedCallback.html#a0444c66e682458785084f1f84ee67563">~CappedCallback</a> ()</td></tr>
@@ -278,7 +276,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::aboutToDeleteCapped </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::aboutToDeleteCapped </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -773,7 +771,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#aa6c3de95acc25c942f785af7e2a2411e">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#af3df09d80e7049cca34b4ac701573ec3">mongo::CollectionImpl</a>.</p>
+<p>Implemented in <a class="el" href="classmongo_1_1CollectionImpl.html#af3df09d80e7049cca34b4ac701573ec3">mongo::CollectionImpl</a>, and <a class="el" href="classmongo_1_1CollectionMock.html#aa6c3de95acc25c942f785af7e2a2411e">mongo::CollectionMock</a>.</p>
 
 </div>
 </div>
@@ -854,7 +852,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#a51f36ea007ad77273237163c69749a15">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#a1f8441c438fba8035ced8f1bcbf41954">mongo::CollectionImpl</a>.</p>
+<p>Implemented in <a class="el" href="classmongo_1_1CollectionImpl.html#a1f8441c438fba8035ced8f1bcbf41954">mongo::CollectionImpl</a>, and <a class="el" href="classmongo_1_1CollectionMock.html#a51f36ea007ad77273237163c69749a15">mongo::CollectionMock</a>.</p>
 
 </div>
 </div>
@@ -980,7 +978,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#ae98d3a88f9ef2ee6de316bde3e8df5ca">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#a4834c91077ec4b672e18480cc8d35955">mongo::CollectionImpl</a>.</p>
+<p>Implemented in <a class="el" href="classmongo_1_1CollectionImpl.html#a4834c91077ec4b672e18480cc8d35955">mongo::CollectionImpl</a>, and <a class="el" href="classmongo_1_1CollectionMock.html#ae98d3a88f9ef2ee6de316bde3e8df5ca">mongo::CollectionMock</a>.</p>
 
 </div>
 </div>
@@ -1007,7 +1005,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#abeeb65316432f07fcf969f460d66f349">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#a0d0d703479c88ab0711aef1ced359520">mongo::CollectionImpl</a>.</p>
+<p>Implemented in <a class="el" href="classmongo_1_1CollectionImpl.html#a0d0d703479c88ab0711aef1ced359520">mongo::CollectionImpl</a>, and <a class="el" href="classmongo_1_1CollectionMock.html#abeeb65316432f07fcf969f460d66f349">mongo::CollectionMock</a>.</p>
 
 </div>
 </div>
@@ -1188,7 +1186,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::insertDocument </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::insertDocument </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1244,7 +1242,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::insertDocument </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::insertDocument </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1294,7 +1292,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::insertDocuments </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::insertDocuments </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1356,7 +1354,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::insertDocumentsForOplog </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::insertDocumentsForOplog </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1596,7 +1594,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::recordStoreGoingToUpdateInPlace </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::recordStoreGoingToUpdateInPlace </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1626,34 +1624,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a276c2645f5d735583a3a2c3abc758831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a276c2645f5d735583a3a2c3abc758831">&#9670;&nbsp;</a></span>refreshUUID()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a> mongo::Collection::Impl::refreshUUID </td>
-          <td>(</td>
-          <td class="paramtype">OperationContext *&#160;</td>
-          <td class="paramname"><em>opCtx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#a71ea261f0d006c138c5aecba1f910739">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#a1ddacaf3406406a9c7f336e0abe85120">mongo::CollectionImpl</a>.</p>
-
-</div>
-</div>
 <a id="a428f74fcdb69722f8acc016f0fec6807"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a428f74fcdb69722f8acc016f0fec6807">&#9670;&nbsp;</a></span>requiresIdIndex()</h2>
 
@@ -1677,7 +1647,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmongo_1_1CollectionMock.html#a11ea1ca9f831bc17c3b361f0c4c80657">mongo::CollectionMock</a>, and <a class="el" href="classmongo_1_1CollectionImpl.html#a60ac5530109c0231b5900f258b8d6e6c">mongo::CollectionImpl</a>.</p>
+<p>Implemented in <a class="el" href="classmongo_1_1CollectionImpl.html#a60ac5530109c0231b5900f258b8d6e6c">mongo::CollectionImpl</a>, and <a class="el" href="classmongo_1_1CollectionMock.html#a11ea1ca9f831bc17c3b361f0c4c80657">mongo::CollectionMock</a>.</p>
 
 </div>
 </div>
@@ -1719,7 +1689,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::setValidationAction </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::setValidationAction </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1757,7 +1727,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::setValidationLevel </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::setValidationLevel </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1795,7 +1765,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::setValidator </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::setValidator </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1833,7 +1803,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::touch </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::touch </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1883,7 +1853,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::truncate </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::truncate </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -2047,7 +2017,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::updateValidator </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::updateValidator </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -2151,7 +2121,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::Collection::Impl::validate </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::Collection::Impl::validate </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

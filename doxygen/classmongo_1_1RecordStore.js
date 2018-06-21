@@ -13,6 +13,7 @@ var classmongo_1_1RecordStore =
     [ "findRecord", "classmongo_1_1RecordStore.html#a881b5b4d85a8e6544160b0275cd47222", null ],
     [ "getCursor", "classmongo_1_1RecordStore.html#a1088a44661d162d4ddcd7b12d9b0ca77", null ],
     [ "getCursorForRepair", "classmongo_1_1RecordStore.html#afa34ca87ea7e872232cfefb6bc809d3f", null ],
+    [ "getIdent", "classmongo_1_1RecordStore.html#ac138f06c30d57d1513ea78f429f9f63f", null ],
     [ "getManyCursors", "classmongo_1_1RecordStore.html#a81cd14207566be7a6fe132215ea4238b", null ],
     [ "getRandomCursor", "classmongo_1_1RecordStore.html#a044a55f90a381a3504d34139889a339c", null ],
     [ "insertRecord", "classmongo_1_1RecordStore.html#ae3c39aa6eedd361492038a4b4a0acc69", null ],

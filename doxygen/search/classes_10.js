@@ -27,7 +27,7 @@ var searchData=
   ['recursivemergethenbalance',['RecursiveMergeThenBalance',['../classmongo_1_1RecursiveMergeThenBalance.html',1,'mongo']]],
   ['relativepath',['RelativePath',['../structmongo_1_1RelativePath.html',1,'mongo']]],
   ['removechange',['RemoveChange',['../classmongo_1_1EphemeralForTestRecordStore_1_1RemoveChange.html',1,'mongo::EphemeralForTestRecordStore']]],
-  ['removecollectionchange',['RemoveCollectionChange',['../classmongo_1_1DatabaseImpl_1_1RemoveCollectionChange.html',1,'mongo::DatabaseImpl::RemoveCollectionChange'],['../classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange.html',1,'mongo::KVDatabaseCatalogEntryBase::RemoveCollectionChange']]],
+  ['removecollectionchange',['RemoveCollectionChange',['../classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange.html',1,'mongo::KVDatabaseCatalogEntryBase::RemoveCollectionChange'],['../classmongo_1_1DatabaseImpl_1_1RemoveCollectionChange.html',1,'mongo::DatabaseImpl::RemoveCollectionChange']]],
   ['removedbchange',['RemoveDBChange',['../classmongo_1_1KVStorageEngine_1_1RemoveDBChange.html',1,'mongo::KVStorageEngine']]],
   ['removeidentchange',['RemoveIdentChange',['../classmongo_1_1KVCatalog_1_1RemoveIdentChange.html',1,'mongo::KVCatalog']]],
   ['removeindexchange',['RemoveIndexChange',['../classmongo_1_1KVCollectionCatalogEntry_1_1RemoveIndexChange.html',1,'mongo::KVCollectionCatalogEntry']]],

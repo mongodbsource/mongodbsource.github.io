@@ -9,7 +9,6 @@ var classmongo_1_1WiredTigerUtil =
     [ "appendSnapshotWindowSettings", "classmongo_1_1WiredTigerUtil.html#a4cd718f9e8139b7f4049589a6f6eb732", null ],
     [ "checkApplicationMetadataFormatVersion", "classmongo_1_1WiredTigerUtil.html#ac2d96ba9d908496369cfe1be48a90c2c", null ],
     [ "checkTableCreationOptions", "classmongo_1_1WiredTigerUtil.html#a9f56ad81ec009cede57833412badcd96", null ],
-    [ "defaultEventHandlers", "classmongo_1_1WiredTigerUtil.html#affc18e0163b05774e88e270084ee5acd", null ],
     [ "exportTableToBSON", "classmongo_1_1WiredTigerUtil.html#a67b0385b2cb7e97a8eb959ea91c52546", null ],
     [ "fetchTypeAndSourceURI", "classmongo_1_1WiredTigerUtil.html#a4fd04c6c21409ab2f9e64e47ea24b14f", null ],
     [ "getApplicationMetadata", "classmongo_1_1WiredTigerUtil.html#ac7bbefa77a8d4fe5e48405493ae8eb26", null ],
@@ -21,8 +20,6 @@ var classmongo_1_1WiredTigerUtil =
     [ "getStatisticsValueAs", "classmongo_1_1WiredTigerUtil.html#adefa82ccffaef50e75cfc90995246400", null ],
     [ "getStatisticsValueAs", "classmongo_1_1WiredTigerUtil.html#a2f5e72f6b50a4db626012078bbe4fa2e", null ],
     [ "MONGO_DISALLOW_COPYING", "classmongo_1_1WiredTigerUtil.html#adb6082f7ff7db649f0969b3878e86374", null ],
-    [ "setTableLogging", "classmongo_1_1WiredTigerUtil.html#a5114f8a8d1e1a2aa2583f737955ca131", null ],
-    [ "setTableLogging", "classmongo_1_1WiredTigerUtil.html#a726546c6ffa0f22fbacf8c71630d2928", null ],
     [ "useTableLogging", "classmongo_1_1WiredTigerUtil.html#a1be6c87a21a3096490181d230cbf77f8", null ],
     [ "verifyTable", "classmongo_1_1WiredTigerUtil.html#aceaeea751475c59f4ecd047277eabd25", null ]
 ];

@@ -6,7 +6,6 @@ var searchData=
   ['paddingfactorolddonotuse',['paddingFactorOldDoNotUse',['../classmongo_1_1NamespaceDetails.html#aee9786985685e1ffaf7a42c7418001b7',1,'mongo::NamespaceDetails']]],
   ['paddingmode',['paddingMode',['../structmongo_1_1CompactOptions.html#abfb6492a64b63a476eb812afa9676feb',1,'mongo::CompactOptions']]],
   ['parent',['parent',['../structmongo_1_1BtreeBucketV0.html#a005f3bea10853e582fb4bd1afbb6174c',1,'mongo::BtreeBucketV0::parent()'],['../structmongo_1_1BtreeBucketV1.html#a95d32577e7cf4a015b9f5d952bcd767f',1,'mongo::BtreeBucketV1::parent()']]],
-  ['parsekind',['parseKind',['../namespacemongo.html#abb7f41e65b63c497ad526ad9d6781d39',1,'mongo']]],
   ['partitioned',['partitioned',['../structmongo_1_1LockRequest.html#a10f0f72979c8cf05381f45e800dc297a',1,'mongo::LockRequest']]],
   ['partitionedlock',['partitionedLock',['../structmongo_1_1LockRequest.html#a681c705bcc0e87d5fbd42fd2c90cf5ba',1,'mongo::LockRequest']]],
   ['partitions',['partitions',['../structmongo_1_1LockHead.html#abcee23b173ce8b8be062679285a4533b',1,'mongo::LockHead']]],

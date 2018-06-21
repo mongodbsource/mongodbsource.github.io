@@ -12,6 +12,7 @@ var classmongo_1_1HeapRecordStoreBtree =
     [ "deleteRecord", "classmongo_1_1HeapRecordStoreBtree.html#a01d4cb81e2e133c3237481a8f6162769", null ],
     [ "findRecord", "classmongo_1_1HeapRecordStoreBtree.html#a64e4fc0d6a41f880b348441fda4ae71a", null ],
     [ "getCursor", "classmongo_1_1HeapRecordStoreBtree.html#a12567db713ae7a9aea4e35a3e8e0af7b", null ],
+    [ "getIdent", "classmongo_1_1HeapRecordStoreBtree.html#a35e458190c9299815fd21a5f1e5b2def", null ],
     [ "increaseStorageSize", "classmongo_1_1HeapRecordStoreBtree.html#ab876d968e13db55da2f8004b0a125df9", null ],
     [ "insertRecord", "classmongo_1_1HeapRecordStoreBtree.html#a6f373e01917221f449ff2422e3768c8a", null ],
     [ "insertRecordsWithDocWriter", "classmongo_1_1HeapRecordStoreBtree.html#ac6262a3f62597d90ccf43daa2db56c0e", null ],

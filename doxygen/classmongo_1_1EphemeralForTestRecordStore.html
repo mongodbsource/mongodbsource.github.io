@@ -152,6 +152,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa9b42cdbd2729ae7837a9283e5988f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a1331379481eaddd61832a726b13ab"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ae5a1331379481eaddd61832a726b13ab">name</a> () const</td></tr>
 <tr class="separator:ae5a1331379481eaddd61832a726b13ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8282d4eb45956785b9ee34583f3cdcf"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ac8282d4eb45956785b9ee34583f3cdcf">getIdent</a> () const override</td></tr>
+<tr class="separator:ac8282d4eb45956785b9ee34583f3cdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaacc6f8bf2f4787c2708d239d45ce243"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1RecordData.html">RecordData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#aaacc6f8bf2f4787c2708d239d45ce243">dataFor</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;loc) const</td></tr>
 <tr class="memdesc:aaacc6f8bf2f4787c2708d239d45ce243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classmongo_1_1RecordData.html" title="A replacement for the Record class. ">RecordData</a> at loc, which must exist.  <a href="#aaacc6f8bf2f4787c2708d239d45ce243">More...</a><br /></td></tr>
 <tr class="separator:aaacc6f8bf2f4787c2708d239d45ce243"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,10 +163,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1ecc800a08eae2a4015e2d6f6c0b177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84adad8f93100026f44a556cfb490ada"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; RecordId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a84adad8f93100026f44a556cfb490ada">insertRecord</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const char *<a class="el" href="ephemeral__for__test__record__store__test_8cpp.html#a7b0b6386ed9af4d133c80f6322cc60dc">data</a>, int len, Timestamp, bool enforceQuota)</td></tr>
 <tr class="separator:a84adad8f93100026f44a556cfb490ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae18f0dcca3f9399c0387db2c6bb66d26"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ae18f0dcca3f9399c0387db2c6bb66d26">insertRecordsWithDocWriter</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1DocWriter.html">DocWriter</a> *const *docs, const Timestamp *, size_t nDocs, RecordId *idsOut)</td></tr>
+<tr class="memitem:ae18f0dcca3f9399c0387db2c6bb66d26"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ae18f0dcca3f9399c0387db2c6bb66d26">insertRecordsWithDocWriter</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1DocWriter.html">DocWriter</a> *const *docs, const Timestamp *, size_t nDocs, RecordId *idsOut)</td></tr>
 <tr class="memdesc:ae18f0dcca3f9399c0387db2c6bb66d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts nDocs documents into this <a class="el" href="classmongo_1_1RecordStore.html" title="An abstraction used for storing documents in a collection or entries in an index. ...">RecordStore</a> using the <a class="el" href="classmongo_1_1DocWriter.html" title="Allows inserting a Record &quot;in-place&quot; without creating a copy ahead of time. ">DocWriter</a> interface.  <a href="#ae18f0dcca3f9399c0387db2c6bb66d26">More...</a><br /></td></tr>
 <tr class="separator:ae18f0dcca3f9399c0387db2c6bb66d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ab729000c0c594a2a119dad957bc5c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a75ab729000c0c594a2a119dad957bc5c">updateRecord</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;oldLocation, const char *<a class="el" href="ephemeral__for__test__record__store__test_8cpp.html#a7b0b6386ed9af4d133c80f6322cc60dc">data</a>, int len, bool enforceQuota, <a class="el" href="classmongo_1_1UpdateNotifier.html">UpdateNotifier</a> *notifier)</td></tr>
+<tr class="memitem:a75ab729000c0c594a2a119dad957bc5c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a75ab729000c0c594a2a119dad957bc5c">updateRecord</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const RecordId &amp;oldLocation, const char *<a class="el" href="ephemeral__for__test__record__store__test_8cpp.html#a7b0b6386ed9af4d133c80f6322cc60dc">data</a>, int len, bool enforceQuota, <a class="el" href="classmongo_1_1UpdateNotifier.html">UpdateNotifier</a> *notifier)</td></tr>
 <tr class="separator:a75ab729000c0c594a2a119dad957bc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1eb09951f923ed23dbd571d0fdcd59"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#aca1eb09951f923ed23dbd571d0fdcd59">updateWithDamagesSupported</a> () const</td></tr>
 <tr class="separator:aca1eb09951f923ed23dbd571d0fdcd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,17 +176,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad097ba420e49a1b3bff71f7b3cedc463"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmongo_1_1SeekableRecordCursor.html">SeekableRecordCursor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ad097ba420e49a1b3bff71f7b3cedc463">getCursor</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool forward) const final</td></tr>
 <tr class="memdesc:ad097ba420e49a1b3bff71f7b3cedc463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new cursor over this record store.  <a href="#ad097ba420e49a1b3bff71f7b3cedc463">More...</a><br /></td></tr>
 <tr class="separator:ad097ba420e49a1b3bff71f7b3cedc463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4adee62f2845b1599f795e989871250e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a4adee62f2845b1599f795e989871250e">truncate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memitem:a4adee62f2845b1599f795e989871250e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a4adee62f2845b1599f795e989871250e">truncate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="memdesc:a4adee62f2845b1599f795e989871250e"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes all Records  <a href="#a4adee62f2845b1599f795e989871250e">More...</a><br /></td></tr>
 <tr class="separator:a4adee62f2845b1599f795e989871250e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad669cbdb5420a470cfa316d19456e2e5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ad669cbdb5420a470cfa316d19456e2e5">cappedTruncateAfter</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, RecordId end, bool <a class="el" href="btree__interface_8cpp.html#a70a7fb264031a3a75f54886770610f78">inclusive</a>)</td></tr>
 <tr class="memdesc:ad669cbdb5420a470cfa316d19456e2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate documents newer than the document at 'end' from the capped collection.  <a href="#ad669cbdb5420a470cfa316d19456e2e5">More...</a><br /></td></tr>
 <tr class="separator:ad669cbdb5420a470cfa316d19456e2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b7edc033b60324785a350924255d5e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ab0b7edc033b60324785a350924255d5e">validate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775">ValidateCmdLevel</a> level, <a class="el" href="classmongo_1_1ValidateAdaptor.html">ValidateAdaptor</a> *adaptor, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *results, BSONObjBuilder *output)</td></tr>
+<tr class="memitem:ab0b7edc033b60324785a350924255d5e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#ab0b7edc033b60324785a350924255d5e">validate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="namespacemongo.html#a7cc155634c5bc912468d33fe47041775">ValidateCmdLevel</a> level, <a class="el" href="classmongo_1_1ValidateAdaptor.html">ValidateAdaptor</a> *adaptor, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *results, BSONObjBuilder *output)</td></tr>
 <tr class="separator:ab0b7edc033b60324785a350924255d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a8cb42538ebec609025b7bfbb88b686"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a3a8cb42538ebec609025b7bfbb88b686">appendCustomStats</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObjBuilder *result, double scale) const</td></tr>
 <tr class="separator:a3a8cb42538ebec609025b7bfbb88b686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5826e312f30b6cb21b13a540e6f8145a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a5826e312f30b6cb21b13a540e6f8145a">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObjBuilder *output) const</td></tr>
+<tr class="memitem:a5826e312f30b6cb21b13a540e6f8145a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a5826e312f30b6cb21b13a540e6f8145a">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, BSONObjBuilder *output) const</td></tr>
 <tr class="memdesc:a5826e312f30b6cb21b13a540e6f8145a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all data into cache.  <a href="#a5826e312f30b6cb21b13a540e6f8145a">More...</a><br /></td></tr>
 <tr class="separator:a5826e312f30b6cb21b13a540e6f8145a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3967411a056a04536de970e238bc5cdd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EphemeralForTestRecordStore.html#a3967411a056a04536de970e238bc5cdd">increaseStorageSize</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, int size, bool enforceQuota)</td></tr>
@@ -217,7 +219,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15f0fd57480351bdc0986944f66ee300 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab57ca9998314c5c59f284515fd8bdea8 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#ab57ca9998314c5c59f284515fd8bdea8">ns</a> () const</td></tr>
 <tr class="separator:ab57ca9998314c5c59f284515fd8bdea8 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a289ed02de76406a5516d5a14f27dbf22 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a289ed02de76406a5516d5a14f27dbf22">insertRecords</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, std::vector&lt; <a class="el" href="structmongo_1_1Record.html">Record</a> &gt; *records, std::vector&lt; Timestamp &gt; *timestamps, bool enforceQuota)</td></tr>
+<tr class="memitem:a289ed02de76406a5516d5a14f27dbf22 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a289ed02de76406a5516d5a14f27dbf22">insertRecords</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, std::vector&lt; <a class="el" href="structmongo_1_1Record.html">Record</a> &gt; *records, std::vector&lt; Timestamp &gt; *timestamps, bool enforceQuota)</td></tr>
 <tr class="separator:a289ed02de76406a5516d5a14f27dbf22 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5f95b3596bb8b1d85c5a24c2a48fb6 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; RecordId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a8d5f95b3596bb8b1d85c5a24c2a48fb6">insertRecordWithDocWriter</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1DocWriter.html">DocWriter</a> *doc, Timestamp timestamp)</td></tr>
 <tr class="memdesc:a8d5f95b3596bb8b1d85c5a24c2a48fb6 inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">A thin wrapper around <a class="el" href="classmongo_1_1RecordStore.html#a2cd3a7f097b6a0c8ae9036df1f4a1b03" title="Inserts nDocs documents into this RecordStore using the DocWriter interface. ">insertRecordsWithDocWriter()</a> to simplify handling of single DocWriters.  <a href="classmongo_1_1RecordStore.html#a8d5f95b3596bb8b1d85c5a24c2a48fb6">More...</a><br /></td></tr>
@@ -237,16 +239,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e22d1d3c67140ec14f52ed1c2bdc5d6 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a6e22d1d3c67140ec14f52ed1c2bdc5d6">compactsInPlace</a> () const</td></tr>
 <tr class="memdesc:a6e22d1d3c67140ec14f52ed1c2bdc5d6 inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does <a class="el" href="classmongo_1_1RecordStore.html#a346acedb3f0b06954ab2deb83add6b38" title="Attempt to reduce the storage space used by this RecordStore. ">compact()</a> leave RecordIds alone or can they change.  <a href="classmongo_1_1RecordStore.html#a6e22d1d3c67140ec14f52ed1c2bdc5d6">More...</a><br /></td></tr>
 <tr class="separator:a6e22d1d3c67140ec14f52ed1c2bdc5d6 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a346acedb3f0b06954ab2deb83add6b38 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a346acedb3f0b06954ab2deb83add6b38">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1RecordStoreCompactAdaptor.html">RecordStoreCompactAdaptor</a> *adaptor, const <a class="el" href="structmongo_1_1CompactOptions.html">CompactOptions</a> *<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>, <a class="el" href="structmongo_1_1CompactStats.html">CompactStats</a> *<a class="el" href="lock__state_8cpp.html#a462377416929733211c8a52a7de37ad9">stats</a>)</td></tr>
+<tr class="memitem:a346acedb3f0b06954ab2deb83add6b38 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a346acedb3f0b06954ab2deb83add6b38">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, <a class="el" href="classmongo_1_1RecordStoreCompactAdaptor.html">RecordStoreCompactAdaptor</a> *adaptor, const <a class="el" href="structmongo_1_1CompactOptions.html">CompactOptions</a> *options, <a class="el" href="structmongo_1_1CompactStats.html">CompactStats</a> *<a class="el" href="lock__state_8cpp.html#a462377416929733211c8a52a7de37ad9">stats</a>)</td></tr>
 <tr class="memdesc:a346acedb3f0b06954ab2deb83add6b38 inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to reduce the storage space used by this <a class="el" href="classmongo_1_1RecordStore.html" title="An abstraction used for storing documents in a collection or entries in an index. ...">RecordStore</a>.  <a href="classmongo_1_1RecordStore.html#a346acedb3f0b06954ab2deb83add6b38">More...</a><br /></td></tr>
 <tr class="separator:a346acedb3f0b06954ab2deb83add6b38 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8985501aa36222d37ab2dd9b67707d7 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#ae8985501aa36222d37ab2dd9b67707d7">isInRecordIdOrder</a> () const</td></tr>
 <tr class="memdesc:ae8985501aa36222d37ab2dd9b67707d7 inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the <a class="el" href="classmongo_1_1RecordStore.html" title="An abstraction used for storing documents in a collection or entries in an index. ...">RecordStore</a> cursor retrieve its document in RecordId Order?  <a href="classmongo_1_1RecordStore.html#ae8985501aa36222d37ab2dd9b67707d7">More...</a><br /></td></tr>
 <tr class="separator:ae8985501aa36222d37ab2dd9b67707d7 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac034b0f4a1a4f9e8dbc3190262e209ff inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#ac034b0f4a1a4f9e8dbc3190262e209ff">oplogDiskLocRegister</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const Timestamp &amp;opTime, bool orderedCommit)</td></tr>
+<tr class="memitem:ac034b0f4a1a4f9e8dbc3190262e209ff inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#ac034b0f4a1a4f9e8dbc3190262e209ff">oplogDiskLocRegister</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const Timestamp &amp;opTime, bool orderedCommit)</td></tr>
 <tr class="memdesc:ac034b0f4a1a4f9e8dbc3190262e209ff inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">When we write to an oplog, we call this so that if the storage engine supports doc locking, it can manage the visibility of oplog entries to ensure they are ordered.  <a href="classmongo_1_1RecordStore.html#ac034b0f4a1a4f9e8dbc3190262e209ff">More...</a><br /></td></tr>
 <tr class="separator:ac034b0f4a1a4f9e8dbc3190262e209ff inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89264836634cbab1e2ea378c6bedcbc2 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a89264836634cbab1e2ea378c6bedcbc2">updateCappedSize</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, long long cappedSize)</td></tr>
+<tr class="memitem:a89264836634cbab1e2ea378c6bedcbc2 inherit pub_methods_classmongo_1_1RecordStore"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecordStore.html#a89264836634cbab1e2ea378c6bedcbc2">updateCappedSize</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, long long cappedSize)</td></tr>
 <tr class="memdesc:a89264836634cbab1e2ea378c6bedcbc2 inherit pub_methods_classmongo_1_1RecordStore"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to support online change oplog size.  <a href="classmongo_1_1RecordStore.html#a89264836634cbab1e2ea378c6bedcbc2">More...</a><br /></td></tr>
 <tr class="separator:a89264836634cbab1e2ea378c6bedcbc2 inherit pub_methods_classmongo_1_1RecordStore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -822,6 +824,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac8282d4eb45956785b9ee34583f3cdcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8282d4eb45956785b9ee34583f3cdcf">&#9670;&nbsp;</a></span>getIdent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; mongo::EphemeralForTestRecordStore::getIdent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classmongo_1_1RecordStore.html#ac138f06c30d57d1513ea78f429f9f63f">mongo::RecordStore</a>.</p>
+
+</div>
+</div>
 <a id="a3967411a056a04536de970e238bc5cdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3967411a056a04536de970e238bc5cdd">&#9670;&nbsp;</a></span>increaseStorageSize()</h2>
 
@@ -930,7 +959,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EphemeralForTestRecordStore::insertRecordsWithDocWriter </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EphemeralForTestRecordStore::insertRecordsWithDocWriter </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1249,7 +1278,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EphemeralForTestRecordStore::touch </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EphemeralForTestRecordStore::touch </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1297,7 +1326,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EphemeralForTestRecordStore::truncate </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EphemeralForTestRecordStore::truncate </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -1327,7 +1356,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EphemeralForTestRecordStore::updateRecord </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EphemeralForTestRecordStore::updateRecord </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -1535,7 +1564,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EphemeralForTestRecordStore::validate </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EphemeralForTestRecordStore::validate </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

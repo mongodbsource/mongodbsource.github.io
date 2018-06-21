@@ -40,7 +40,6 @@ var classmongo_1_1Collection_1_1Impl =
     [ "ok", "classmongo_1_1Collection_1_1Impl.html#a59ccee47bfac92c7f2f05fccc67e9c58", null ],
     [ "parseValidator", "classmongo_1_1Collection_1_1Impl.html#a83d30f2259ff9fd687f5d8c8049fd644", null ],
     [ "recordStoreGoingToUpdateInPlace", "classmongo_1_1Collection_1_1Impl.html#a1eaace44e3e20ff3087022d96159b29d", null ],
-    [ "refreshUUID", "classmongo_1_1Collection_1_1Impl.html#a276c2645f5d735583a3a2c3abc758831", null ],
     [ "requiresIdIndex", "classmongo_1_1Collection_1_1Impl.html#a428f74fcdb69722f8acc016f0fec6807", null ],
     [ "setMinimumVisibleSnapshot", "classmongo_1_1Collection_1_1Impl.html#a2378ef3c13546774fb567e86bdd6a789", null ],
     [ "setValidationAction", "classmongo_1_1Collection_1_1Impl.html#aff06b0891ba901f931db651ba197d968", null ],

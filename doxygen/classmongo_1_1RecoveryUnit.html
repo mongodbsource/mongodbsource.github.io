@@ -132,12 +132,13 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab73d986cec10146d72945aa3a11b87a4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4">ReadSource</a> { <br />
-&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6">kNone</a>, 
+&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a47e15fc5e0417f4ddd368e536798a138">kUnset</a>, 
+<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ae1a6254f10b3e2f69d8885df80174e1d">kNoTimestamp</a>, 
 <a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a783bd0f6356d0eaacedb2fa325e73cd8">kMajorityCommitted</a>, 
 <a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6ac3c436cd3a401e9f9b8d8c4853b5d7">kLastApplied</a>, 
-<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ab81b778c3f74a093f587f3d95a600c2e">kLastAppliedSnapshot</a>, 
 <br />
-&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6da9860a7e480d4d7f2cad14e29135e0">kProvided</a>
+&#160;&#160;<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ab81b778c3f74a093f587f3d95a600c2e">kLastAppliedSnapshot</a>, 
+<a class="el" href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6da9860a7e480d4d7f2cad14e29135e0">kProvided</a>
 <br />
  }<tr class="memdesc:ab73d986cec10146d72945aa3a11b87a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ReadSource indicates which exteral or provided timestamp to read from for future transactions.  <a href="classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4">More...</a><br /></td></tr>
 </td></tr>
@@ -174,7 +175,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7e155dd4639d64c3780a8e33b1229c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#ab7e155dd4639d64c3780a8e33b1229c2">preallocateSnapshot</a> ()</td></tr>
 <tr class="memdesc:ab7e155dd4639d64c3780a8e33b1229c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the <a class="el" href="classmongo_1_1RecoveryUnit.html" title="A RecoveryUnit is responsible for ensuring that data is persisted. ">RecoveryUnit</a> that a snapshot will be needed soon, if one was not already established.  <a href="#ab7e155dd4639d64c3780a8e33b1229c2">More...</a><br /></td></tr>
 <tr class="separator:ab7e155dd4639d64c3780a8e33b1229c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06eae806c652b8e9140a3e22c0f6d32"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">obtainMajorityCommittedSnapshot</a> ()</td></tr>
+<tr class="memitem:aa06eae806c652b8e9140a3e22c0f6d32"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#aa06eae806c652b8e9140a3e22c0f6d32">obtainMajorityCommittedSnapshot</a> ()</td></tr>
 <tr class="memdesc:aa06eae806c652b8e9140a3e22c0f6d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains a majority committed snapshot.  <a href="#aa06eae806c652b8e9140a3e22c0f6d32">More...</a><br /></td></tr>
 <tr class="separator:aa06eae806c652b8e9140a3e22c0f6d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eca651df7de7474ca04f9b58e605047"><td class="memItemLeft" align="right" valign="top">virtual boost::optional&lt; Timestamp &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a3eca651df7de7474ca04f9b58e605047">getPointInTimeReadTimestamp</a> () const</td></tr>
@@ -183,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32b67f3be8c7aeb40d76d68e1f061bef"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1SnapshotId.html">SnapshotId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a32b67f3be8c7aeb40d76d68e1f061bef">getSnapshotId</a> () const =0</td></tr>
 <tr class="memdesc:a32b67f3be8c7aeb40d76d68e1f061bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the local <a class="el" href="classmongo_1_1SnapshotId.html">SnapshotId</a>.  <a href="#a32b67f3be8c7aeb40d76d68e1f061bef">More...</a><br /></td></tr>
 <tr class="separator:a32b67f3be8c7aeb40d76d68e1f061bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a741651c20eba9f946bcf58908f780c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a2a741651c20eba9f946bcf58908f780c">setTimestamp</a> (Timestamp timestamp)</td></tr>
+<tr class="memitem:a2a741651c20eba9f946bcf58908f780c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#a2a741651c20eba9f946bcf58908f780c">setTimestamp</a> (Timestamp timestamp)</td></tr>
 <tr class="memdesc:a2a741651c20eba9f946bcf58908f780c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a timestamp to assign to future writes in a transaction.  <a href="#a2a741651c20eba9f946bcf58908f780c">More...</a><br /></td></tr>
 <tr class="separator:a2a741651c20eba9f946bcf58908f780c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c1fe82af78f29a8d45c60b74682216"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1RecoveryUnit.html#af7c1fe82af78f29a8d45c60b74682216">setCommitTimestamp</a> (Timestamp timestamp)</td></tr>
@@ -253,8 +254,10 @@ Private Member Functions</h2></td></tr>
 
 <p>The ReadSource indicates which exteral or provided timestamp to read from for future transactions. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6"></a>kNone&#160;</td><td class="fielddoc"><p>Do not read from a timestamp. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a47e15fc5e0417f4ddd368e536798a138"></a>kUnset&#160;</td><td class="fielddoc"><p>Do not read from a timestamp. </p>
 <p>This is the default. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4ae1a6254f10b3e2f69d8885df80174e1d"></a>kNoTimestamp&#160;</td><td class="fielddoc"><p>Read without a timestamp explicitly. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ab73d986cec10146d72945aa3a11b87a4a783bd0f6356d0eaacedb2fa325e73cd8"></a>kMajorityCommitted&#160;</td><td class="fielddoc"><p>Read from the majority all-commmitted timestamp. </p>
 </td></tr>
@@ -629,7 +632,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::RecoveryUnit::obtainMajorityCommittedSnapshot </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::RecoveryUnit::obtainMajorityCommittedSnapshot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -980,7 +983,7 @@ template&lt;typename Callback &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::RecoveryUnit::setTimestamp </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::RecoveryUnit::setTimestamp </td>
           <td>(</td>
           <td class="paramtype">Timestamp&#160;</td>
           <td class="paramname"><em>timestamp</em></td><td>)</td>

@@ -10,6 +10,6 @@ var searchData=
   ['op',['op',['../structmongo_1_1dur_1_1ParsedJournalEntry.html#a89eacd8256d160ec0ddb4fe98b9d7aa9',1,'mongo::dur::ParsedJournalEntry']]],
   ['opcode',['opcode',['../structmongo_1_1dur_1_1JEntry.html#a545def51d2d1aa43bfa947bc267cf946',1,'mongo::dur::JEntry']]],
   ['opctx',['opCtx',['../classUUIDCatalogTest.html#a7c9c7f5522301b80b521d539881c6327',1,'UUIDCatalogTest::opCtx()'],['../recovery__unit__test__harness_8cpp.html#ab24d37dc37f081701d0857805b05e893',1,'opCtx():&#160;recovery_unit_test_harness.cpp'],['../namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043',1,'mongo::opCtx()']]],
-  ['options',['options',['../structmongo_1_1BSONCollectionCatalogEntry_1_1MetaData.html#a402b188567e135b607f077b28003d26f',1,'mongo::BSONCollectionCatalogEntry::MetaData::options()'],['../structmongo_1_1MultiIndexBlockImpl_1_1IndexToBuild.html#a2c933ff6c184a529d0f63815244773cf',1,'mongo::MultiIndexBlockImpl::IndexToBuild::options()'],['../namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7',1,'mongo::options()']]],
+  ['options',['options',['../structmongo_1_1BSONCollectionCatalogEntry_1_1MetaData.html#a402b188567e135b607f077b28003d26f',1,'mongo::BSONCollectionCatalogEntry::MetaData::options()'],['../structmongo_1_1MultiIndexBlockImpl_1_1IndexToBuild.html#a2c933ff6c184a529d0f63815244773cf',1,'mongo::MultiIndexBlockImpl::IndexToBuild::options()']]],
   ['owners',['owners',['../structmongo_1_1DeadlockDetector_1_1Edges.html#a4790478fce3bbad36cf6f17584c89d7f',1,'mongo::DeadlockDetector::Edges']]]
 ];

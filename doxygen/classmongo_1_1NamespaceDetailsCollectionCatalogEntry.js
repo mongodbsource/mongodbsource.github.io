@@ -4,7 +4,6 @@ var classmongo_1_1NamespaceDetailsCollectionCatalogEntry =
     [ "~NamespaceDetailsCollectionCatalogEntry", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#aaa316ccb3927d4fccc7a29524ae697f3", null ],
     [ "_findIndexNumber", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#aa359733ae21fdb2a6ce0a837fce5dd2f", null ],
     [ "_updateSystemNamespaces", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ac1fa125b0a529a9bc7bf7d7308f597f3", null ],
-    [ "addUUID", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#a1f843664dec2e39b51732a6ccbbb18e0", null ],
     [ "getAllIndexes", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ac7985ae92131e96b9466dff946fe607a", null ],
     [ "getCollectionOptions", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ab5195096e9ab5031b5439bc753a6a196", null ],
     [ "getCompletedIndexCount", "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#a00aeb95c31651dcb6cb8c747a25460b5", null ],

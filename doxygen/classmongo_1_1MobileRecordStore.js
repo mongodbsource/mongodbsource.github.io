@@ -26,6 +26,7 @@ var classmongo_1_1MobileRecordStore =
     [ "deleteRecord", "classmongo_1_1MobileRecordStore.html#a4303b451a034bc3bb0c72d6bc9ce6264", null ],
     [ "findRecord", "classmongo_1_1MobileRecordStore.html#aea109aecc6a72bd4d5f2a0f7ef3cb627", null ],
     [ "getCursor", "classmongo_1_1MobileRecordStore.html#afd274a3bd09302b15fd5db020a272fa8", null ],
+    [ "getIdent", "classmongo_1_1MobileRecordStore.html#a02d0fb6f9c7ffbf6ef19f77342dbe3d6", null ],
     [ "insertRecord", "classmongo_1_1MobileRecordStore.html#afb366a455f665dc26e2bb5f100488a5e", null ],
     [ "insertRecordsWithDocWriter", "classmongo_1_1MobileRecordStore.html#a65ece7f0b97e0238cfa0520c9874eda4", null ],
     [ "isCapped", "classmongo_1_1MobileRecordStore.html#ab414fdc30ce0663d3bbb5084c88144eb", null ],

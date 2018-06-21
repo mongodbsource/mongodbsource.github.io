@@ -31,7 +31,7 @@ var classmongo_1_1Database =
     [ "isDropPending", "classmongo_1_1Database.html#a3a321bc92c55f53bbaf3aed669ffd117", null ],
     [ "makeUniqueCollectionNamespace", "classmongo_1_1Database.html#a5b57fe9a46f2b58917d0bc13214153d1", null ],
     [ "MONGO_DECLARE_SHIM", "classmongo_1_1Database.html#ab50f40ca3e8990027edeec4377001121", null ],
-    [ "MONGO_DECLARE_SHIM", "classmongo_1_1Database.html#aac7982583706f9f1ef5187f8988bfb51", null ],
+    [ "MONGO_DECLARE_SHIM", "classmongo_1_1Database.html#a05bfec36f407f9b47946444e74550e60", null ],
     [ "MONGO_DECLARE_SHIM", "classmongo_1_1Database.html#a3cf855c00b5663ea2f8557fb9394bd95", null ],
     [ "MONGO_DECLARE_SHIM", "classmongo_1_1Database.html#a1e1edc0d90995d9bed87ae7883f68e34", null ],
     [ "name", "classmongo_1_1Database.html#a059f63eb296e3ed335da3f1d2c556379", null ],

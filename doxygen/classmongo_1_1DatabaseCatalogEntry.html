@@ -134,7 +134,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a988003793983f9ec04cc0b96bc2a7a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2663f8ed013289ec1ee08486211158ba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a2663f8ed013289ec1ee08486211158ba">markIndexSafe24AndUp</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
 <tr class="separator:a2663f8ed013289ec1ee08486211158ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4e166a79afda8763c5124c6bbd3c227"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#ac4e166a79afda8763c5124c6bbd3c227">currentFilesCompatible</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const =0</td></tr>
+<tr class="memitem:ac4e166a79afda8763c5124c6bbd3c227"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#ac4e166a79afda8763c5124c6bbd3c227">currentFilesCompatible</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const =0</td></tr>
 <tr class="memdesc:ac4e166a79afda8763c5124c6bbd3c227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whethers the data files are compatible with the current code:  <a href="#ac4e166a79afda8763c5124c6bbd3c227">More...</a><br /></td></tr>
 <tr class="separator:ac4e166a79afda8763c5124c6bbd3c227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9fe529e0aeeb8af5002e3dc984530e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a0d9fe529e0aeeb8af5002e3dc984530e">getCollectionNamespaces</a> (std::list&lt; std::string &gt; *out) const =0</td></tr>
@@ -145,11 +145,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad4829ecd538a869025c0686d781eaf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaa88c9bf5c2c672105eae595a23595c"><td class="memItemLeft" align="right" valign="top">virtual IndexAccessMethod *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#aeaa88c9bf5c2c672105eae595a23595c">getIndex</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const <a class="el" href="classmongo_1_1CollectionCatalogEntry.html">CollectionCatalogEntry</a> *<a class="el" href="namespacemongo.html#a2f403dd8ffd4ee0aee78ea0df01a3e37">collection</a>, <a class="el" href="classmongo_1_1IndexCatalogEntry.html">IndexCatalogEntry</a> *index)=0</td></tr>
 <tr class="separator:aeaa88c9bf5c2c672105eae595a23595c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7830d059834332559a959be0ea8c2568"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a7830d059834332559a959be0ea8c2568">createCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, const <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> &amp;<a class="el" href="namespacemongo.html#ad271b77bcd8d56d7a7e2205e9cb55df7">options</a>, bool allocateDefaultSpace)=0</td></tr>
+<tr class="memitem:a7830d059834332559a959be0ea8c2568"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a7830d059834332559a959be0ea8c2568">createCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>, const <a class="el" href="structmongo_1_1CollectionOptions.html">CollectionOptions</a> &amp;options, bool allocateDefaultSpace)=0</td></tr>
 <tr class="separator:a7830d059834332559a959be0ea8c2568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a589cc5a52d66730ae63083d84538415e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a589cc5a52d66730ae63083d84538415e">renameCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData fromNS, StringData toNS, bool stayTemp)=0</td></tr>
+<tr class="memitem:a589cc5a52d66730ae63083d84538415e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#a589cc5a52d66730ae63083d84538415e">renameCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData fromNS, StringData toNS, bool stayTemp)=0</td></tr>
 <tr class="separator:a589cc5a52d66730ae63083d84538415e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae75165caa767acae2909f348bc833bb1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#ae75165caa767acae2909f348bc833bb1">dropCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)=0</td></tr>
+<tr class="memitem:ae75165caa767acae2909f348bc833bb1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1DatabaseCatalogEntry.html#ae75165caa767acae2909f348bc833bb1">dropCollection</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, StringData <a class="el" href="namespacemongo.html#aa1aad236ca83643ab0718062dd62f4fc">ns</a>)=0</td></tr>
 <tr class="separator:ae75165caa767acae2909f348bc833bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -264,7 +264,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DatabaseCatalogEntry::createCollection </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DatabaseCatalogEntry::createCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -314,7 +314,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DatabaseCatalogEntry::currentFilesCompatible </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DatabaseCatalogEntry::currentFilesCompatible </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -349,7 +349,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DatabaseCatalogEntry::dropCollection </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DatabaseCatalogEntry::dropCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -677,7 +677,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::DatabaseCatalogEntry::renameCollection </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::DatabaseCatalogEntry::renameCollection </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>

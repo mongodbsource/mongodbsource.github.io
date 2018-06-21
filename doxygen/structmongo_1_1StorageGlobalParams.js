@@ -1,5 +1,7 @@
 var structmongo_1_1StorageGlobalParams =
 [
+    [ "StorageGlobalParams", "structmongo_1_1StorageGlobalParams.html#a813d8dd6ac9cc8bfae2cc747c1828332", null ],
+    [ "reset", "structmongo_1_1StorageGlobalParams.html#a2a64bf678b9736b2587584f0de43d8f5", null ],
     [ "dbpath", "structmongo_1_1StorageGlobalParams.html#aeb620688029b3ae3160368cfe93cec79", null ],
     [ "directoryperdb", "structmongo_1_1StorageGlobalParams.html#aab177738058aa8c8ff80a451568dd727", null ],
     [ "dur", "structmongo_1_1StorageGlobalParams.html#ae48b5a1c6f92b3f3dbdc79843e229fcc", null ],

@@ -45,7 +45,7 @@ var searchData=
   ['lockrequestcombo',['LockRequestCombo',['../structmongo_1_1LockRequestCombo.html#a0d7284c363a71e26fc341c26c4128788',1,'mongo::LockRequestCombo']]],
   ['lockrequeststatusname',['lockRequestStatusName',['../namespacemongo.html#a37ccb498d7017c3ebeb45c6b8efba140',1,'mongo']]],
   ['lockstats',['LockStats',['../classmongo_1_1LockStats.html#aa32d26f579ed1ca2ced631026d52ca5a',1,'mongo::LockStats']]],
-  ['log',['log',['../classmongo_1_1HealthLog.html#afc9708c759c424d83b11f7fc6a416cfe',1,'mongo::HealthLog::log()'],['../namespacemongo.html#af31630053e40de173de744256c8f2b18',1,'mongo::LOG()']]],
+  ['log',['log',['../classmongo_1_1HealthLog.html#afc9708c759c424d83b11f7fc6a416cfe',1,'mongo::HealthLog::log()'],['../namespacemongo.html#adcd43bb9f1982352e27eb09e7ad31835',1,'mongo::LOG()']]],
   ['logandbackoff',['logAndBackoff',['../classmongo_1_1WriteConflictException.html#a49c9b4b3339a15d8944abb7488b9915f',1,'mongo::WriteConflictException']]],
   ['logfile',['LogFile',['../classmongo_1_1LogFile.html#ac4c540b8953efd5d808c2f693a7af938',1,'mongo::LogFile']]],
   ['longtoken',['longToken',['../classmongo_1_1SplitUnevenBucketBase.html#a2289a26332b123edbd840671411723b5',1,'mongo::SplitUnevenBucketBase::longToken()'],['../classmongo_1_1SplitRightHeavyBucket.html#aaab1f26b5d4e02c6e4fabcc920f26012',1,'mongo::SplitRightHeavyBucket::longToken()'],['../classmongo_1_1SplitLeftHeavyBucket.html#aef0047cc235963697972d98823066df2',1,'mongo::SplitLeftHeavyBucket::longToken()']]],

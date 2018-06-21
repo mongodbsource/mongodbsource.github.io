@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('mobile__util_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">mobile_util.h File Reference</div>  </div>
@@ -108,11 +109,24 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespacemongo"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (C) 2014 MongoDB Inc. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a1cbb787e906015b10ac5f66d3315d6ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mobile__util_8h.html#a1cbb787e906015b10ac5f66d3315d6ae">MOBILE_LOG_LEVEL_LOW</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a1cbb787e906015b10ac5f66d3315d6ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (C) 2017 MongoDB Inc.  <a href="#a1cbb787e906015b10ac5f66d3315d6ae">More...</a><br /></td></tr>
+<tr class="separator:a1cbb787e906015b10ac5f66d3315d6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f4021367201039481013efd6d35036"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mobile__util_8h.html#af1f4021367201039481013efd6d35036">MOBILE_LOG_LEVEL_HIGH</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:af1f4021367201039481013efd6d35036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad77a3cbb8f32037a0043da33ac0c237"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mobile__util_8h.html#aad77a3cbb8f32037a0043da33ac0c237">MOBILE_TRACE_LEVEL</a>&#160;&#160;&#160;<a class="el" href="mobile__util_8h.html#af1f4021367201039481013efd6d35036">MOBILE_LOG_LEVEL_HIGH</a></td></tr>
+<tr class="separator:aad77a3cbb8f32037a0043da33ac0c237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="memItemLeft" align="right" valign="top">Status&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a4e2f5b3cd6d536c7acaf980e532dade2">mongo::sqliteRCToStatus</a> (int retCode, const char *prefix=NULL)</td></tr>
 <tr class="memdesc:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SQLite return codes to MongoDB statuses.  <a href="namespacemongo.html#a4e2f5b3cd6d536c7acaf980e532dade2">More...</a><br /></td></tr>
 <tr class="separator:a4e2f5b3cd6d536c7acaf980e532dade2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab82a7481e7f140b01deeca07c61c67d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#aab82a7481e7f140b01deeca07c61c67d">mongo::sqliteStatusToStr</a> (int retStatus)</td></tr>
+<tr class="memdesc:aab82a7481e7f140b01deeca07c61c67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SQLite return codes to string equivalents.  <a href="namespacemongo.html#aab82a7481e7f140b01deeca07c61c67d">More...</a><br /></td></tr>
+<tr class="separator:aab82a7481e7f140b01deeca07c61c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a806fcc651b68502e1f1526f7f96c2883"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemongo.html#a806fcc651b68502e1f1526f7f96c2883">mongo::checkStatus</a> (int retStatus, int desiredStatus, const char *fnName, const char *errMsg=NULL)</td></tr>
 <tr class="memdesc:a806fcc651b68502e1f1526f7f96c2883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if retStatus == desiredStatus; else calls fassert.  <a href="namespacemongo.html#a806fcc651b68502e1f1526f7f96c2883">More...</a><br /></td></tr>
 <tr class="separator:a806fcc651b68502e1f1526f7f96c2883"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +137,55 @@ Functions</h2></td></tr>
 <tr class="memdesc:a330a89c31fd15a5e95cc6ab99e936cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the database file is corrupt.  <a href="namespacemongo.html#a330a89c31fd15a5e95cc6ab99e936cfd">More...</a><br /></td></tr>
 <tr class="separator:a330a89c31fd15a5e95cc6ab99e936cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af1f4021367201039481013efd6d35036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f4021367201039481013efd6d35036">&#9670;&nbsp;</a></span>MOBILE_LOG_LEVEL_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOBILE_LOG_LEVEL_HIGH&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cbb787e906015b10ac5f66d3315d6ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbb787e906015b10ac5f66d3315d6ae">&#9670;&nbsp;</a></span>MOBILE_LOG_LEVEL_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOBILE_LOG_LEVEL_LOW&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copyright (C) 2017 MongoDB Inc. </p>
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License, version 3, as published by the Free Software Foundation.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.</p>
+<p>You should have received a copy of the GNU Affero General Public License along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+<p>As a special exception, the copyright holders give permission to link the code of portions of this program with the OpenSSL library under certain conditions as described in each individual source file and distribute linked combinations including the program with the OpenSSL library. You must comply with the GNU Affero General Public License in all respects for all of the code used other than as permitted herein. If you modify file(s) with this exception, you may extend this exception to your version of the file(s), but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. If you delete this exception statement from all source files in the program, then also delete it in the license file. </p>
+
+</div>
+</div>
+<a id="aad77a3cbb8f32037a0043da33ac0c237"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad77a3cbb8f32037a0043da33ac0c237">&#9670;&nbsp;</a></span>MOBILE_TRACE_LEVEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOBILE_TRACE_LEVEL&#160;&#160;&#160;<a class="el" href="mobile__util_8h.html#af1f4021367201039481013efd6d35036">MOBILE_LOG_LEVEL_HIGH</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->

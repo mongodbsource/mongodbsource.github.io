@@ -25,6 +25,7 @@ var classmongo_1_1RecordStoreV1Base =
     [ "findRecord", "classmongo_1_1RecordStoreV1Base.html#ac4f7b877a9bdedb1071afa6d2803ba2b", null ],
     [ "getCursorForRepair", "classmongo_1_1RecordStoreV1Base.html#ac0295261fbb750f4baa5f1ceecb8aea8", null ],
     [ "getExtentLocForRecord", "classmongo_1_1RecordStoreV1Base.html#addcceb14f32d19f0fe0639c05f06311b", null ],
+    [ "getIdent", "classmongo_1_1RecordStoreV1Base.html#a5fde1f080b2e11020b627fc9d094487b", null ],
     [ "getNextRecord", "classmongo_1_1RecordStoreV1Base.html#a426371be4f28b0023da32e3d1bd25864", null ],
     [ "getNextRecordInExtent", "classmongo_1_1RecordStoreV1Base.html#a080a52ae4db1326974ec06de0fa198e6", null ],
     [ "getPrevRecord", "classmongo_1_1RecordStoreV1Base.html#a43844dc4ce9ad2e05a0f4759e846387a", null ],

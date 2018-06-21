@@ -143,16 +143,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67fe8776e57986a493ab55ac3db3f2a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1SortedDataBuilderInterface.html">SortedDataBuilderInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a67fe8776e57986a493ab55ac3db3f2a1">getBulkBuilder</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, bool dupsAllowed)=0</td></tr>
 <tr class="memdesc:a67fe8776e57986a493ab55ac3db3f2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a bulk builder for 'this' index.  <a href="#a67fe8776e57986a493ab55ac3db3f2a1">More...</a><br /></td></tr>
 <tr class="separator:a67fe8776e57986a493ab55ac3db3f2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac227f9871404e134fff6f09fe5bf9a11"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ac227f9871404e134fff6f09fe5bf9a11">insert</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;<a class="el" href="btree__interface_8cpp.html#a9deea66b96229c04f597912f85d4d999">key</a>, const RecordId &amp;loc, bool dupsAllowed)=0</td></tr>
+<tr class="memitem:ac227f9871404e134fff6f09fe5bf9a11"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ac227f9871404e134fff6f09fe5bf9a11">insert</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;<a class="el" href="btree__interface_8cpp.html#a9deea66b96229c04f597912f85d4d999">key</a>, const RecordId &amp;loc, bool dupsAllowed)=0</td></tr>
 <tr class="memdesc:ac227f9871404e134fff6f09fe5bf9a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert an entry into the index with the specified key and RecordId.  <a href="#ac227f9871404e134fff6f09fe5bf9a11">More...</a><br /></td></tr>
 <tr class="separator:ac227f9871404e134fff6f09fe5bf9a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0388965e2787cf31f3ddd45ee344a9f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a0388965e2787cf31f3ddd45ee344a9f8">unindex</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;<a class="el" href="btree__interface_8cpp.html#a9deea66b96229c04f597912f85d4d999">key</a>, const RecordId &amp;loc, bool dupsAllowed)=0</td></tr>
 <tr class="memdesc:a0388965e2787cf31f3ddd45ee344a9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the entry from the index with the specified key and RecordId.  <a href="#a0388965e2787cf31f3ddd45ee344a9f8">More...</a><br /></td></tr>
 <tr class="separator:a0388965e2787cf31f3ddd45ee344a9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa4afb7b583a8efea9db06ded22c414b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#aaa4afb7b583a8efea9db06ded22c414b">dupKeyCheck</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;<a class="el" href="btree__interface_8cpp.html#a9deea66b96229c04f597912f85d4d999">key</a>, const RecordId &amp;loc)=0</td></tr>
+<tr class="memitem:aaa4afb7b583a8efea9db06ded22c414b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#aaa4afb7b583a8efea9db06ded22c414b">dupKeyCheck</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, const BSONObj &amp;<a class="el" href="btree__interface_8cpp.html#a9deea66b96229c04f597912f85d4d999">key</a>, const RecordId &amp;loc)=0</td></tr>
 <tr class="memdesc:aaa4afb7b583a8efea9db06ded22c414b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return ErrorCodes::DuplicateKey if 'key' already exists in 'this' index at a RecordId other than 'loc', and Status::OK() otherwise.  <a href="#aaa4afb7b583a8efea9db06ded22c414b">More...</a><br /></td></tr>
 <tr class="separator:aaa4afb7b583a8efea9db06ded22c414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7caa7eeeb9962c6870584a083c4f745"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ae7caa7eeeb9962c6870584a083c4f745">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
+<tr class="memitem:ae7caa7eeeb9962c6870584a083c4f745"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ae7caa7eeeb9962c6870584a083c4f745">compact</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)</td></tr>
 <tr class="memdesc:ae7caa7eeeb9962c6870584a083c4f745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to reduce the storage space used by this index via compaction.  <a href="#ae7caa7eeeb9962c6870584a083c4f745">More...</a><br /></td></tr>
 <tr class="separator:ae7caa7eeeb9962c6870584a083c4f745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab123f7c139ac48fd98acffb80e11073d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ab123f7c139ac48fd98acffb80e11073d">fullValidate</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>, long long *numKeysOut, <a class="el" href="structmongo_1_1ValidateResults.html">ValidateResults</a> *fullResults) const =0</td></tr>
@@ -166,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5cb31912c519493929596471ef4ac9aa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a5cb31912c519493929596471ef4ac9aa">isEmpty</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
 <tr class="memdesc:a5cb31912c519493929596471ef4ac9aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if 'this' index is empty, and false otherwise.  <a href="#a5cb31912c519493929596471ef4ac9aa">More...</a><br /></td></tr>
 <tr class="separator:a5cb31912c519493929596471ef4ac9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ee8a0ba96040031c3b07933165defc6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a0ee8a0ba96040031c3b07933165defc6">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const</td></tr>
+<tr class="memitem:a0ee8a0ba96040031c3b07933165defc6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a0ee8a0ba96040031c3b07933165defc6">touch</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const</td></tr>
 <tr class="memdesc:a0ee8a0ba96040031c3b07933165defc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to bring the entirety of 'this' index into memory.  <a href="#a0ee8a0ba96040031c3b07933165defc6">More...</a><br /></td></tr>
 <tr class="separator:a0ee8a0ba96040031c3b07933165defc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487fc224110b5a45bd62a394bd7eab23"><td class="memItemLeft" align="right" valign="top">virtual long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a487fc224110b5a45bd62a394bd7eab23">numEntries</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const</td></tr>
@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15ff366c7bc2ae1333d6b4655f4b9d7c"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmongo_1_1SortedDataInterface_1_1Cursor.html">Cursor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#a15ff366c7bc2ae1333d6b4655f4b9d7c">newRandomCursor</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>) const</td></tr>
 <tr class="memdesc:a15ff366c7bc2ae1333d6b4655f4b9d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a cursor over an index that returns entries in a randomized order, and allows storage engines to provide a more efficient way to randomly sample a collection than MongoDB's default sampling methods, which are used when this method returns {}.  <a href="#a15ff366c7bc2ae1333d6b4655f4b9d7c">More...</a><br /></td></tr>
 <tr class="separator:a15ff366c7bc2ae1333d6b4655f4b9d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1b0ae03cb632db8b9e23dcab625c4e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ade1b0ae03cb632db8b9e23dcab625c4e">initAsEmpty</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
+<tr class="memitem:ade1b0ae03cb632db8b9e23dcab625c4e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1SortedDataInterface.html#ade1b0ae03cb632db8b9e23dcab625c4e">initAsEmpty</a> (OperationContext *<a class="el" href="namespacemongo.html#a15b23ef1d9a7f6cdadbf866f1e8e5043">opCtx</a>)=0</td></tr>
 <tr class="separator:ade1b0ae03cb632db8b9e23dcab625c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -262,7 +262,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::SortedDataInterface::compact </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::SortedDataInterface::compact </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -293,7 +293,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::SortedDataInterface::dupKeyCheck </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::SortedDataInterface::dupKeyCheck </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -478,7 +478,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::SortedDataInterface::initAsEmpty </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::SortedDataInterface::initAsEmpty </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>
@@ -506,7 +506,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::SortedDataInterface::insert </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::SortedDataInterface::insert </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em>, </td>
@@ -699,7 +699,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::SortedDataInterface::touch </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::SortedDataInterface::touch </td>
           <td>(</td>
           <td class="paramtype">OperationContext *&#160;</td>
           <td class="paramname"><em>opCtx</em></td><td>)</td>

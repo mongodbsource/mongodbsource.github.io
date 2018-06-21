@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sequential',['Sequential',['../classmongo_1_1ExtentManager.html#a0d3ac8a8796f0d54563768a3a37986e4a658635db9e8857c25f9465f561aa93da',1,'mongo::ExtentManager::Sequential()'],['../classmongo_1_1MAdvise.html#a29275888994569445b4502d8d7d653dfa1ad71ba70139a8c3894c5562f00b2f36',1,'mongo::MAdvise::Sequential()'],['../classmongo_1_1MongoFile.html#a6f13d39dc6b8ed0ed22bedcb558d018fafac7d4dc0d079f1a1139cecbfc4d27dd',1,'mongo::MongoFile::SEQUENTIAL()']]],
+  ['sequential',['SEQUENTIAL',['../classmongo_1_1MongoFile.html#a6f13d39dc6b8ed0ed22bedcb558d018fafac7d4dc0d079f1a1139cecbfc4d27dd',1,'mongo::MongoFile::SEQUENTIAL()'],['../classmongo_1_1ExtentManager.html#a0d3ac8a8796f0d54563768a3a37986e4a658635db9e8857c25f9465f561aa93da',1,'mongo::ExtentManager::Sequential()'],['../classmongo_1_1MAdvise.html#a29275888994569445b4502d8d7d653dfa1ad71ba70139a8c3894c5562f00b2f36',1,'mongo::MAdvise::Sequential()']]],
   ['singleton_5fglobal',['SINGLETON_GLOBAL',['../classmongo_1_1ResourceId.html#a73ff377e4c10fbe11dc26dedd8f6e6b2a81cda6086df00a68a3e20aaecc7d9300',1,'mongo::ResourceId']]],
   ['singleton_5finvalid',['SINGLETON_INVALID',['../classmongo_1_1ResourceId.html#a73ff377e4c10fbe11dc26dedd8f6e6b2ad9b1e9e6bbe74509f2f69b54ceda4706',1,'mongo::ResourceId']]],
   ['singleton_5fmmapv1_5fflush',['SINGLETON_MMAPV1_FLUSH',['../classmongo_1_1ResourceId.html#a73ff377e4c10fbe11dc26dedd8f6e6b2a143a49028e431d49e7f16aa12d37e0af',1,'mongo::ResourceId']]],

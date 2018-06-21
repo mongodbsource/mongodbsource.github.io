@@ -1,6 +1,7 @@
 var wiredtiger__util_8h =
 [
     [ "WiredTigerItem", "structmongo_1_1WiredTigerItem.html", "structmongo_1_1WiredTigerItem" ],
+    [ "WiredTigerEventHandler", "classmongo_1_1WiredTigerEventHandler.html", "classmongo_1_1WiredTigerEventHandler" ],
     [ "WiredTigerUtil", "classmongo_1_1WiredTigerUtil.html", "classmongo_1_1WiredTigerUtil" ],
     [ "ErrorAccumulator", "classmongo_1_1WiredTigerUtil_1_1ErrorAccumulator.html", "classmongo_1_1WiredTigerUtil_1_1ErrorAccumulator" ],
     [ "WiredTigerConfigParser", "classmongo_1_1WiredTigerConfigParser.html", "classmongo_1_1WiredTigerConfigParser" ],

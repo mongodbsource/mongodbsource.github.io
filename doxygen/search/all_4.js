@@ -66,7 +66,6 @@ var searchData=
   ['decoderecordidatend',['decodeRecordIdAtEnd',['../classmongo_1_1KeyString.html#a3670c239cf7b6c23c0f13c68d5e075d8',1,'mongo::KeyString']]],
   ['default',['DEFAULT',['../structmongo_1_1CollectionOptions.html#a8dea64ab4075503a82dfad3b3c151354a3b2e93815380cc3fba0e619d1b4ab6cb',1,'mongo::CollectionOptions']]],
   ['defaultdatabasecatalogentryfactory',['defaultDatabaseCatalogEntryFactory',['../namespacemongo.html#a3bb0760931f6a5e99a21a8ab7e222a0f',1,'mongo']]],
-  ['defaulteventhandlers',['defaultEventHandlers',['../classmongo_1_1WiredTigerUtil.html#affc18e0163b05774e88e270084ee5acd',1,'mongo::WiredTigerUtil']]],
   ['defaultfornewfiles',['defaultForNewFiles',['../classmongo_1_1DataFileVersion.html#a8e15dab269f101f038fff794f3b3f377',1,'mongo::DataFileVersion']]],
   ['defaultlockerimpl',['DefaultLockerImpl',['../namespacemongo.html#a5527a1ce3dce292f6178c86bbf9e5bca',1,'mongo']]],
   ['deferred_5fwriter_2ecpp',['deferred_writer.cpp',['../deferred__writer_8cpp.html',1,'']]],

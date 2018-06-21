@@ -8,6 +8,7 @@ var classmongo_1_1DevNullRecordStore =
     [ "deleteRecord", "classmongo_1_1DevNullRecordStore.html#a44dea3474cfc5d90d1b98b89cb713b44", null ],
     [ "findRecord", "classmongo_1_1DevNullRecordStore.html#a6645536831f90440e819e50b57e9220e", null ],
     [ "getCursor", "classmongo_1_1DevNullRecordStore.html#a5108496f19f939bacf7ac8cccbcfbbb6", null ],
+    [ "getIdent", "classmongo_1_1DevNullRecordStore.html#a5776cc13891145bba8e5a6c770323f5c", null ],
     [ "insertRecord", "classmongo_1_1DevNullRecordStore.html#a7c23364f040f4da3f40c361a4704eeac", null ],
     [ "insertRecordsWithDocWriter", "classmongo_1_1DevNullRecordStore.html#a8b081630e69e680f1642c2d48dacc4a0", null ],
     [ "isCapped", "classmongo_1_1DevNullRecordStore.html#a794bfb5f916fcf4f4108640f97ce3e6a", null ],

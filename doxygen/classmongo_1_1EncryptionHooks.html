@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af82c0ffd5ea0939918cf5e4853ca8e28"><td class="memItemLeft" align="right" valign="top">virtual boost::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EncryptionHooks.html#af82c0ffd5ea0939918cf5e4853ca8e28">getProtectedPathSuffix</a> ()</td></tr>
 <tr class="memdesc:af82c0ffd5ea0939918cf5e4853ca8e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an implementation specific path suffix to tag files with.  <a href="#af82c0ffd5ea0939918cf5e4853ca8e28">More...</a><br /></td></tr>
 <tr class="separator:af82c0ffd5ea0939918cf5e4853ca8e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af017a3f6be8005f1d7ef259827b2e23a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EncryptionHooks.html#af017a3f6be8005f1d7ef259827b2e23a">protectTmpData</a> (const uint8_t *in, size_t inLen, uint8_t *out, size_t outLen, size_t *resultLen)</td></tr>
+<tr class="memitem:af017a3f6be8005f1d7ef259827b2e23a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EncryptionHooks.html#af017a3f6be8005f1d7ef259827b2e23a">protectTmpData</a> (const uint8_t *in, size_t inLen, uint8_t *out, size_t outLen, size_t *resultLen)</td></tr>
 <tr class="memdesc:af017a3f6be8005f1d7ef259827b2e23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform temp data to non-readable form before writing it to disk.  <a href="#af017a3f6be8005f1d7ef259827b2e23a">More...</a><br /></td></tr>
 <tr class="separator:af017a3f6be8005f1d7ef259827b2e23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ef473b8079f6dacd40de155553cb961"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EncryptionHooks.html#a8ef473b8079f6dacd40de155553cb961">unprotectTmpData</a> (const uint8_t *in, size_t inLen, uint8_t *out, size_t outLen, size_t *resultLen)</td></tr>
+<tr class="memitem:a8ef473b8079f6dacd40de155553cb961"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1EncryptionHooks.html#a8ef473b8079f6dacd40de155553cb961">unprotectTmpData</a> (const uint8_t *in, size_t inLen, uint8_t *out, size_t outLen, size_t *resultLen)</td></tr>
 <tr class="memdesc:a8ef473b8079f6dacd40de155553cb961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tranforms temp data back to readable form, after reading from disk.  <a href="#a8ef473b8079f6dacd40de155553cb961">More...</a><br /></td></tr>
 <tr class="separator:a8ef473b8079f6dacd40de155553cb961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -304,7 +304,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EncryptionHooks::protectTmpData </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EncryptionHooks::protectTmpData </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>in</em>, </td>
@@ -424,7 +424,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::EncryptionHooks::unprotectTmpData </td>
+          <td class="memname"><a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::EncryptionHooks::unprotectTmpData </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>in</em>, </td>

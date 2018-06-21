@@ -2,7 +2,8 @@ var classmongo_1_1RecoveryUnit =
 [
     [ "Change", "classmongo_1_1RecoveryUnit_1_1Change.html", "classmongo_1_1RecoveryUnit_1_1Change" ],
     [ "ReadSource", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4", [
-      [ "kNone", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a0df1e74d10a350da6c99b33538d09ee6", null ],
+      [ "kUnset", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a47e15fc5e0417f4ddd368e536798a138", null ],
+      [ "kNoTimestamp", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ae1a6254f10b3e2f69d8885df80174e1d", null ],
       [ "kMajorityCommitted", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a783bd0f6356d0eaacedb2fa325e73cd8", null ],
       [ "kLastApplied", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4a6ac3c436cd3a401e9f9b8d8c4853b5d7", null ],
       [ "kLastAppliedSnapshot", "classmongo_1_1RecoveryUnit.html#ab73d986cec10146d72945aa3a11b87a4ab81b778c3f74a093f587f3d95a600c2e", null ],

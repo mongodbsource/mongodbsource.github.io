@@ -124,11 +124,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a078fd5e5c03c9772e78b2e4a7e98a807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75c61c1a4671326243d7cfb1bccff969"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmongo_1_1StatusWith.html">StatusWith</a>&lt; std::vector&lt; BSONObj &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a75c61c1a4671326243d7cfb1bccff969">init</a> (const BSONObj &amp;spec)=0</td></tr>
 <tr class="separator:a75c61c1a4671326243d7cfb1bccff969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c99855a83f1fc892f5705d998c2c5c4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a8c99855a83f1fc892f5705d998c2c5c4">insertAllDocumentsInCollection</a> (std::set&lt; RecordId &gt; *dupsOut=NULL)=0</td></tr>
+<tr class="memitem:a8c99855a83f1fc892f5705d998c2c5c4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a8c99855a83f1fc892f5705d998c2c5c4">insertAllDocumentsInCollection</a> (std::set&lt; RecordId &gt; *dupsOut=NULL)=0</td></tr>
 <tr class="separator:a8c99855a83f1fc892f5705d998c2c5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13c72bb6492fd3fbeaf2ba3c049306d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a13c72bb6492fd3fbeaf2ba3c049306d1">insert</a> (const BSONObj &amp;wholeDocument, const RecordId &amp;loc)=0</td></tr>
+<tr class="memitem:a13c72bb6492fd3fbeaf2ba3c049306d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a13c72bb6492fd3fbeaf2ba3c049306d1">insert</a> (const BSONObj &amp;wholeDocument, const RecordId &amp;loc)=0</td></tr>
 <tr class="separator:a13c72bb6492fd3fbeaf2ba3c049306d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9882a714c30d5a2b3db4dcf4a5a721"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a9d9882a714c30d5a2b3db4dcf4a5a721">doneInserting</a> (std::set&lt; RecordId &gt; *dupsOut=NULL)=0</td></tr>
+<tr class="memitem:a9d9882a714c30d5a2b3db4dcf4a5a721"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a9d9882a714c30d5a2b3db4dcf4a5a721">doneInserting</a> (std::set&lt; RecordId &gt; *dupsOut=NULL)=0</td></tr>
 <tr class="separator:a9d9882a714c30d5a2b3db4dcf4a5a721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d0c6d6a05ce70662ba44bb1b8d099e1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmongo_1_1MultiIndexBlock_1_1Impl.html#a0d0c6d6a05ce70662ba44bb1b8d099e1">commit</a> (stdx::function&lt; <a class="el" href="namespacemongo.html#aa639063deea016a1dac8f046e93900a6">void</a>(const BSONObj &amp;spec)&gt; onCreateFn)=0</td></tr>
 <tr class="separator:a0d0c6d6a05ce70662ba44bb1b8d099e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,7 +283,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::Impl::doneInserting </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::Impl::doneInserting </td>
           <td>(</td>
           <td class="paramtype">std::set&lt; RecordId &gt; *&#160;</td>
           <td class="paramname"><em>dupsOut</em> = <code>NULL</code></td><td>)</td>
@@ -421,7 +421,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::Impl::insert </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::Impl::insert </td>
           <td>(</td>
           <td class="paramtype">const BSONObj &amp;&#160;</td>
           <td class="paramname"><em>wholeDocument</em>, </td>
@@ -459,7 +459,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacemongo.html#a7dd53a44ec884164bc07ed073e9f31da">Status</a> mongo::MultiIndexBlock::Impl::insertAllDocumentsInCollection </td>
+          <td class="memname">virtual <a class="el" href="namespacemongo.html#ac22dc5094e8aebfd46494f3960afbcc3">Status</a> mongo::MultiIndexBlock::Impl::insertAllDocumentsInCollection </td>
           <td>(</td>
           <td class="paramtype">std::set&lt; RecordId &gt; *&#160;</td>
           <td class="paramname"><em>dupsOut</em> = <code>NULL</code></td><td>)</td>

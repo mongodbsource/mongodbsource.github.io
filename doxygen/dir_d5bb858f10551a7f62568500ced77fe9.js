@@ -18,7 +18,7 @@ var dir_d5bb858f10551a7f62568500ced77fe9 =
       [ "MobileRecordStore", "classmongo_1_1MobileRecordStore.html", "classmongo_1_1MobileRecordStore" ]
     ] ],
     [ "mobile_record_store_test.cpp", "mobile__record__store__test_8cpp.html", "mobile__record__store__test_8cpp" ],
-    [ "mobile_recovery_unit.cpp", "mobile__recovery__unit_8cpp.html", null ],
+    [ "mobile_recovery_unit.cpp", "mobile__recovery__unit_8cpp.html", "mobile__recovery__unit_8cpp" ],
     [ "mobile_recovery_unit.h", "mobile__recovery__unit_8h.html", [
       [ "MobileRecoveryUnit", "classmongo_1_1MobileRecoveryUnit.html", "classmongo_1_1MobileRecoveryUnit" ]
     ] ],

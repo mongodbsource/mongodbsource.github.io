@@ -41,7 +41,6 @@ var classmongo_1_1CollectionMock =
     [ "ok", "classmongo_1_1CollectionMock.html#a4e3ca792383bd2a6d47140d57a01493b", null ],
     [ "parseValidator", "classmongo_1_1CollectionMock.html#a7b4a5b27cd6966bec0000c187d106287", null ],
     [ "recordStoreGoingToUpdateInPlace", "classmongo_1_1CollectionMock.html#ab8a0bf91c9d8e2e4689bbcee52635639", null ],
-    [ "refreshUUID", "classmongo_1_1CollectionMock.html#a71ea261f0d006c138c5aecba1f910739", null ],
     [ "requiresIdIndex", "classmongo_1_1CollectionMock.html#a11ea1ca9f831bc17c3b361f0c4c80657", null ],
     [ "setMinimumVisibleSnapshot", "classmongo_1_1CollectionMock.html#a4095f3a6fd320841649311329beb0e19", null ],
     [ "setValidationAction", "classmongo_1_1CollectionMock.html#a0e7119fa0922b0bea8d7155cf040bcb3", null ],

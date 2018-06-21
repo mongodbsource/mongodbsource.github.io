@@ -18,7 +18,7 @@ var searchData=
   ['parseforcommand',['parseForCommand',['../structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5a43227e83c97593d768bd71ca5496d291',1,'mongo::CollectionOptions']]],
   ['parseforstorage',['parseForStorage',['../structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5aa6c78c81dc01095ea6748ef9b8ff8a00',1,'mongo::CollectionOptions']]],
   ['parseindexoptions',['parseIndexOptions',['../classmongo_1_1WiredTigerIndex.html#afeb0adf462b0ded4e56f6f4b3253b110',1,'mongo::WiredTigerIndex']]],
-  ['parsekind',['ParseKind',['../structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5',1,'mongo::CollectionOptions::ParseKind()'],['../namespacemongo.html#abb7f41e65b63c497ad526ad9d6781d39',1,'mongo::parseKind()']]],
+  ['parsekind',['ParseKind',['../structmongo_1_1CollectionOptions.html#a13116ea130c5fcd486ab808f6e36dad5',1,'mongo::CollectionOptions']]],
   ['parseoptionsfield',['parseOptionsField',['../classmongo_1_1WiredTigerRecordStore.html#a617ffaa4e76797bbbd8792d5f9b3d338',1,'mongo::WiredTigerRecordStore']]],
   ['parsevalidationaction',['parseValidationAction',['../classmongo_1_1CollectionImpl.html#a4a50194838f6ccb76f1c587f9d26d3ac',1,'mongo::CollectionImpl']]],
   ['parsevalidationlevel',['parseValidationLevel',['../classmongo_1_1CollectionImpl.html#a8b16d07f99440396fb971517fa2b6f71',1,'mongo::CollectionImpl']]],

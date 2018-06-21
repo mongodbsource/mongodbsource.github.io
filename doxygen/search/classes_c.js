@@ -29,7 +29,7 @@ var searchData=
   ['mmapv1extentmanager',['MmapV1ExtentManager',['../classmongo_1_1MmapV1ExtentManager.html',1,'mongo']]],
   ['mmapv1options',['MMAPV1Options',['../structmongo_1_1MMAPV1Options.html',1,'mongo']]],
   ['mmapv1recordfetcher',['MmapV1RecordFetcher',['../classmongo_1_1MmapV1RecordFetcher.html',1,'mongo']]],
-  ['mmapv1recordheader',['MmapV1RecordHeader',['../classmongo_1_1MmapV1RecordHeader.html',1,'mongo::MmapV1RecordHeader'],['../structmongo_1_1HeapRecordStoreBtree_1_1MmapV1RecordHeader.html',1,'mongo::HeapRecordStoreBtree::MmapV1RecordHeader']]],
+  ['mmapv1recordheader',['MmapV1RecordHeader',['../structmongo_1_1HeapRecordStoreBtree_1_1MmapV1RecordHeader.html',1,'mongo::HeapRecordStoreBtree::MmapV1RecordHeader'],['../classmongo_1_1MmapV1RecordHeader.html',1,'mongo::MmapV1RecordHeader']]],
   ['mobiledelayedopqueue',['MobileDelayedOpQueue',['../classmongo_1_1MobileDelayedOpQueue.html',1,'mongo']]],
   ['mobileindex',['MobileIndex',['../classmongo_1_1MobileIndex.html',1,'mongo']]],
   ['mobileindexstandard',['MobileIndexStandard',['../classmongo_1_1MobileIndexStandard.html',1,'mongo']]],
