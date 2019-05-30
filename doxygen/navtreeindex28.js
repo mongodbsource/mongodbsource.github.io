@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"repair__database_8cpp.html#a1398c401862da0146ad1a93c2fc3fadb":[2,0,0,0,0,2,3,83,4],
+"repair__database_8cpp.html#a21a4254e39af68d68565f342ea0126b8":[2,0,0,0,0,2,3,83,8],
 "repair__database_8cpp.html#a3219a2c78e288d609f3c45667818acbf":[2,0,0,0,0,2,3,83,9],
 "repair__database_8cpp.html#a41292dae5b213ebb4c386bef938a26af":[2,0,0,0,0,2,3,83,3],
 "repair__database_8cpp.html#a7f49e48dc2734e29846d561c4afd0630":[2,0,0,0,0,2,3,83,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "structmongo_1_1CollectionOptions.html#af92893a5dcadfd8d1d0d22981eb93d60":[1,0,1,38,20],
 "structmongo_1_1Collection_1_1TUHook.html":[1,0,1,32,1],
 "structmongo_1_1Collection_1_1TUHook.html#a25d14bfc8ca5b86127d322ff7f835687":[1,0,1,32,1,1],
-"structmongo_1_1Collection_1_1TUHook.html#af963cdc05cb3ecc24f5326e2c5109b2f":[1,0,1,32,1,0],
-"structmongo_1_1CompactOptions.html":[1,0,1,41],
-"structmongo_1_1CompactOptions.html#a85e5d38a983c8b3007ed67d3d2ccec7a":[1,0,1,41,0]
+"structmongo_1_1Collection_1_1TUHook.html#af963cdc05cb3ecc24f5326e2c5109b2f":[1,0,1,32,1,0]
 };

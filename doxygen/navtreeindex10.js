@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classmongo_1_1KeyString.html#a3670c239cf7b6c23c0f13c68d5e075d8":[1,0,1,130,42],
+"classmongo_1_1KeyString.html#a36fd5d8e4a0737503fc2ee87d5966f8f":[1,0,1,130,31],
 "classmongo_1_1KeyString.html#a3888fb08c6dd3a86d2032278ad3faa3f":[1,0,1,130,32],
 "classmongo_1_1KeyString.html#a3a2006abef229f511e39172a076513d4":[1,0,1,130,56],
 "classmongo_1_1KeyString.html#a3bc7fb1c35cd35baa0fcf8ee02e8290c":[1,0,1,130,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classmongo_1_1Lock_1_1GlobalLock.html#ac3e7a20ce707fdb3a0bc941287ce2f50":[1,0,1,147,3,2],
 "classmongo_1_1Lock_1_1GlobalLock.html#adc14a63488235fe69305b13f305aff95":[1,0,1,147,3,1],
 "classmongo_1_1Lock_1_1GlobalLock.html#ae6546d0ad4267eb779172cfeb564dfa2":[1,0,1,147,3,13],
-"classmongo_1_1Lock_1_1GlobalLock.html#afe14ff065c26d9586423cf693c1687c3":[1,0,1,147,3,9],
-"classmongo_1_1Lock_1_1GlobalLock_1_1EnqueueOnly.html":[1,0,1,147,3,0],
-"classmongo_1_1Lock_1_1GlobalRead.html":[1,0,1,147,4]
+"classmongo_1_1Lock_1_1GlobalLock.html#afe14ff065c26d9586423cf693c1687c3":[1,0,1,147,3,9]
 };

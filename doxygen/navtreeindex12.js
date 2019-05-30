@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classmongo_1_1LogFile.html#ae31051cd57fd7a156ae1614e4a46bc1e":[1,0,1,162,6],
+"classmongo_1_1LogFile.html#afab117f1669376ae51fad884b4980d61":[1,0,1,162,3],
 "classmongo_1_1MAdvise.html":[1,0,1,163],
 "classmongo_1_1MAdvise.html#a0618e19261e41e36839a014e019095ee":[1,0,1,163,2],
 "classmongo_1_1MAdvise.html#a2157449a52c0fe6405cefc5f52f21b96":[1,0,1,163,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a243b0a29033f74d3ba271ebb4e57d97d":[1,0,1,188,1,7],
 "classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a3a920d4b440f3da162264fb9130c60ba":[1,0,1,188,1,4],
 "classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a3c122c622ad5d4c3880662add75c182a":[1,0,1,188,1,5],
-"classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a5ca512646810814f5cd46e5178ad9c4d":[1,0,1,188,1,1],
-"classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a9b4057ef5e1834905bf4c7519b3da927":[1,0,1,188,1,8],
-"classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a9e51aaff433ebf10fa302ff3e13cdc7d":[1,0,1,188,1,6]
+"classmongo_1_1MmapV1ExtentManager_1_1FilesArray.html#a5ca512646810814f5cd46e5178ad9c4d":[1,0,1,188,1,1]
 };

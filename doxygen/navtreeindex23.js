@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"create__collection_8cpp.html":[2,0,0,0,0,0,24],
+"create__collection_8cpp.html#a3cc2b97fa412dc55e763157e9d87daa2":[2,0,0,0,0,0,24,1],
 "create__collection_8cpp.html#a7f49e48dc2734e29846d561c4afd0630":[2,0,0,0,0,0,24,0],
 "create__collection_8cpp.html#af07af7b8bd1b197216a486c6b3e31667":[2,0,0,0,0,0,24,2],
 "create__collection_8h.html":[2,0,0,0,0,0,25],
@@ -27,9 +29,9 @@ var NAVTREEINDEX23 =
 "d__concurrency__test_8cpp.html#add9810dcba0001e8964565a98b04719e":[2,0,0,0,0,1,3,4],
 "data__file_8cpp.html":[2,0,0,0,0,2,3,8],
 "data__file_8cpp.html#a3b0d2c9f789f5fce77bc5c486116be43":[2,0,0,0,0,2,3,8,1],
-"data__file_8cpp.html#a7c8836cb74da31daf13e42109de3cd59":[2,0,0,0,0,2,3,8,2],
 "data__file_8cpp.html#a7f49e48dc2734e29846d561c4afd0630":[2,0,0,0,0,2,3,8,0],
-"data__file_8cpp.html#ad724a9ab46584ab6b2d714e83b08d7dd":[2,0,0,0,0,2,3,8,3],
+"data__file_8cpp.html#aad2a5f4fd1349035621d3a73962d9237":[2,0,0,0,0,2,3,8,2],
+"data__file_8cpp.html#af8a03930b68d40190cc2eb3032b3b5f1":[2,0,0,0,0,2,3,8,3],
 "data__file_8h.html":[2,0,0,0,0,2,3,9],
 "data__file_8h_source.html":[2,0,0,0,0,2,3,9],
 "data__file__sync_8cpp.html":[2,0,0,0,0,2,3,10],
@@ -242,12 +244,10 @@ var NAVTREEINDEX23 =
 "dur__journalimpl_8h_source.html":[2,0,0,0,0,2,3,23],
 "dur__preplogbuffer_8cpp.html":[2,0,0,0,0,2,3,24],
 "dur__preplogbuffer_8cpp.html#a0f514400c02af4592d9d2778d64bca73":[2,0,0,0,0,2,3,24,4],
+"dur__preplogbuffer_8cpp.html#a27e5e4ed71c6f1586a42c7c5b52e266d":[2,0,0,0,0,2,3,24,6],
 "dur__preplogbuffer_8cpp.html#a2cbe4a8ed6f58933bf58989af9cd295c":[2,0,0,0,0,2,3,24,2],
-"dur__preplogbuffer_8cpp.html#a36ee411be71a3ea75501c9f9b897152e":[2,0,0,0,0,2,3,24,6],
 "dur__preplogbuffer_8cpp.html#a7797a60a0bd13c93c23948dcba6b2a9f":[2,0,0,0,0,2,3,24,1],
 "dur__preplogbuffer_8cpp.html#a7df5f0f2d291fe2dfe8ce3b300331a6a":[2,0,0,0,0,2,3,24,5],
 "dur__preplogbuffer_8cpp.html#a7f49e48dc2734e29846d561c4afd0630":[2,0,0,0,0,2,3,24,0],
-"dur__preplogbuffer_8cpp.html#a9dfa67aa216e203f47cf35413e5ee7ed":[2,0,0,0,0,2,3,24,3],
-"dur__recover_8cpp.html":[2,0,0,0,0,2,3,25],
-"dur__recover_8cpp.html#a2ce4bb364727a55b8ef70e715720a8d9":[2,0,0,0,0,2,3,25,9]
+"dur__preplogbuffer_8cpp.html#a9dfa67aa216e203f47cf35413e5ee7ed":[2,0,0,0,0,2,3,24,3]
 };

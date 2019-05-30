@@ -39,7 +39,7 @@ var classmongo_1_1CollectionImpl =
     [ "infoCache", "classmongo_1_1CollectionImpl.html#a630c2a914612c8b7e03bec6a77eb94a4", null ],
     [ "init", "classmongo_1_1CollectionImpl.html#af2cecf64e2fff0d0177ae0afa73a6d49", null ],
     [ "insertDocument", "classmongo_1_1CollectionImpl.html#a042f01df2816d02bffae7f0089df18c6", null ],
-    [ "insertDocument", "classmongo_1_1CollectionImpl.html#a998053ee8677b9b0ebf6a9467a96cdc0", null ],
+    [ "insertDocument", "classmongo_1_1CollectionImpl.html#af6bba3dfffc09d5c3637c353f6e03af4", null ],
     [ "insertDocuments", "classmongo_1_1CollectionImpl.html#a305c1023f38027ebea9d65ebdecd94a5", null ],
     [ "insertDocumentsForOplog", "classmongo_1_1CollectionImpl.html#a8e04fa972b3ac673e8266343601d0b27", null ],
     [ "isCapped", "classmongo_1_1CollectionImpl.html#a2f2c25e6a435da8b3f12dd7c9b094d28", null ],

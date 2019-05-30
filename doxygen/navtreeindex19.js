@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#a41c1f86b66ca2a623f8f6fa9e746605c":[1,0,1,303,5],
+"classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#a7a8397dc867bd185031d861d4548c7a0":[1,0,1,303,0],
 "classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#a9c515940355455ae29767c19ef421ccb":[1,0,1,303,2],
 "classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#ae424e2b87c4e649857bcc0b06985d4ff":[1,0,1,303,3],
 "classmongo_1_1WiredTigerEngineRuntimeConfigParameter.html#afd638b1ca83d0cd4781bb04afd388d8e":[1,0,1,303,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classmongo_1_1WiredTigerOplogManager.html#a0da092819896132df4c53db5bd800511":[1,0,1,313,16],
 "classmongo_1_1WiredTigerOplogManager.html#a200097bd8f79c53bd3be371024d07465":[1,0,1,313,3],
 "classmongo_1_1WiredTigerOplogManager.html#a230d0f2517bf949630aca2c96fa48502":[1,0,1,313,4],
-"classmongo_1_1WiredTigerOplogManager.html#a27adc858844836403a34ae966c2e41e0":[1,0,1,313,14],
-"classmongo_1_1WiredTigerOplogManager.html#a295264c9654f9eca1da4c5c07eca9f55":[1,0,1,313,6],
-"classmongo_1_1WiredTigerOplogManager.html#a47c0191e0203360a580f08c24e55cf56":[1,0,1,313,12]
+"classmongo_1_1WiredTigerOplogManager.html#a27adc858844836403a34ae966c2e41e0":[1,0,1,313,14]
 };

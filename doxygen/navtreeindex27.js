@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"mobile__util_8h.html#af1f4021367201039481013efd6d35036":[2,0,0,0,0,2,4,19,0],
+"mobile__util_8h_source.html":[2,0,0,0,0,2,4,19],
 "namespace_8h.html":[2,0,0,0,0,2,3,1,4],
 "namespace_8h_source.html":[2,0,0,0,0,2,3,1,4],
 "namespace__details_8cpp.html":[2,0,0,0,0,2,3,1,5],
@@ -31,8 +33,8 @@ var NAVTREEINDEX27 =
 "namespace__uuid__cache_8h_source.html":[2,0,0,0,0,0,72],
 "namespace__uuid__cache__test_8cpp.html":[2,0,0,0,0,0,73],
 "namespaceboost.html":[1,0,0],
-"namespacemembers.html":[0,0],
 "namespacemembers.html":[0,0,0],
+"namespacemembers.html":[0,0],
 "namespacemembers_a.html":[0,0,1],
 "namespacemembers_b.html":[0,0,2],
 "namespacemembers_c.html":[0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "rename__collection_8h_source.html":[2,0,0,0,0,0,75],
 "rename__collection__test_8cpp.html":[2,0,0,0,0,0,76],
 "repair__database_8cpp.html":[2,0,0,0,0,2,3,83],
-"repair__database_8cpp.html#a078e394443d4c4eb2bfe56091c408ff9":[2,0,0,0,0,2,3,83,5],
-"repair__database_8cpp.html#a1398c401862da0146ad1a93c2fc3fadb":[2,0,0,0,0,2,3,83,4],
-"repair__database_8cpp.html#a21a4254e39af68d68565f342ea0126b8":[2,0,0,0,0,2,3,83,8]
+"repair__database_8cpp.html#a078e394443d4c4eb2bfe56091c408ff9":[2,0,0,0,0,2,3,83,5]
 };

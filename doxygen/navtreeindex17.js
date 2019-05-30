@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classmongo_1_1RecordStoreValidateAdaptor.html#a5a3144d474106bbc632f0b5a58687fe7":[1,0,1,249,4],
+"classmongo_1_1RecordStoreValidateAdaptor.html#a92650720ad81705e6e5c3e1f1927c6e4":[1,0,1,249,2],
 "classmongo_1_1RecordStoreValidateAdaptor.html#aa22c2b2f6627f8fa6e3ace813ca0c7c8":[1,0,1,249,8],
 "classmongo_1_1RecordStoreValidateAdaptor.html#aa4232a22fedb563e9e656c783a96fb71":[1,0,1,249,3],
 "classmongo_1_1RecordStoreValidateAdaptor.html#aa78014896da302a84a2da7d7b8c95598":[1,0,1,249,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classmongo_1_1SqliteStatement.html#a432955eecc1f5f8bcd501ae7bfb9755c":[1,0,1,278,17],
 "classmongo_1_1SqliteStatement.html#a454d7257037c9614f6ba70d80122af5e":[1,0,1,278,15],
 "classmongo_1_1SqliteStatement.html#a5c693f3492e2377746f4e59b811eaef6":[1,0,1,278,10],
-"classmongo_1_1SqliteStatement.html#a600c14793861884d6837d31e76db4ea8":[1,0,1,278,4],
-"classmongo_1_1SqliteStatement.html#a62f941f28c47385f911c3ac09df95cc6":[1,0,1,278,2],
-"classmongo_1_1SqliteStatement.html#a6531d5ab85ded2a50161de3f468b83df":[1,0,1,278,3]
+"classmongo_1_1SqliteStatement.html#a600c14793861884d6837d31e76db4ea8":[1,0,1,278,4]
 };

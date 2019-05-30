@@ -31,7 +31,7 @@ var classmongo_1_1CollectionMock =
     [ "infoCache", "classmongo_1_1CollectionMock.html#acf54579c00e925bffc3bafa810bad0fb", null ],
     [ "init", "classmongo_1_1CollectionMock.html#a262d0c792defc8c8d4683f4db963b0a2", null ],
     [ "insertDocument", "classmongo_1_1CollectionMock.html#a4ea79dc40a3d7c8afc6f491a7bdb77d8", null ],
-    [ "insertDocument", "classmongo_1_1CollectionMock.html#a0067ce22ce2e2e3e9dd058bd7d1f9f1d", null ],
+    [ "insertDocument", "classmongo_1_1CollectionMock.html#a8a96ef02198a9f6cd7b0fc99c5a27cfc", null ],
     [ "insertDocuments", "classmongo_1_1CollectionMock.html#a7dea37aa75d75198a5afca2e3bd7d937", null ],
     [ "insertDocumentsForOplog", "classmongo_1_1CollectionMock.html#aab20eef2b7ebe33fc6bde5779b70aa82", null ],
     [ "isCapped", "classmongo_1_1CollectionMock.html#aa64753e4f9bcad7930e2af923a8f00b3", null ],

@@ -33,7 +33,6 @@ var searchData=
   ['loc6',['loc6',['../namespacemongo.html#a42b6231401933607054fb269dfb5f8bf',1,'mongo']]],
   ['loc7',['loc7',['../namespacemongo.html#aafc3fd8a7f52fe05c01852a10c85056a',1,'mongo']]],
   ['loc8',['loc8',['../namespacemongo.html#a0df4a64494d2c8257d6d14f75d836ac6',1,'mongo']]],
-  ['local',['local',['../namespacemongo_1_1dur.html#a36ee411be71a3ea75501c9f9b897152e',1,'mongo::dur']]],
   ['localdbbit',['LocalDbBit',['../structmongo_1_1dur_1_1JEntry.html#aea9b5ca5610608f97dc79cd9550d718ba6d9e6542dcc6b297c6c1df32d635564e',1,'mongo::dur::JEntry']]],
   ['locandsize',['LocAndSize',['../structmongo_1_1LocAndSize.html',1,'mongo']]],
   ['locate',['locate',['../classmongo_1_1BtreeLogic.html#a7a80d3d30fb5156e422d321a534f33a5',1,'mongo::BtreeLogic::locate()'],['../classmongo_1_1BtreeLogicTestBase.html#a8ed0567f1ecd1ebc96aeb7e490e4a1f6',1,'mongo::BtreeLogicTestBase::locate(const BSONObj &amp;key, int expectedPos, bool expectedFound, const RecordId &amp;expectedLocation, int direction)'],['../classmongo_1_1BtreeLogicTestBase.html#a5d6ecae63fbece43d2960ef403e5d0b6',1,'mongo::BtreeLogicTestBase::locate(const BSONObj &amp;key, int expectedPos, bool expectedFound, const DiskLoc &amp;expectedLocation, int direction)']]],

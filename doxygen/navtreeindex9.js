@@ -30,6 +30,7 @@ var NAVTREEINDEX9 =
 "classmongo_1_1KVCollectionCatalogEntry_1_1RemoveIndexChange.html#ac13c3db1e83f3dc83eb0a02f2bf0ccb8":[1,0,1,134,1,0],
 "classmongo_1_1KVCollectionCatalogEntry_1_1RemoveIndexChange.html#af222c912ad8af14f468417fbe71cb7c8":[1,0,1,134,1,3],
 "classmongo_1_1KVDatabaseCatalogEntry.html":[1,0,1,135],
+"classmongo_1_1KVDatabaseCatalogEntry.html#a814f06f57171892acf0e689f7dbbc7ea":[1,0,1,135,1],
 "classmongo_1_1KVDatabaseCatalogEntry.html#af9e8352f7cf3f8b6fed0e56fd51a46e7":[1,0,1,135,0],
 "classmongo_1_1KVDatabaseCatalogEntryBase.html":[1,0,1,136],
 "classmongo_1_1KVDatabaseCatalogEntryBase.html#a1c166210e59306ea5836e3ba58b35c8b":[1,0,1,136,4],
@@ -75,6 +76,7 @@ var NAVTREEINDEX9 =
 "classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange.html#ae63cd604a3d958e148848d4840b89d95":[1,0,1,136,1,5],
 "classmongo_1_1KVDatabaseCatalogEntryBase_1_1RemoveCollectionChange.html#ae75847b36ed380a161bd1bc6aea4b827":[1,0,1,136,1,6],
 "classmongo_1_1KVDatabaseCatalogEntryMock.html":[1,0,1,137],
+"classmongo_1_1KVDatabaseCatalogEntryMock.html#a814f06f57171892acf0e689f7dbbc7ea":[1,0,1,137,1],
 "classmongo_1_1KVDatabaseCatalogEntryMock.html#aeb1aef2a1d575404e69f68da1e609de2":[1,0,1,137,0],
 "classmongo_1_1KVEngine.html":[1,0,1,138],
 "classmongo_1_1KVEngine.html#a02fec10533b98dc99830a9e73b20549b":[1,0,1,138,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classmongo_1_1KeyString.html#a3298c8d54b99f04c29cf6d4d7c7e3574":[1,0,1,130,2],
 "classmongo_1_1KeyString.html#a3298c8d54b99f04c29cf6d4d7c7e3574a0d5076e746c90e3bb8f4bdfc15280a94":[1,0,1,130,2,2],
 "classmongo_1_1KeyString.html#a3298c8d54b99f04c29cf6d4d7c7e3574aa6cc59bdd191ac877f7ad1d29b184365":[1,0,1,130,2,1],
-"classmongo_1_1KeyString.html#a3298c8d54b99f04c29cf6d4d7c7e3574afc658131146908b1776d7f7ba63ac876":[1,0,1,130,2,0],
-"classmongo_1_1KeyString.html#a3670c239cf7b6c23c0f13c68d5e075d8":[1,0,1,130,42],
-"classmongo_1_1KeyString.html#a36fd5d8e4a0737503fc2ee87d5966f8f":[1,0,1,130,31]
+"classmongo_1_1KeyString.html#a3298c8d54b99f04c29cf6d4d7c7e3574afc658131146908b1776d7f7ba63ac876":[1,0,1,130,2,0]
 };

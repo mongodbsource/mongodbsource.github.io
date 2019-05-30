@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"structmongo_1_1CompactOptions.html":[1,0,1,41],
+"structmongo_1_1CompactOptions.html#a85e5d38a983c8b3007ed67d3d2ccec7a":[1,0,1,41,0],
 "structmongo_1_1CompactOptions.html#a85e5d38a983c8b3007ed67d3d2ccec7aa0fde2cb490dd9c669da92bae0859c2fa":[1,0,1,41,0,0],
 "structmongo_1_1CompactOptions.html#a85e5d38a983c8b3007ed67d3d2ccec7aa38d8ea46e49780615d9b456177a48f38":[1,0,1,41,0,1],
 "structmongo_1_1CompactOptions.html#a85e5d38a983c8b3007ed67d3d2ccec7aac66d699092b3e9784961222c9bb11c7e":[1,0,1,41,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "structmongo_1_1Locker_1_1LockerInfo.html#a77040e0c3b46375644c2a4f242d3b571":[1,0,1,148,0,2],
 "structmongo_1_1Locker_1_1OneLock.html":[1,0,1,148,2],
 "structmongo_1_1Locker_1_1OneLock.html#a3eb2e7e4ff6171f09af2fa5bcfdb1f74":[1,0,1,148,2,0],
-"structmongo_1_1Locker_1_1OneLock.html#a472e08d4628f8315dad70387486f0213":[1,0,1,148,2,1],
-"structmongo_1_1Locker_1_1OneLock.html#ad9efffd97287468cb3d0e2aefdb3d7a3":[1,0,1,148,2,2],
-"structmongo_1_1MMAPV1DatabaseCatalogEntry_1_1Entry.html":[1,0,1,186,0]
+"structmongo_1_1Locker_1_1OneLock.html#a472e08d4628f8315dad70387486f0213":[1,0,1,148,2,1]
 };

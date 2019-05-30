@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classmongo_1_1RebalanceEmptyLeft.html#afaab9f05486812565c6775051346cdfa":[1,0,1,236,0],
+"classmongo_1_1RebalanceEmptyRight.html":[1,0,1,237],
 "classmongo_1_1RebalanceEmptyRight.html#a620831b6023a466ed1e9f7bf21d5a781":[1,0,1,237,2],
 "classmongo_1_1RebalanceEmptyRight.html#acbb68fece3b45c846a08948bb085d126":[1,0,1,237,0],
 "classmongo_1_1RebalanceEmptyRight.html#add4f1823143f1d0b006b9229cce8ef21":[1,0,1,237,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classmongo_1_1RecordStoreV1RepairCursor.html#af8cf0ebcedac8812c973663ffeed664d":[1,0,1,248,3],
 "classmongo_1_1RecordStoreValidateAdaptor.html":[1,0,1,249],
 "classmongo_1_1RecordStoreValidateAdaptor.html#a4c70c8e7535f0d1378e6ed507816f035":[1,0,1,249,5],
-"classmongo_1_1RecordStoreValidateAdaptor.html#a52fba59bd6e3022dc7d200be839182db":[1,0,1,249,9],
-"classmongo_1_1RecordStoreValidateAdaptor.html#a5a3144d474106bbc632f0b5a58687fe7":[1,0,1,249,4],
-"classmongo_1_1RecordStoreValidateAdaptor.html#a92650720ad81705e6e5c3e1f1927c6e4":[1,0,1,249,2]
+"classmongo_1_1RecordStoreValidateAdaptor.html#a52fba59bd6e3022dc7d200be839182db":[1,0,1,249,9]
 };

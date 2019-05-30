@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"structmongo_1_1dur_1_1WriteIntent.html#acad21c2cc0cf355a0a5a5b31cff26ce6":[1,0,1,0,21,9],
+"structmongo_1_1dur_1_1WriteIntent.html#acb86cd188805ed236340e38a1eef34d8":[1,0,1,0,21,4],
 "structmongo_1_1dur_1_1WriteIntent.html#ad7ebda822f87367464bad82268c2b9c5":[1,0,1,0,21,8],
 "structmongo_1_1dur_1_1WriteIntent.html#aea08758437772f13d258464d09984973":[1,0,1,0,21,11],
 "structmongo_1_1dur_1_1WriteIntent.html#af4e9c6b924a90cb2891be874d24c6934":[1,0,1,0,21,0],

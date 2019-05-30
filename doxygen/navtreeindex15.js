@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#abc019e5bd0061c7bfcd0c5ef020997a3":[1,0,1,210,16],
+"classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#abf84ffa752f2a2347255ab6959c62807":[1,0,1,210,0],
 "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ac1fa125b0a529a9bc7bf7d7308f597f3":[1,0,1,210,3],
 "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ac50e17e304d711e0e4433666d4b17810":[1,0,1,210,23],
 "classmongo_1_1NamespaceDetailsCollectionCatalogEntry.html#ac7985ae92131e96b9466dff946fe607a":[1,0,1,210,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classmongo_1_1PrefixedWiredTigerRecordStore.html#af9cb5e55d1d964251fa68859ba7bdad8":[1,0,1,234,1],
 "classmongo_1_1RebalanceEmptyLeft.html":[1,0,1,236],
 "classmongo_1_1RebalanceEmptyLeft.html#a52bb34c748db6aa5deace158558d21d7":[1,0,1,236,1],
-"classmongo_1_1RebalanceEmptyLeft.html#af8891ca91d17afee35787380baaebea5":[1,0,1,236,2],
-"classmongo_1_1RebalanceEmptyLeft.html#afaab9f05486812565c6775051346cdfa":[1,0,1,236,0],
-"classmongo_1_1RebalanceEmptyRight.html":[1,0,1,237]
+"classmongo_1_1RebalanceEmptyLeft.html#af8891ca91d17afee35787380baaebea5":[1,0,1,236,2]
 };
